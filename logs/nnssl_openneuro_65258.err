@@ -1,0 +1,149 @@
+W0810 19:14:51.885000 3504091 torch/distributed/run.py:793] 
+W0810 19:14:51.885000 3504091 torch/distributed/run.py:793] *****************************************
+W0810 19:14:51.885000 3504091 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0810 19:14:51.885000 3504091 torch/distributed/run.py:793] *****************************************
+W0810 19:14:51.921000 2817442 torch/distributed/run.py:793] 
+W0810 19:14:51.921000 2817442 torch/distributed/run.py:793] *****************************************
+W0810 19:14:51.921000 2817442 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0810 19:14:51.921000 2817442 torch/distributed/run.py:793] *****************************************
+W0810 19:14:51.950000 1704856 torch/distributed/run.py:793] 
+W0810 19:14:51.950000 1704856 torch/distributed/run.py:793] *****************************************
+W0810 19:14:51.950000 1704856 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0810 19:14:51.950000 1704856 torch/distributed/run.py:793] *****************************************
+[W810 19:29:52.245907649 socket.cpp:462] [c10d] waitForInput: poll for socket SocketImpl(fd=4, addr=[tg10902.tamia.ecpia.ca]:40994, remote=[tg10802.tamia.ecpia.ca]:19751) returned 0, likely a timeout
+[W810 19:29:52.247385241 socket.cpp:487] [c10d] waitForInput: socket SocketImpl(fd=4, addr=[tg10902.tamia.ecpia.ca]:40994, remote=[tg10802.tamia.ecpia.ca]:19751) timed out after 900000ms
+Traceback (most recent call last):
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 260, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 137, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 696, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 849, in _invoke_run
+    self._initialize_workers(self._worker_group)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 137, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 668, in _initialize_workers
+    self._rendezvous(worker_group)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 137, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 513, in _rendezvous
+    workers = self._assign_worker_ranks(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 137, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 633, in _assign_worker_ranks
+    ) = json.loads(store.get(f"{ASSIGNED_RANKS_PREFIX}{group_rank}"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistStoreError: wait timeout after 900000ms, keys: /none/torchelastic/assigned_ranks/2
+[W810 19:29:52.020678093 socket.cpp:462] [c10d] waitForInput: poll for socket SocketImpl(fd=4, addr=[tg10806.tamia.ecpia.ca]:53556, remote=[tg10802.tamia.ecpia.ca]:19751) returned 0, likely a timeout
+[W810 19:29:52.022317725 socket.cpp:487] [c10d] waitForInput: socket SocketImpl(fd=4, addr=[tg10806.tamia.ecpia.ca]:53556, remote=[tg10802.tamia.ecpia.ca]:19751) timed out after 900000ms
+Traceback (most recent call last):
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 260, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 137, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 696, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 849, in _invoke_run
+    self._initialize_workers(self._worker_group)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 137, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 668, in _initialize_workers
+    self._rendezvous(worker_group)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 137, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 513, in _rendezvous
+    workers = self._assign_worker_ranks(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 137, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 633, in _assign_worker_ranks
+    ) = json.loads(store.get(f"{ASSIGNED_RANKS_PREFIX}{group_rank}"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistStoreError: wait timeout after 900000ms, keys: /none/torchelastic/assigned_ranks/1
+Traceback (most recent call last):
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 260, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 137, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 696, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 849, in _invoke_run
+    self._initialize_workers(self._worker_group)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 137, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 668, in _initialize_workers
+    self._rendezvous(worker_group)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 137, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 500, in _rendezvous
+    rdzv_info = spec.rdzv_handler.next_rendezvous()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/rendezvous/static_tcp_rendezvous.py", line 67, in next_rendezvous
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistStoreError: Timed out after 901 seconds waiting for clients. 3/6 clients joined.
+srun: error: tg10902: task 2: Exited with exit code 1
+srun: Terminating StepId=65258.0
+slurmstepd: error: *** STEP 65258.0 ON tg10802 CANCELLED AT 2025-08-10T23:29:53 ***
+slurmstepd: error: --task-epilog failed status=15
+slurmstepd: error: --task-epilog failed status=15
+srun: error: tg10802: task 0: Exited with exit code 1
+srun: error: tg10806: task 1: Exited with exit code 1

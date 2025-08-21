@@ -1,0 +1,1292 @@
+Node=tg10801.tamia.ecpia.ca, SLURM_NODEID=0
+Node=tg11103.tamia.ecpia.ca, SLURM_NODEID=2
+Node=tg11101.tamia.ecpia.ca, SLURM_NODEID=1
+Node=tg11107.tamia.ecpia.ca, SLURM_NODEID=5
+Node=tg11106.tamia.ecpia.ca, SLURM_NODEID=4
+Node=tg11104.tamia.ecpia.ca, SLURM_NODEID=3
+Using torchrun: rank=13, world_size=24, local_rank=1Using torchrun: rank=14, world_size=24, local_rank=2
+
+Using torchrun: rank=12, world_size=24, local_rank=0
+Using torchrun: rank=15, world_size=24, local_rank=3
+Using torchrun: rank=22, world_size=24, local_rank=2
+Using torchrun: rank=23, world_size=24, local_rank=3
+Using torchrun: rank=21, world_size=24, local_rank=1
+Using torchrun: rank=20, world_size=24, local_rank=0
+Using torchrun: rank=19, world_size=24, local_rank=3
+Using torchrun: rank=18, world_size=24, local_rank=2
+Using torchrun: rank=16, world_size=24, local_rank=0Using torchrun: rank=17, world_size=24, local_rank=1
+
+Using torchrun: rank=4, world_size=24, local_rank=0
+Using torchrun: rank=5, world_size=24, local_rank=1
+Using torchrun: rank=6, world_size=24, local_rank=2
+Using torchrun: rank=7, world_size=24, local_rank=3
+Using torchrun: rank=1, world_size=24, local_rank=1Using torchrun: rank=2, world_size=24, local_rank=2Using torchrun: rank=3, world_size=24, local_rank=3
+
+
+Using torchrun: rank=0, world_size=24, local_rank=0
+Using torchrun: rank=8, world_size=24, local_rank=0
+Using torchrun: rank=10, world_size=24, local_rank=2
+Using torchrun: rank=11, world_size=24, local_rank=3
+Using torchrun: rank=9, world_size=24, local_rank=1
+I am global rank 22, local rank 2. 4 GPUs are available. The world size is 24. Setting device to cuda:2
+I am global rank 23, local rank 3. 4 GPUs are available. The world size is 24. Setting device to cuda:3
+I am global rank 20, local rank 0. 4 GPUs are available. The world size is 24. Setting device to cuda:0
+I am global rank 21, local rank 1. 4 GPUs are available. The world size is 24. Setting device to cuda:1
+I am global rank 12, local rank 0. 4 GPUs are available. The world size is 24. Setting device to cuda:0
+I am global rank 13, local rank 1. 4 GPUs are available. The world size is 24. Setting device to cuda:1
+I am global rank 14, local rank 2. 4 GPUs are available. The world size is 24. Setting device to cuda:2
+I am global rank 15, local rank 3. 4 GPUs are available. The world size is 24. Setting device to cuda:3
+I am global rank 1, local rank 1. 4 GPUs are available. The world size is 24. Setting device to cuda:1
+I am global rank 0, local rank 0. 4 GPUs are available. The world size is 24. Setting device to cuda:0
+I am global rank 3, local rank 3. 4 GPUs are available. The world size is 24. Setting device to cuda:3
+I am global rank 2, local rank 2. 4 GPUs are available. The world size is 24. Setting device to cuda:2
+I am global rank 6, local rank 2. 4 GPUs are available. The world size is 24. Setting device to cuda:2
+I am global rank 7, local rank 3. 4 GPUs are available. The world size is 24. Setting device to cuda:3
+I am global rank 5, local rank 1. 4 GPUs are available. The world size is 24. Setting device to cuda:1
+I am global rank 4, local rank 0. 4 GPUs are available. The world size is 24. Setting device to cuda:0
+I am global rank 17, local rank 1. 4 GPUs are available. The world size is 24. Setting device to cuda:1
+I am global rank 16, local rank 0. 4 GPUs are available. The world size is 24. Setting device to cuda:0
+I am global rank 18, local rank 2. 4 GPUs are available. The world size is 24. Setting device to cuda:2
+I am global rank 19, local rank 3. 4 GPUs are available. The world size is 24. Setting device to cuda:3
+I am global rank 10, local rank 2. 4 GPUs are available. The world size is 24. Setting device to cuda:2
+I am global rank 11, local rank 3. 4 GPUs are available. The world size is 24. Setting device to cuda:3
+I am global rank 8, local rank 0. 4 GPUs are available. The world size is 24. Setting device to cuda:0
+I am global rank 9, local rank 1. 4 GPUs are available. The world size is 24. Setting device to cuda:1
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+
+This is the configuration used by this training:
+Configuration name: onemmiso
+ {'data_identifier': 'nnsslPlans_onemmiso', 'preprocessor_name': 'DefaultPreprocessor', 'spacing_style': 'onemmiso', 'normalization_schemes': ['ZScoreNormalization'], 'use_mask_for_norm': [False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_mask': 'resample_data_or_seg_to_shape', 'resampling_fn_mask_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'spacing': [1, 1, 1], 'patch_size': (160, 160, 160)} 
+
+
+This is the configuration used by this training:
+Configuration name: onemmiso
+ {'data_identifier': 'nnsslPlans_onemmiso', 'preprocessor_name': 'DefaultPreprocessor', 'spacing_style': 'onemmiso', 'normalization_schemes': ['ZScoreNormalization'], 'use_mask_for_norm': [False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_mask': 'resample_data_or_seg_to_shape', 'resampling_fn_mask_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'spacing': [1, 1, 1], 'patch_size': (160, 160, 160)} 
+
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset745_OpenMind', 'plans_name': 'nnsslPlans', 'original_median_spacing_after_transp': [1.1979166269302368, 1.0, 1.0], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner'} 
+
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset745_OpenMind', 'plans_name': 'nnsslPlans', 'original_median_spacing_after_transp': [1.1979166269302368, 1.0, 1.0], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner'} 
+
+
+This is the configuration used by this training:
+Configuration name: onemmiso
+ {'data_identifier': 'nnsslPlans_onemmiso', 'preprocessor_name': 'DefaultPreprocessor', 'spacing_style': 'onemmiso', 'normalization_schemes': ['ZScoreNormalization'], 'use_mask_for_norm': [False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_mask': 'resample_data_or_seg_to_shape', 'resampling_fn_mask_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'spacing': [1, 1, 1], 'patch_size': (160, 160, 160)} 
+
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset745_OpenMind', 'plans_name': 'nnsslPlans', 'original_median_spacing_after_transp': [1.1979166269302368, 1.0, 1.0], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner'} 
+
+
+This is the configuration used by this training:
+Configuration name: onemmiso
+ {'data_identifier': 'nnsslPlans_onemmiso', 'preprocessor_name': 'DefaultPreprocessor', 'spacing_style': 'onemmiso', 'normalization_schemes': ['ZScoreNormalization'], 'use_mask_for_norm': [False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_mask': 'resample_data_or_seg_to_shape', 'resampling_fn_mask_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'spacing': [1, 1, 1], 'patch_size': (160, 160, 160)} 
+
+
+This is the configuration used by this training:
+Configuration name: onemmiso
+ {'data_identifier': 'nnsslPlans_onemmiso', 'preprocessor_name': 'DefaultPreprocessor', 'spacing_style': 'onemmiso', 'normalization_schemes': ['ZScoreNormalization'], 'use_mask_for_norm': [False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_mask': 'resample_data_or_seg_to_shape', 'resampling_fn_mask_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'spacing': [1, 1, 1], 'patch_size': (160, 160, 160)} 
+
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset745_OpenMind', 'plans_name': 'nnsslPlans', 'original_median_spacing_after_transp': [1.1979166269302368, 1.0, 1.0], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner'} 
+
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset745_OpenMind', 'plans_name': 'nnsslPlans', 'original_median_spacing_after_transp': [1.1979166269302368, 1.0, 1.0], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner'} 
+
+
+This is the configuration used by this training:
+Configuration name: onemmiso
+ {'data_identifier': 'nnsslPlans_onemmiso', 'preprocessor_name': 'DefaultPreprocessor', 'spacing_style': 'onemmiso', 'normalization_schemes': ['ZScoreNormalization'], 'use_mask_for_norm': [False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_mask': 'resample_data_or_seg_to_shape', 'resampling_fn_mask_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'spacing': [1, 1, 1], 'patch_size': (160, 160, 160)} 
+
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset745_OpenMind', 'plans_name': 'nnsslPlans', 'original_median_spacing_after_transp': [1.1979166269302368, 1.0, 1.0], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner'} 
+
+2025-08-13 15:05:22.448140: 
+2025-08-13 15:05:22.450643: Epoch 0
+2025-08-13 15:05:22.451273: Current learning rate: 0.0003
+2025-08-13 15:05:22.458487: 
+2025-08-13 15:05:22.459990: Epoch 0
+2025-08-13 15:05:22.460594: Current learning rate: 0.0003
+2025-08-13 15:05:22.471936: 
+2025-08-13 15:05:22.473472: Epoch 0
+2025-08-13 15:05:22.474008: Current learning rate: 0.0003
+2025-08-13 15:05:22.481008: 
+2025-08-13 15:05:22.482692: Epoch 0
+2025-08-13 15:05:22.483365: Current learning rate: 0.0003
+2025-08-13 15:05:22.696665: 
+2025-08-13 15:05:22.698420: Epoch 0
+2025-08-13 15:05:22.699081: Current learning rate: 0.0003
+2025-08-13 15:05:22.721467: 
+2025-08-13 15:05:22.723048: Epoch 0
+2025-08-13 15:05:22.723671: Current learning rate: 0.0003
+using pin_memory on device 1
+using pin_memory on device 0
+using pin_memory on device 2
+using pin_memory on device 0
+using pin_memory on device 0
+using pin_memory on device 1
+using pin_memory on device 3
+using pin_memory on device 3
+using pin_memory on device 3
+using pin_memory on device 2
+using pin_memory on device 3
+using pin_memory on device 2
+using pin_memory on device 0
+using pin_memory on device 1
+using pin_memory on device 1
+using pin_memory on device 2
+using pin_memory on device 0
+using pin_memory on device 2
+using pin_memory on device 1
+using pin_memory on device 3
+using pin_memory on device 0
+using pin_memory on device 3
+using pin_memory on device 1
+using pin_memory on device 2
+2025-08-13 15:22:05.163474: train_loss 4.4772
+2025-08-13 15:22:05.164416: Epoch time: 1002.44 s
+2025-08-13 15:22:05.163425: train_loss 4.4772
+2025-08-13 15:22:05.163394: train_loss 4.4772
+2025-08-13 15:22:05.163454: train_loss 4.4772
+2025-08-13 15:22:05.163448: train_loss 4.4772
+2025-08-13 15:22:05.163633: train_loss 4.4772
+2025-08-13 15:22:05.166684: Epoch time: 1002.47 s
+2025-08-13 15:22:05.167392: Epoch time: 1002.69 s
+2025-08-13 15:22:05.168228: Epoch time: 1002.72 s
+2025-08-13 15:22:05.169103: Epoch time: 1002.71 s
+2025-08-13 15:22:05.170090: Epoch time: 1002.68 s
+2025-08-13 15:22:11.233359: 
+2025-08-13 15:22:11.235265: Epoch 1
+2025-08-13 15:22:11.235885: Current learning rate: 0.0003
+2025-08-13 15:22:12.695422: 
+2025-08-13 15:22:12.697537: Epoch 1
+2025-08-13 15:22:12.698164: Current learning rate: 0.0003
+2025-08-13 15:22:13.780916: 
+2025-08-13 15:22:13.783166: Epoch 1
+2025-08-13 15:22:13.783783: Current learning rate: 0.0003
+2025-08-13 15:22:14.283891: 
+2025-08-13 15:22:14.285994: Epoch 1
+2025-08-13 15:22:14.286653: Current learning rate: 0.0003
+2025-08-13 15:22:17.972885: 
+2025-08-13 15:22:17.974978: Epoch 1
+2025-08-13 15:22:17.975667: Current learning rate: 0.0003
+2025-08-13 15:22:18.041566: 
+2025-08-13 15:22:18.043180: Epoch 1
+2025-08-13 15:22:18.043750: Current learning rate: 0.0003
+2025-08-13 15:38:35.449518: train_loss 3.9602
+2025-08-13 15:38:35.450299: Epoch time: 977.41 s
+2025-08-13 15:38:35.449504: train_loss 3.9602
+2025-08-13 15:38:35.449484: train_loss 3.9602
+2025-08-13 15:38:35.449715: train_loss 3.9602
+2025-08-13 15:38:35.449554: train_loss 3.9602
+2025-08-13 15:38:35.449499: train_loss 3.9602
+2025-08-13 15:38:35.452476: Epoch time: 981.17 s
+2025-08-13 15:38:35.453445: Epoch time: 984.22 s
+2025-08-13 15:38:35.454373: Epoch time: 982.76 s
+2025-08-13 15:38:35.455408: Epoch time: 981.67 s
+2025-08-13 15:38:35.456189: Epoch time: 977.48 s
+2025-08-13 15:38:41.721001: 
+2025-08-13 15:38:41.723063: Epoch 2
+2025-08-13 15:38:41.723767: Current learning rate: 0.0003
+2025-08-13 15:38:43.421136: 
+2025-08-13 15:38:43.423374: Epoch 2
+2025-08-13 15:38:43.424238: Current learning rate: 0.0003
+2025-08-13 15:38:44.485563: 
+2025-08-13 15:38:44.487568: Epoch 2
+2025-08-13 15:38:44.488160: Current learning rate: 0.0003
+2025-08-13 15:38:45.579097: 
+2025-08-13 15:38:45.581268: Epoch 2
+2025-08-13 15:38:45.581878: Current learning rate: 0.0003
+2025-08-13 15:38:49.048025: 
+2025-08-13 15:38:49.049820: Epoch 2
+2025-08-13 15:38:49.050421: Current learning rate: 0.0003
+2025-08-13 15:38:49.056042: 
+2025-08-13 15:38:49.057650: Epoch 2
+2025-08-13 15:38:49.058597: Current learning rate: 0.0003
+2025-08-13 15:55:14.043984: train_loss 3.8858
+2025-08-13 15:55:14.043857: train_loss 3.8858
+2025-08-13 15:55:14.044196: train_loss 3.8858
+2025-08-13 15:55:14.045128: Epoch time: 984.99 s
+2025-08-13 15:55:14.044759: train_loss 3.8858
+2025-08-13 15:55:14.045057: train_loss 3.8858
+2025-08-13 15:55:14.045379: train_loss 3.8858
+2025-08-13 15:55:14.046886: Epoch time: 992.32 s
+2025-08-13 15:55:14.047741: Epoch time: 985.0 s
+2025-08-13 15:55:14.049671: Epoch time: 990.62 s
+2025-08-13 15:55:14.050855: Epoch time: 989.56 s
+2025-08-13 15:55:14.052252: Epoch time: 988.47 s
+2025-08-13 15:55:20.433897: 
+2025-08-13 15:55:20.436435: Epoch 3
+2025-08-13 15:55:20.437083: Current learning rate: 0.0003
+2025-08-13 15:55:21.535612: 
+2025-08-13 15:55:21.537945: Epoch 3
+2025-08-13 15:55:21.538702: Current learning rate: 0.0003
+2025-08-13 15:55:22.733779: 
+2025-08-13 15:55:22.735863: Epoch 3
+2025-08-13 15:55:22.736560: Current learning rate: 0.0003
+2025-08-13 15:55:23.492973: 
+2025-08-13 15:55:23.495106: Epoch 3
+2025-08-13 15:55:23.495719: Current learning rate: 0.0003
+2025-08-13 15:55:27.109653: 
+2025-08-13 15:55:27.111432: Epoch 3
+2025-08-13 15:55:27.111359: 
+2025-08-13 15:55:27.112007: Current learning rate: 0.0003
+2025-08-13 15:55:27.113171: Epoch 3
+2025-08-13 15:55:27.114601: Current learning rate: 0.0003
+2025-08-13 16:11:55.272202: train_loss 3.8374
+2025-08-13 16:11:55.273578: Epoch time: 988.16 s
+2025-08-13 16:11:55.271395: train_loss 3.8374
+2025-08-13 16:11:55.271780: train_loss 3.8374
+2025-08-13 16:11:55.271371: train_loss 3.8374
+2025-08-13 16:11:55.271810: train_loss 3.8374
+2025-08-13 16:11:55.271969: train_loss 3.8374
+2025-08-13 16:11:55.276388: Epoch time: 994.84 s
+2025-08-13 16:11:55.277153: Epoch time: 992.54 s
+2025-08-13 16:11:55.278194: Epoch time: 988.16 s
+2025-08-13 16:11:55.278992: Epoch time: 993.74 s
+2025-08-13 16:11:55.279762: Epoch time: 991.78 s
+2025-08-13 16:11:59.633392: 
+2025-08-13 16:11:59.635577: Epoch 4
+2025-08-13 16:11:59.640666: Current learning rate: 0.0003
+2025-08-13 16:12:02.949057: 
+2025-08-13 16:12:02.950962: Epoch 4
+2025-08-13 16:12:02.951520: Current learning rate: 0.0003
+2025-08-13 16:12:04.677480: 
+2025-08-13 16:12:04.679476: Epoch 4
+2025-08-13 16:12:04.680039: Current learning rate: 0.0003
+2025-08-13 16:12:05.466289: 
+2025-08-13 16:12:05.468597: Epoch 4
+2025-08-13 16:12:05.469374: Current learning rate: 0.0003
+2025-08-13 16:12:07.726812: 
+2025-08-13 16:12:07.728888: Epoch 4
+2025-08-13 16:12:07.729623: Current learning rate: 0.0003
+2025-08-13 16:12:07.739460: 
+2025-08-13 16:12:07.741167: Epoch 4
+2025-08-13 16:12:07.741809: Current learning rate: 0.0003
+2025-08-13 16:28:41.161509: train_loss 3.8057
+2025-08-13 16:28:41.161397: train_loss 3.8057
+2025-08-13 16:28:41.161516: train_loss 3.8057
+2025-08-13 16:28:41.161741: train_loss 3.8057
+2025-08-13 16:28:41.164949: Epoch time: 998.21 s
+2025-08-13 16:28:41.162077: train_loss 3.8057
+2025-08-13 16:28:41.162184: train_loss 3.8057
+2025-08-13 16:28:41.166118: Epoch time: 1001.53 s
+2025-08-13 16:28:41.167059: Epoch time: 996.48 s
+2025-08-13 16:28:41.168135: Epoch time: 995.7 s
+2025-08-13 16:28:41.169815: Epoch time: 993.44 s
+2025-08-13 16:28:41.171065: Epoch time: 993.42 s
+2025-08-13 16:28:45.469765: 
+2025-08-13 16:28:45.472079: Epoch 5
+2025-08-13 16:28:45.478636: Current learning rate: 0.0003
+2025-08-13 16:28:48.674848: 
+2025-08-13 16:28:48.677211: Epoch 5
+2025-08-13 16:28:48.677839: Current learning rate: 0.0003
+2025-08-13 16:28:50.069171: 
+2025-08-13 16:28:50.071652: Epoch 5
+2025-08-13 16:28:50.072431: Current learning rate: 0.0003
+2025-08-13 16:28:50.957236: 
+2025-08-13 16:28:50.959525: Epoch 5
+2025-08-13 16:28:50.960337: Current learning rate: 0.0003
+2025-08-13 16:28:52.508034: 
+2025-08-13 16:28:52.510269: Epoch 5
+2025-08-13 16:28:52.510980: Current learning rate: 0.0003
+2025-08-13 16:28:53.014671: 
+2025-08-13 16:28:53.017000: Epoch 5
+2025-08-13 16:28:53.017796: Current learning rate: 0.0003
+2025-08-13 16:45:39.748852: train_loss 3.7871
+2025-08-13 16:45:39.749626: Epoch time: 1006.74 s
+2025-08-13 16:45:39.749217: train_loss 3.7871
+2025-08-13 16:45:39.749815: train_loss 3.7871
+2025-08-13 16:45:39.749867: train_loss 3.7871
+2025-08-13 16:45:39.749962: train_loss 3.7871
+2025-08-13 16:45:39.749493: train_loss 3.7871
+2025-08-13 16:45:39.752749: Epoch time: 1014.28 s
+2025-08-13 16:45:39.753802: Epoch time: 1008.79 s
+2025-08-13 16:45:39.754681: Epoch time: 1009.68 s
+2025-08-13 16:45:39.755649: Epoch time: 1011.08 s
+2025-08-13 16:45:39.756582: Epoch time: 1007.24 s
+2025-08-13 16:45:46.032665: 
+2025-08-13 16:45:46.033034: Epoch 6
+2025-08-13 16:45:46.036563: Current learning rate: 0.0003
+2025-08-13 16:45:46.763560: 
+2025-08-13 16:45:46.766516: Epoch 6
+2025-08-13 16:45:46.767341: Current learning rate: 0.0003
+2025-08-13 16:45:48.855037: 
+2025-08-13 16:45:48.857533: Epoch 6
+2025-08-13 16:45:48.858277: Current learning rate: 0.0003
+2025-08-13 16:45:50.034798: 
+2025-08-13 16:45:50.036815: Epoch 6
+2025-08-13 16:45:50.037407: Current learning rate: 0.0003
+2025-08-13 16:45:51.388090: 
+2025-08-13 16:45:51.390155: Epoch 6
+2025-08-13 16:45:51.390876: Current learning rate: 0.0003
+2025-08-13 16:45:51.505808: 
+2025-08-13 16:45:51.507398: Epoch 6
+2025-08-13 16:45:51.507985: Current learning rate: 0.0003
+2025-08-13 17:02:33.829494: train_loss 3.7816
+2025-08-13 17:02:33.831443: train_loss 3.7816
+2025-08-13 17:02:33.829406: train_loss 3.7816
+2025-08-13 17:02:33.831784: train_loss 3.7816
+2025-08-13 17:02:33.832005: train_loss 3.7816
+2025-08-13 17:02:33.832254: train_loss 3.7816
+2025-08-13 17:02:33.833167: Epoch time: 1007.8 s
+2025-08-13 17:02:33.834219: Epoch time: 1002.44 s
+2025-08-13 17:02:33.835327: Epoch time: 1007.07 s
+2025-08-13 17:02:33.835957: Epoch time: 1003.8 s
+2025-08-13 17:02:33.836955: Epoch time: 1002.33 s
+2025-08-13 17:02:33.837914: Epoch time: 1004.98 s
+2025-08-13 17:02:38.490331: 
+2025-08-13 17:02:38.492240: Epoch 7
+2025-08-13 17:02:38.500860: Current learning rate: 0.0003
+2025-08-13 17:02:41.154814: 
+2025-08-13 17:02:41.157137: Epoch 7
+2025-08-13 17:02:41.157846: Current learning rate: 0.0003
+2025-08-13 17:02:42.769456: 
+2025-08-13 17:02:42.771522: Epoch 7
+2025-08-13 17:02:42.772128: Current learning rate: 0.0003
+2025-08-13 17:02:43.518538: 
+2025-08-13 17:02:43.520929: Epoch 7
+2025-08-13 17:02:43.521511: Current learning rate: 0.0003
+2025-08-13 17:02:46.351024: 
+2025-08-13 17:02:46.353021: Epoch 7
+2025-08-13 17:02:46.353698: Current learning rate: 0.0003
+2025-08-13 17:02:46.367496: 
+2025-08-13 17:02:46.369161: Epoch 7
+2025-08-13 17:02:46.369895: Current learning rate: 0.0003
+2025-08-13 17:19:23.347615: train_loss 3.7751
+2025-08-13 17:19:23.347702: train_loss 3.7751
+2025-08-13 17:19:23.348392: train_loss 3.7751
+2025-08-13 17:19:23.348849: train_loss 3.7751
+2025-08-13 17:19:23.348835: train_loss 3.7751
+2025-08-13 17:19:23.349627: Epoch time: 1004.86 s
+2025-08-13 17:19:23.349751: train_loss 3.7751
+2025-08-13 17:19:23.350998: Epoch time: 999.83 s
+2025-08-13 17:19:23.351597: Epoch time: 997.0 s
+2025-08-13 17:19:23.352361: Epoch time: 1002.19 s
+2025-08-13 17:19:23.353512: Epoch time: 996.98 s
+2025-08-13 17:19:23.354893: Epoch time: 1000.58 s
+2025-08-13 17:19:27.600305: 
+2025-08-13 17:19:27.604225: Epoch 8
+2025-08-13 17:19:27.605189: Current learning rate: 0.0003
+2025-08-13 17:19:30.781429: 
+2025-08-13 17:19:30.783521: Epoch 8
+2025-08-13 17:19:30.784494: Current learning rate: 0.0003
+2025-08-13 17:19:32.480883: 
+2025-08-13 17:19:32.482949: Epoch 8
+2025-08-13 17:19:32.483663: Current learning rate: 0.0003
+2025-08-13 17:19:33.156214: 
+2025-08-13 17:19:33.158449: Epoch 8
+2025-08-13 17:19:33.159126: Current learning rate: 0.0003
+2025-08-13 17:19:36.308543: 
+2025-08-13 17:19:36.310549: Epoch 8
+2025-08-13 17:19:36.311119: Current learning rate: 0.0003
+2025-08-13 17:19:36.315578: 
+2025-08-13 17:19:36.317220: Epoch 8
+2025-08-13 17:19:36.317799: Current learning rate: 0.0003
+2025-08-13 17:36:17.610969: train_loss 3.7757
+2025-08-13 17:36:17.610927: train_loss 3.7757
+2025-08-13 17:36:17.612013: train_loss 3.7757
+2025-08-13 17:36:17.614306: Epoch time: 1005.13 s
+2025-08-13 17:36:17.612067: train_loss 3.7757
+2025-08-13 17:36:17.612937: train_loss 3.7757
+2025-08-13 17:36:17.612665: train_loss 3.7757
+2025-08-13 17:36:17.615949: Epoch time: 1006.83 s
+2025-08-13 17:36:17.616802: Epoch time: 1001.3 s
+2025-08-13 17:36:17.618490: Epoch time: 1001.3 s
+2025-08-13 17:36:17.619402: Epoch time: 1004.46 s
+2025-08-13 17:36:17.620203: Epoch time: 1010.01 s
+2025-08-13 17:36:23.775902: 
+2025-08-13 17:36:23.778268: Epoch 9
+2025-08-13 17:36:23.784443: Current learning rate: 0.0003
+2025-08-13 17:36:25.637608: 
+2025-08-13 17:36:25.639736: Epoch 9
+2025-08-13 17:36:25.640363: Current learning rate: 0.0003
+2025-08-13 17:36:26.146583: 
+2025-08-13 17:36:26.149148: Epoch 9
+2025-08-13 17:36:26.150208: Current learning rate: 0.0003
+2025-08-13 17:36:27.070349: 
+2025-08-13 17:36:27.073332: Epoch 9
+2025-08-13 17:36:27.075111: Current learning rate: 0.0003
+2025-08-13 17:36:28.003835: 
+2025-08-13 17:36:28.006102: Epoch 9
+2025-08-13 17:36:28.006782: Current learning rate: 0.0003
+2025-08-13 17:36:28.521122: 
+2025-08-13 17:36:28.523257: Epoch 9
+2025-08-13 17:36:28.523890: Current learning rate: 0.0003
+2025-08-13 17:53:14.613691: train_loss 3.7748
+2025-08-13 17:53:14.613474: train_loss 3.7748
+2025-08-13 17:53:14.613595: train_loss 3.7748
+2025-08-13 17:53:14.614050: train_loss 3.7748
+2025-08-13 17:53:14.614851: Epoch time: 1006.09 s
+2025-08-13 17:53:14.614676: train_loss 3.7748
+2025-08-13 17:53:14.615192: train_loss 3.7748
+2025-08-13 17:53:14.616769: Epoch time: 1010.84 s
+2025-08-13 17:53:14.618462: Epoch time: 1008.98 s
+2025-08-13 17:53:14.619385: Epoch time: 1008.47 s
+2025-08-13 17:53:14.620969: Epoch time: 1006.61 s
+2025-08-13 17:53:14.621948: Epoch time: 1007.55 s
+2025-08-13 17:53:21.144208: 
+2025-08-13 17:53:21.146562: Epoch 10
+2025-08-13 17:53:21.153301: Current learning rate: 0.0003
+2025-08-13 17:53:22.224304: 
+2025-08-13 17:53:22.226772: Epoch 10
+2025-08-13 17:53:22.227616: Current learning rate: 0.0003
+2025-08-13 17:53:23.319515: 
+2025-08-13 17:53:23.321516: Epoch 10
+2025-08-13 17:53:23.322240: Current learning rate: 0.0003
+2025-08-13 17:53:23.432182: 
+2025-08-13 17:53:23.434024: Epoch 10
+2025-08-13 17:53:23.434581: Current learning rate: 0.0003
+2025-08-13 17:53:24.113885: 
+2025-08-13 17:53:24.115735: Epoch 10
+2025-08-13 17:53:24.116491: Current learning rate: 0.0003
+2025-08-13 17:53:24.460783: 
+2025-08-13 17:53:24.462662: Epoch 10
+2025-08-13 17:53:24.463315: Current learning rate: 0.0003
+2025-08-13 18:10:15.233460: train_loss 3.7675
+2025-08-13 18:10:15.232594: train_loss 3.7675
+2025-08-13 18:10:15.232217: train_loss 3.7675
+2025-08-13 18:10:15.235203: Epoch time: 1011.8 s
+2025-08-13 18:10:15.235388: train_loss 3.7675
+2025-08-13 18:10:15.232881: train_loss 3.7675
+2025-08-13 18:10:15.236990: Epoch time: 1011.12 s
+2025-08-13 18:10:15.237958: train_loss 3.7675
+2025-08-13 18:10:15.238218: Epoch time: 1013.01 s
+2025-08-13 18:10:15.239635: Epoch time: 1014.09 s
+2025-08-13 18:10:15.240606: Epoch time: 1010.77 s
+2025-08-13 18:10:15.242074: Epoch time: 1011.92 s
+2025-08-13 18:10:21.748799: 
+2025-08-13 18:10:21.750957: Epoch 11
+2025-08-13 18:10:21.755344: Current learning rate: 0.0003
+2025-08-13 18:10:23.713254: 
+2025-08-13 18:10:23.715511: Epoch 11
+2025-08-13 18:10:23.716183: Current learning rate: 0.0003
+2025-08-13 18:10:25.716813: 
+2025-08-13 18:10:25.718890: Epoch 11
+2025-08-13 18:10:25.719652: Current learning rate: 0.0003
+2025-08-13 18:10:26.214755: 
+2025-08-13 18:10:26.217759: Epoch 11
+2025-08-13 18:10:26.218480: Current learning rate: 0.0003
+2025-08-13 18:10:27.690504: 
+2025-08-13 18:10:27.692561: Epoch 11
+2025-08-13 18:10:27.693196: Current learning rate: 0.0003
+2025-08-13 18:10:27.708792: 
+2025-08-13 18:10:27.710402: Epoch 11
+2025-08-13 18:10:27.710958: Current learning rate: 0.0003
+2025-08-13 18:27:29.098413: train_loss 3.7626
+2025-08-13 18:27:29.098340: train_loss 3.7626
+2025-08-13 18:27:29.099661: train_loss 3.7626
+2025-08-13 18:27:29.099578: train_loss 3.7626
+2025-08-13 18:27:29.099831: train_loss 3.7626
+2025-08-13 18:27:29.101524: train_loss 3.7626
+2025-08-13 18:27:29.102614: Epoch time: 1023.38 s
+2025-08-13 18:27:29.103932: Epoch time: 1025.39 s
+2025-08-13 18:27:29.104781: Epoch time: 1022.89 s
+2025-08-13 18:27:29.105622: Epoch time: 1027.35 s
+2025-08-13 18:27:29.106552: Epoch time: 1021.41 s
+2025-08-13 18:27:29.107554: Epoch time: 1021.39 s
+2025-08-13 18:27:35.422131: 
+2025-08-13 18:27:35.424191: Epoch 12
+2025-08-13 18:27:35.431526: Current learning rate: 0.0003
+2025-08-13 18:27:36.856415: 
+2025-08-13 18:27:36.858480: Epoch 12
+2025-08-13 18:27:36.859085: Current learning rate: 0.0003
+2025-08-13 18:27:38.203066: 
+2025-08-13 18:27:38.205328: Epoch 12
+2025-08-13 18:27:38.206366: Current learning rate: 0.0003
+2025-08-13 18:27:39.045516: 
+2025-08-13 18:27:39.047587: Epoch 12
+2025-08-13 18:27:39.048351: Current learning rate: 0.0003
+2025-08-13 18:27:39.816899: 
+2025-08-13 18:27:39.818683: Epoch 12
+2025-08-13 18:27:39.819319: Current learning rate: 0.0003
+2025-08-13 18:27:40.142063: 
+2025-08-13 18:27:40.143909: Epoch 12
+2025-08-13 18:27:40.144736: Current learning rate: 0.0003
+2025-08-13 18:44:45.358094: train_loss 3.762
+2025-08-13 18:44:45.358258: train_loss 3.762
+2025-08-13 18:44:45.358684: train_loss 3.762
+2025-08-13 18:44:45.358915: Epoch time: 1025.22 s
+2025-08-13 18:44:45.359126: train_loss 3.762
+2025-08-13 18:44:45.359185: train_loss 3.762
+2025-08-13 18:44:45.359768: train_loss 3.762
+2025-08-13 18:44:45.361406: Epoch time: 1029.94 s
+2025-08-13 18:44:45.362370: Epoch time: 1028.5 s
+2025-08-13 18:44:45.364338: Epoch time: 1027.16 s
+2025-08-13 18:44:45.365395: Epoch time: 1025.54 s
+2025-08-13 18:44:45.366143: Epoch time: 1026.32 s
+2025-08-13 18:44:51.702521: 
+2025-08-13 18:44:51.704899: Epoch 13
+2025-08-13 18:44:51.709502: Current learning rate: 0.0003
+2025-08-13 18:44:53.409087: 
+2025-08-13 18:44:53.413443: Epoch 13
+2025-08-13 18:44:53.416150: Current learning rate: 0.0003
+2025-08-13 18:44:54.305815: 
+2025-08-13 18:44:54.307664: Epoch 13
+2025-08-13 18:44:54.308302: Current learning rate: 0.0003
+2025-08-13 18:44:55.626020: 
+2025-08-13 18:44:55.628293: Epoch 13
+2025-08-13 18:44:55.629264: Current learning rate: 0.0003
+2025-08-13 18:44:59.187896: 
+2025-08-13 18:44:59.189860: Epoch 13
+2025-08-13 18:44:59.190456: Current learning rate: 0.0003
+2025-08-13 18:44:59.211128: 
+2025-08-13 18:44:59.212850: Epoch 13
+2025-08-13 18:44:59.213463: Current learning rate: 0.0003
+2025-08-13 19:01:56.569459: train_loss 3.7611
+2025-08-13 19:01:56.568696: train_loss 3.7611
+2025-08-13 19:01:56.568723: train_loss 3.7611
+2025-08-13 19:01:56.568824: train_loss 3.7611
+2025-08-13 19:01:56.571478: Epoch time: 1020.94 s
+2025-08-13 19:01:56.569533: train_loss 3.7611
+2025-08-13 19:01:56.570357: train_loss 3.7611
+2025-08-13 19:01:56.573558: Epoch time: 1022.26 s
+2025-08-13 19:01:56.574370: Epoch time: 1017.36 s
+2025-08-13 19:01:56.575386: Epoch time: 1017.38 s
+2025-08-13 19:01:56.577188: Epoch time: 1024.87 s
+2025-08-13 19:01:56.577769: Epoch time: 1023.16 s
+2025-08-13 19:02:02.508214: 
+2025-08-13 19:02:02.508571: Epoch 14
+2025-08-13 19:02:02.515100: Current learning rate: 0.0003
+2025-08-13 19:02:04.482654: 
+2025-08-13 19:02:04.484905: Epoch 14
+2025-08-13 19:02:04.485665: Current learning rate: 0.0003
+2025-08-13 19:02:06.927573: 
+2025-08-13 19:02:06.929506: Epoch 14
+2025-08-13 19:02:06.930360: Current learning rate: 0.0003
+2025-08-13 19:02:07.056635: 
+2025-08-13 19:02:07.058482: Epoch 14
+2025-08-13 19:02:07.059261: Current learning rate: 0.0003
+2025-08-13 19:02:07.091894: 
+2025-08-13 19:02:07.093786: Epoch 14
+2025-08-13 19:02:07.094446: Current learning rate: 0.0003
+2025-08-13 19:02:07.098906: 
+2025-08-13 19:02:07.100573: Epoch 14
+2025-08-13 19:02:07.101255: Current learning rate: 0.0003
+2025-08-13 19:18:49.988512: train_loss 3.7674
+2025-08-13 19:18:49.989084: train_loss 3.7674
+2025-08-13 19:18:49.988530: train_loss 3.7674
+2025-08-13 19:18:49.988053: train_loss 3.7674
+2025-08-13 19:18:49.988310: train_loss 3.7674
+2025-08-13 19:18:49.990225: Epoch time: 1007.48 s
+2025-08-13 19:18:49.988675: train_loss 3.7674
+2025-08-13 19:18:49.993427: Epoch time: 1002.9 s
+2025-08-13 19:18:49.994509: Epoch time: 1002.93 s
+2025-08-13 19:18:49.995251: Epoch time: 1003.06 s
+2025-08-13 19:18:49.996254: Epoch time: 1002.89 s
+2025-08-13 19:18:49.998340: Epoch time: 1005.51 s
+2025-08-13 19:18:56.268357: 
+2025-08-13 19:18:56.270743: Epoch 15
+2025-08-13 19:18:56.274694: Current learning rate: 0.0003
+2025-08-13 19:18:58.027029: 
+2025-08-13 19:18:58.029097: Epoch 15
+2025-08-13 19:18:58.029671: Current learning rate: 0.0003
+2025-08-13 19:18:59.086782: 
+2025-08-13 19:18:59.089370: Epoch 15
+2025-08-13 19:18:59.089959: Current learning rate: 0.0003
+2025-08-13 19:18:59.918247: 
+2025-08-13 19:18:59.920275: Epoch 15
+2025-08-13 19:18:59.920846: Current learning rate: 0.0003
+2025-08-13 19:19:02.229650: 
+2025-08-13 19:19:02.231738: Epoch 15
+2025-08-13 19:19:02.232495: Current learning rate: 0.0003
+2025-08-13 19:19:02.278889: 
+2025-08-13 19:19:02.280733: Epoch 15
+2025-08-13 19:19:02.281393: Current learning rate: 0.0003
+2025-08-13 19:35:50.914232: train_loss 3.7616
+2025-08-13 19:35:50.913887: train_loss 3.7616
+2025-08-13 19:35:50.914225: train_loss 3.7616
+2025-08-13 19:35:50.914647: train_loss 3.7616
+2025-08-13 19:35:50.915187: train_loss 3.7616
+2025-08-13 19:35:50.915758: Epoch time: 1014.65 s
+2025-08-13 19:35:50.915610: train_loss 3.7616
+2025-08-13 19:35:50.917268: Epoch time: 1011.0 s
+2025-08-13 19:35:50.918401: Epoch time: 1012.89 s
+2025-08-13 19:35:50.919331: Epoch time: 1011.83 s
+2025-08-13 19:35:50.920027: Epoch time: 1008.64 s
+2025-08-13 19:35:50.921746: Epoch time: 1008.69 s
+2025-08-13 19:35:56.888973: 
+2025-08-13 19:35:56.891242: Epoch 16
+2025-08-13 19:35:56.894488: Current learning rate: 0.0003
+2025-08-13 19:35:58.718204: 
+2025-08-13 19:35:58.720469: Epoch 16
+2025-08-13 19:35:58.721291: Current learning rate: 0.0003
+2025-08-13 19:35:59.729464: 
+2025-08-13 19:35:59.731991: Epoch 16
+2025-08-13 19:35:59.737181: Current learning rate: 0.0003
+2025-08-13 19:36:00.326818: 
+2025-08-13 19:36:00.328887: Epoch 16
+2025-08-13 19:36:00.329479: Current learning rate: 0.0003
+2025-08-13 19:36:01.503371: 
+2025-08-13 19:36:01.505366: Epoch 16
+2025-08-13 19:36:01.506096: Current learning rate: 0.0003
+2025-08-13 19:36:01.578701: 
+2025-08-13 19:36:01.580528: Epoch 16
+2025-08-13 19:36:01.581169: Current learning rate: 0.0003
+2025-08-13 19:52:47.287971: train_loss 3.7517
+2025-08-13 19:52:47.287200: train_loss 3.7517
+2025-08-13 19:52:47.287330: train_loss 3.7517
+2025-08-13 19:52:47.286986: train_loss 3.7517
+2025-08-13 19:52:47.287532: train_loss 3.7517
+2025-08-13 19:52:47.287182: train_loss 3.7517
+2025-08-13 19:52:47.290078: Epoch time: 1007.56 s
+2025-08-13 19:52:47.291560: Epoch time: 1010.4 s
+2025-08-13 19:52:47.292622: Epoch time: 1005.78 s
+2025-08-13 19:52:47.293356: Epoch time: 1006.96 s
+2025-08-13 19:52:47.294356: Epoch time: 1005.71 s
+2025-08-13 19:52:47.295471: Epoch time: 1008.57 s
+2025-08-13 19:52:52.740508: 
+2025-08-13 19:52:52.740841: Epoch 17
+2025-08-13 19:52:52.744748: Current learning rate: 0.0003
+2025-08-13 19:52:54.464054: 
+2025-08-13 19:52:54.466089: Epoch 17
+2025-08-13 19:52:54.466794: Current learning rate: 0.0003
+2025-08-13 19:52:56.084762: 
+2025-08-13 19:52:56.086983: Epoch 17
+2025-08-13 19:52:56.087703: Current learning rate: 0.0003
+2025-08-13 19:52:56.763948: 
+2025-08-13 19:52:56.767487: Epoch 17
+2025-08-13 19:52:56.770285: Current learning rate: 0.0003
+2025-08-13 19:52:58.492734: 
+2025-08-13 19:52:58.494733: Epoch 17
+2025-08-13 19:52:58.495398: Current learning rate: 0.0003
+2025-08-13 19:52:58.524407: 
+2025-08-13 19:52:58.526057: Epoch 17
+2025-08-13 19:52:58.526679: Current learning rate: 0.0003
+
+======== GPU REPORT ========
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Wed Aug 13 20:08:19 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3240
+            GPU Utilization               : 75 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79858 MiB
+            Time                          : 18197489 ms
+            Is Running                    : 0
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3241
+            GPU Utilization               : 76 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79798 MiB
+            Time                          : 18197434 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3242
+            GPU Utilization               : 76 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79858 MiB
+            Time                          : 18195862 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3243
+            GPU Utilization               : 76 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79798 MiB
+            Time                          : 18197786 ms
+            Is Running                    : 0
+
+Wed Aug 13 20:08:20 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   52C    P0            131W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   51C    P0            135W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   50C    P0             86W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   53C    P0            145W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+======== GPU REPORT ========
+
+======== GPU REPORT ========
+
+======== GPU REPORT ========
+
+======== GPU REPORT ========
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Wed Aug 13 20:08:23 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3207
+            GPU Utilization               : 76 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79750 MiB
+            Time                          : 18200683 ms
+            Is Running                    : 0
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3208
+            GPU Utilization               : 77 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79850 MiB
+            Time                          : 18200371 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3209
+            GPU Utilization               : 77 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79750 MiB
+            Time                          : 18200829 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3210
+            GPU Utilization               : 77 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79798 MiB
+            Time                          : 18201135 ms
+            Is Running                    : 0
+
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Wed Aug 13 20:08:23 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3248
+            GPU Utilization               : 76 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79750 MiB
+            Time                          : 18200524 ms
+            Is Running                    : 0
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3249
+            GPU Utilization               : 77 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79850 MiB
+            Time                          : 18201414 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3250
+            GPU Utilization               : 76 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79858 MiB
+            Time                          : 18200667 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3251
+            GPU Utilization               : 77 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79798 MiB
+            Time                          : 18200843 ms
+            Is Running                    : 0
+
+
+======== GPU REPORT ========
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Wed Aug 13 20:08:23 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3316
+            GPU Utilization               : 76 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79750 MiB
+            Time                          : 18200889 ms
+            Is Running                    : 0
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3317
+            GPU Utilization               : 76 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79850 MiB
+            Time                          : 18200576 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3318
+            GPU Utilization               : 76 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79858 MiB
+            Time                          : 18200187 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3319
+            GPU Utilization               : 76 %
+            Memory Utilization            : 21 %
+            Max memory usage              : 79850 MiB
+            Time                          : 18201164 ms
+            Is Running                    : 0
+
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Wed Aug 13 20:08:23 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3481
+            GPU Utilization               : 76 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79872 MiB
+            Time                          : 18200914 ms
+            Is Running                    : 0
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3482
+            GPU Utilization               : 77 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79850 MiB
+            Time                          : 18201290 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3483
+            GPU Utilization               : 77 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79750 MiB
+            Time                          : 18200545 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3484
+            GPU Utilization               : 77 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79850 MiB
+            Time                          : 18200223 ms
+            Is Running                    : 0
+
+Wed Aug 13 20:08:23 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+Wed Aug 13 20:08:23 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   54C    P0            132W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
+==============NVSMI LOG==============
+
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   52C    P0            116W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
+Timestamp|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   52C    P0            112W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+ +-----------------------------------------+------------------------+----------------------+
+                                : Wed Aug 13 20:08:23 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3284
+            GPU Utilization               : 75 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79858 MiB
+            Time                          : 18200758 ms
+            Is Running                    : 0
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3285
+            GPU Utilization               : 76 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79850 MiB
+            Time                          : 18200424 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3286
+            GPU Utilization               : 76 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79858 MiB
+            Time                          : 18200894 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3287
+            GPU Utilization               : 76 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79742 MiB
+            Time                          : 18200806 ms
+            Is Running                    : 0
+
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   54C    P0            136W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   52C    P0            133W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   56C    P0            139W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+Wed Aug 13 20:08:23 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   52C    P0            130W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
+|  No running processes found                                                             |
++-----------------------------------------+------------------------+----------------------+
++-----------------------------------------------------------------------------------------+
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   53C    P0            136W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   53C    P0            130W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
+Wed Aug 13 20:08:23 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   52C    P0            134W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   54C    P0            137W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   50C    P0            100W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   53C    P0            140W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   54C    P0            141W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   52C    P0            123W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   52C    P0            108W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Wed Aug 13 20:08:23 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   51C    P0            127W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   50C    P0            101W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   51C    P0            130W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   53C    P0            138W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+======== GPU REPORT ========
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Wed Aug 13 20:08:24 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3316
+            GPU Utilization               : 76 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79750 MiB
+            Time                          : 18200889 ms
+            Is Running                    : 0
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3317
+            GPU Utilization               : 76 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79850 MiB
+            Time                          : 18200576 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3318
+            GPU Utilization               : 76 %
+            Memory Utilization            : 20 %
+            Max memory usage              : 79858 MiB
+            Time                          : 18200187 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3319
+            GPU Utilization               : 76 %
+            Memory Utilization            : 21 %
+            Max memory usage              : 79850 MiB
+            Time                          : 18201164 ms
+            Is Running                    : 0
+
+Wed Aug 13 20:08:24 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   51C    P0             75W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   50C    P0             76W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   50C    P0             72W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   52C    P0            106W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+

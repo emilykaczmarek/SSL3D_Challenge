@@ -1,0 +1,449 @@
+W0803 13:17:22.649000 2429977 torch/distributed/run.py:793] 
+W0803 13:17:22.649000 2429977 torch/distributed/run.py:793] *****************************************
+W0803 13:17:22.649000 2429977 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0803 13:17:22.649000 2429977 torch/distributed/run.py:793] *****************************************
+W0803 13:17:22.748000 2158776 torch/distributed/run.py:793] 
+W0803 13:17:22.748000 2158776 torch/distributed/run.py:793] *****************************************
+W0803 13:17:22.748000 2158776 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0803 13:17:22.748000 2158776 torch/distributed/run.py:793] *****************************************
+W0803 13:17:22.838000 1548379 torch/distributed/run.py:793] 
+W0803 13:17:22.838000 1548379 torch/distributed/run.py:793] *****************************************
+W0803 13:17:22.838000 1548379 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0803 13:17:22.838000 1548379 torch/distributed/run.py:793] *****************************************
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/models/self_supervised/amdim/amdim_module.py:34: UnderReviewWarning: The feature generate_power_seq is currently marked under review. The compatibility with other Lightning projects is not guaranteed and API may change at any time. The API and functionality may change without warning in future releases. More details: https://lightning-bolts.readthedocs.io/en/latest/stability.html
+  "lr_options": generate_power_seq(LEARNING_RATE_CIFAR, 11),
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/models/self_supervised/amdim/amdim_module.py:92: UnderReviewWarning: The feature FeatureMapContrastiveTask is currently marked under review. The compatibility with other Lightning projects is not guaranteed and API may change at any time. The API and functionality may change without warning in future releases. More details: https://lightning-bolts.readthedocs.io/en/latest/stability.html
+  contrastive_task: Union[FeatureMapContrastiveTask] = FeatureMapContrastiveTask("01, 02, 11"),
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/losses/self_supervised_learning.py:228: UnderReviewWarning: The feature AmdimNCELoss is currently marked under review. The compatibility with other Lightning projects is not guaranteed and API may change at any time. The API and functionality may change without warning in future releases. More details: https://lightning-bolts.readthedocs.io/en/latest/stability.html
+  self.nce_loss = AmdimNCELoss(tclip)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:189: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-03 13:17:42.596 | INFO     | __main__:maybe_load_checkpoint:102 - Attempting to continue training...
+2025-08-03 13:17:42.596 | INFO     | __main__:maybe_load_checkpoint:118 - Using /scratch/e/ekacz/nnssl/nnssl_results/Dataset745_OpenMind/SimCLRTrainer__nnsslPlans__onemmiso/fold_all/checkpoint_latest.pth as the starting checkpoint for training...
+2025-08-03 13:17:42.596 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:245 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-03 13:17:42.596 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:268 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:189: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:189: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:189: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:189: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-03 13:17:42.603 | INFO     | __main__:maybe_load_checkpoint:102 - Attempting to continue training...
+2025-08-03 13:17:42.603 | INFO     | __main__:maybe_load_checkpoint:102 - Attempting to continue training...
+2025-08-03 13:17:42.603 | INFO     | __main__:maybe_load_checkpoint:118 - Using /scratch/e/ekacz/nnssl/nnssl_results/Dataset745_OpenMind/SimCLRTrainer__nnsslPlans__onemmiso/fold_all/checkpoint_latest.pth as the starting checkpoint for training...
+2025-08-03 13:17:42.603 | INFO     | __main__:maybe_load_checkpoint:118 - Using /scratch/e/ekacz/nnssl/nnssl_results/Dataset745_OpenMind/SimCLRTrainer__nnsslPlans__onemmiso/fold_all/checkpoint_latest.pth as the starting checkpoint for training...
+2025-08-03 13:17:42.603 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:245 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-03 13:17:42.603 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:245 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-03 13:17:42.603 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:268 - worker
+2025-08-03 13:17:42.603 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:268 - worker
+2025-08-03 13:17:42.604 | INFO     | __main__:maybe_load_checkpoint:102 - Attempting to continue training...
+2025-08-03 13:17:42.604 | INFO     | __main__:maybe_load_checkpoint:118 - Using /scratch/e/ekacz/nnssl/nnssl_results/Dataset745_OpenMind/SimCLRTrainer__nnsslPlans__onemmiso/fold_all/checkpoint_latest.pth as the starting checkpoint for training...
+2025-08-03 13:17:42.604 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:245 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-03 13:17:42.604 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:268 - worker
+2025-08-03 13:17:42.605 | INFO     | __main__:maybe_load_checkpoint:102 - Attempting to continue training...
+2025-08-03 13:17:42.606 | INFO     | __main__:maybe_load_checkpoint:118 - Using /scratch/e/ekacz/nnssl/nnssl_results/Dataset745_OpenMind/SimCLRTrainer__nnsslPlans__onemmiso/fold_all/checkpoint_latest.pth as the starting checkpoint for training...
+2025-08-03 13:17:42.606 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:245 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-03 13:17:42.606 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:268 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:189: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-03 13:17:42.613 | INFO     | __main__:maybe_load_checkpoint:102 - Attempting to continue training...
+2025-08-03 13:17:42.613 | INFO     | __main__:maybe_load_checkpoint:118 - Using /scratch/e/ekacz/nnssl/nnssl_results/Dataset745_OpenMind/SimCLRTrainer__nnsslPlans__onemmiso/fold_all/checkpoint_latest.pth as the starting checkpoint for training...
+2025-08-03 13:17:42.614 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:245 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-03 13:17:42.614 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:268 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:189: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:189: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-03 13:17:42.614 | INFO     | __main__:maybe_load_checkpoint:102 - Attempting to continue training...
+2025-08-03 13:17:42.614 | INFO     | __main__:maybe_load_checkpoint:118 - Using /scratch/e/ekacz/nnssl/nnssl_results/Dataset745_OpenMind/SimCLRTrainer__nnsslPlans__onemmiso/fold_all/checkpoint_latest.pth as the starting checkpoint for training...
+2025-08-03 13:17:42.614 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:245 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-03 13:17:42.614 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:268 - worker
+2025-08-03 13:17:42.614 | INFO     | __main__:maybe_load_checkpoint:102 - Attempting to continue training...
+2025-08-03 13:17:42.614 | INFO     | __main__:maybe_load_checkpoint:118 - Using /scratch/e/ekacz/nnssl/nnssl_results/Dataset745_OpenMind/SimCLRTrainer__nnsslPlans__onemmiso/fold_all/checkpoint_latest.pth as the starting checkpoint for training...
+2025-08-03 13:17:42.614 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:245 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-03 13:17:42.614 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:268 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:189: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-03 13:17:42.693 | INFO     | __main__:maybe_load_checkpoint:102 - Attempting to continue training...
+2025-08-03 13:17:42.693 | INFO     | __main__:maybe_load_checkpoint:118 - Using /scratch/e/ekacz/nnssl/nnssl_results/Dataset745_OpenMind/SimCLRTrainer__nnsslPlans__onemmiso/fold_all/checkpoint_latest.pth as the starting checkpoint for training...
+2025-08-03 13:17:42.693 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:245 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-03 13:17:42.693 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:268 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:189: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-03 13:17:42.710 | INFO     | __main__:maybe_load_checkpoint:102 - Attempting to continue training...
+2025-08-03 13:17:42.710 | INFO     | __main__:maybe_load_checkpoint:118 - Using /scratch/e/ekacz/nnssl/nnssl_results/Dataset745_OpenMind/SimCLRTrainer__nnsslPlans__onemmiso/fold_all/checkpoint_latest.pth as the starting checkpoint for training...
+2025-08-03 13:17:42.710 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:245 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-03 13:17:42.710 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:268 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:189: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-03 13:17:42.726 | INFO     | __main__:maybe_load_checkpoint:102 - Attempting to continue training...
+2025-08-03 13:17:42.726 | INFO     | __main__:maybe_load_checkpoint:118 - Using /scratch/e/ekacz/nnssl/nnssl_results/Dataset745_OpenMind/SimCLRTrainer__nnsslPlans__onemmiso/fold_all/checkpoint_latest.pth as the starting checkpoint for training...
+2025-08-03 13:17:42.726 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:245 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-03 13:17:42.726 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:268 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:189: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-03 13:17:42.761 | INFO     | __main__:maybe_load_checkpoint:102 - Attempting to continue training...
+2025-08-03 13:17:42.762 | INFO     | __main__:maybe_load_checkpoint:118 - Using /scratch/e/ekacz/nnssl/nnssl_results/Dataset745_OpenMind/SimCLRTrainer__nnsslPlans__onemmiso/fold_all/checkpoint_latest.pth as the starting checkpoint for training...
+2025-08-03 13:17:42.762 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:245 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-03 13:17:42.762 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:268 - worker
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+No such file or directory
+No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:887: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename_or_checkpoint, map_location=self.device)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:887: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename_or_checkpoint, map_location=self.device)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:887: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename_or_checkpoint, map_location=self.device)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:887: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename_or_checkpoint, map_location=self.device)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:887: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename_or_checkpoint, map_location=self.device)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:887: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename_or_checkpoint, map_location=self.device)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:887: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename_or_checkpoint, map_location=self.device)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:887: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename_or_checkpoint, map_location=self.device)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:887: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename_or_checkpoint, map_location=self.device)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:887: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename_or_checkpoint, map_location=self.device)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:887: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename_or_checkpoint, map_location=self.device)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:887: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename_or_checkpoint, map_location=self.device)
+2025-08-03 13:17:51.022 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-03 13:17:51.022 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-03 13:17:51.022 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-03 13:17:51.022 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-03 13:17:51.022 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-03 13:17:51.022 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-03 13:17:51.022 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-03 13:17:51.022 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-03 13:17:51.022 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-03 13:17:51.022 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-03 13:17:51.022 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-03 13:17:51.022 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-03 13:17:56.207 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:560 - Train dataset contains 113363 images.
+2025-08-03 13:17:56.231 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:560 - Train dataset contains 113363 images.
+2025-08-03 13:17:56.236 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:560 - Train dataset contains 113363 images.
+2025-08-03 13:17:56.236 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:560 - Train dataset contains 113363 images.
+2025-08-03 13:17:56.239 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:560 - Train dataset contains 113363 images.
+2025-08-03 13:17:56.242 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:560 - Train dataset contains 113363 images.
+2025-08-03 13:17:56.250 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:560 - Train dataset contains 113363 images.
+2025-08-03 13:17:56.268 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:560 - Train dataset contains 113363 images.
+2025-08-03 13:17:56.279 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:560 - Train dataset contains 113363 images.
+2025-08-03 13:17:56.279 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:560 - Train dataset contains 113363 images.
+2025-08-03 13:17:56.284 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:560 - Train dataset contains 113363 images.
+2025-08-03 13:17:56.284 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:560 - Train dataset contains 113363 images.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/instancenorm.py:115: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/instancenorm.py:115: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/instancenorm.py:115: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/instancenorm.py:115: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/instancenorm.py:115: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/instancenorm.py:115: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/instancenorm.py:115: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/instancenorm.py:115: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/instancenorm.py:115: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/instancenorm.py:115: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/instancenorm.py:115: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/instancenorm.py:115: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank0]:   File "<frozen runpy>", line 88, in _run_code
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 445, in <module>
+[rank0]:     run_training_entry()
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 427, in run_training_entry
+[rank0]:     run_training(
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 238, in run_training
+[rank0]:     run_ddp(
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 193, in run_ddp
+[rank0]:     nnunet_trainer.run_training()
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 458, in run_training
+[rank0]:     self.on_epoch_end()
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 852, in on_epoch_end
+[rank0]:     self.logger.plot_progress_png(self.output_folder)
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/logging/nnssl_logger.py", line 61, in plot_progress_png
+[rank0]:     self.my_fantastic_logging["val_losses"][: epoch + 1],
+[rank0]:     ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+[rank0]: KeyError: 'val_losses'
+Exception in thread Thread-2 (results_loop):
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/batchgenerators/dataloading/nondet_multi_threaded_augmenter.py", line 125, in results_loop
+    raise e
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/batchgenerators/dataloading/nondet_multi_threaded_augmenter.py", line 103, in results_loop
+    raise RuntimeError("One or more background workers are no longer alive. Exiting. Please check the "
+RuntimeError: One or more background workers are no longer alive. Exiting. Please check the print statements above for the actual error message
+[rank8]: Traceback (most recent call last):
+[rank8]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank8]:   File "<frozen runpy>", line 88, in _run_code
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 445, in <module>
+[rank8]:     run_training_entry()
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 427, in run_training_entry
+[rank8]:     run_training(
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 238, in run_training
+[rank8]:     run_ddp(
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 193, in run_ddp
+[rank8]:     nnunet_trainer.run_training()
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 458, in run_training
+[rank8]:     self.on_epoch_end()
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 852, in on_epoch_end
+[rank8]:     self.logger.plot_progress_png(self.output_folder)
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/logging/nnssl_logger.py", line 61, in plot_progress_png
+[rank8]:     self.my_fantastic_logging["val_losses"][: epoch + 1],
+[rank8]:     ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+[rank8]: KeyError: 'val_losses'
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank4]:   File "<frozen runpy>", line 88, in _run_code
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 445, in <module>
+[rank4]:     run_training_entry()
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 427, in run_training_entry
+[rank4]:     run_training(
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 238, in run_training
+[rank4]:     run_ddp(
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 193, in run_ddp
+[rank4]:     nnunet_trainer.run_training()
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 458, in run_training
+[rank4]:     self.on_epoch_end()
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 852, in on_epoch_end
+[rank4]:     self.logger.plot_progress_png(self.output_folder)
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/logging/nnssl_logger.py", line 61, in plot_progress_png
+[rank4]:     self.my_fantastic_logging["val_losses"][: epoch + 1],
+[rank4]:     ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+[rank4]: KeyError: 'val_losses'
+Exception in thread Thread-2 (results_loop):
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/batchgenerators/dataloading/nondet_multi_threaded_augmenter.py", line 125, in results_loop
+    raise e
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/batchgenerators/dataloading/nondet_multi_threaded_augmenter.py", line 103, in results_loop
+    raise RuntimeError("One or more background workers are no longer alive. Exiting. Please check the "
+RuntimeError: One or more background workers are no longer alive. Exiting. Please check the print statements above for the actual error message
+Exception in thread Thread-2 (results_loop):
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/batchgenerators/dataloading/nondet_multi_threaded_augmenter.py", line 125, in results_loop
+    raise e
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/batchgenerators/dataloading/nondet_multi_threaded_augmenter.py", line 103, in results_loop
+    raise RuntimeError("One or more background workers are no longer alive. Exiting. Please check the "
+RuntimeError: One or more background workers are no longer alive. Exiting. Please check the print statements above for the actual error message
+W0803 13:26:21.173000 2158776 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2158795 closing signal SIGTERM
+W0803 13:26:21.179000 2158776 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2158796 closing signal SIGTERM
+W0803 13:26:21.183000 2158776 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2158797 closing signal SIGTERM
+E0803 13:26:22.334000 2158776 torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 2158794) of binary: /home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/python3
+Traceback (most recent call last):
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/torchrun", line 10, in <module>
+W0803 13:26:22.345000 2429977 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2429993 closing signal SIGTERM
+    sys.exit(main())
+             ^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+nnssl.run.run_training FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-08-03_13:26:21
+  host      : tg10804.tamia.ecpia.ca
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2158794)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+W0803 13:26:22.360000 2429977 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2429994 closing signal SIGTERM
+W0803 13:26:22.377000 2429977 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2429995 closing signal SIGTERM
+W0803 13:26:22.377000 1548379 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1548398 closing signal SIGTERM
+W0803 13:26:22.430000 1548379 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1548399 closing signal SIGTERM
+W0803 13:26:22.431000 1548379 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1548400 closing signal SIGTERM
+E0803 13:26:24.980000 2429977 torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 2429992) of binary: /home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/python3
+Traceback (most recent call last):
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+nnssl.run.run_training FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-08-03_13:26:22
+  host      : tg10805.tamia.ecpia.ca
+  rank      : 4 (local_rank: 0)
+  exitcode  : 1 (pid: 2429992)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+E0803 13:26:25.054000 1548379 torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 1548397) of binary: /home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/python3
+Traceback (most recent call last):
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+nnssl.run.run_training FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-08-03_13:26:22
+  host      : tg10806.tamia.ecpia.ca
+  rank      : 8 (local_rank: 0)
+  exitcode  : 1 (pid: 1548397)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+srun: error: tg10804: task 0: Exited with exit code 1
+srun: Terminating StepId=63052.0
+srun: error: tg10805: task 1: Terminated
+srun: error: tg10806: task 2: Terminated
+srun: Force Terminated StepId=63052.0

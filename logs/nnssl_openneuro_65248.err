@@ -1,0 +1,768 @@
+W0810 16:47:10.681000 1607696 torch/distributed/run.py:793] 
+W0810 16:47:10.681000 1607696 torch/distributed/run.py:793] *****************************************
+W0810 16:47:10.681000 1607696 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0810 16:47:10.681000 1607696 torch/distributed/run.py:793] *****************************************
+W0810 16:47:10.815000 1746025 torch/distributed/run.py:793] 
+W0810 16:47:10.815000 1746025 torch/distributed/run.py:793] *****************************************
+W0810 16:47:10.815000 1746025 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0810 16:47:10.815000 1746025 torch/distributed/run.py:793] *****************************************
+W0810 16:47:10.822000 1497729 torch/distributed/run.py:793] 
+W0810 16:47:10.822000 1497729 torch/distributed/run.py:793] *****************************************
+W0810 16:47:10.822000 1497729 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0810 16:47:10.822000 1497729 torch/distributed/run.py:793] *****************************************
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/models/self_supervised/amdim/amdim_module.py:34: UnderReviewWarning: The feature generate_power_seq is currently marked under review. The compatibility with other Lightning projects is not guaranteed and API may change at any time. The API and functionality may change without warning in future releases. More details: https://lightning-bolts.readthedocs.io/en/latest/stability.html
+  "lr_options": generate_power_seq(LEARNING_RATE_CIFAR, 11),
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/models/self_supervised/amdim/amdim_module.py:92: UnderReviewWarning: The feature FeatureMapContrastiveTask is currently marked under review. The compatibility with other Lightning projects is not guaranteed and API may change at any time. The API and functionality may change without warning in future releases. More details: https://lightning-bolts.readthedocs.io/en/latest/stability.html
+  contrastive_task: Union[FeatureMapContrastiveTask] = FeatureMapContrastiveTask("01, 02, 11"),
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/losses/self_supervised_learning.py:228: UnderReviewWarning: The feature AmdimNCELoss is currently marked under review. The compatibility with other Lightning projects is not guaranteed and API may change at any time. The API and functionality may change without warning in future releases. More details: https://lightning-bolts.readthedocs.io/en/latest/stability.html
+  self.nce_loss = AmdimNCELoss(tclip)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-10 16:47:30.571 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-10 16:47:30.572 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:272 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-10 16:47:30.580 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-10 16:47:30.581 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:272 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-10 16:47:30.608 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-10 16:47:30.608 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:272 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-10 16:47:30.636 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-10 16:47:30.637 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:272 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-10 16:47:30.720 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-10 16:47:30.720 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:272 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-10 16:47:30.741 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-10 16:47:30.741 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:272 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-10 16:47:30.745 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-10 16:47:30.745 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:272 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-10 16:47:30.752 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-10 16:47:30.752 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:272 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-10 16:47:30.854 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-10 16:47:30.854 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:272 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-10 16:47:30.871 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-10 16:47:30.871 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:272 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-10 16:47:30.874 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-10 16:47:30.875 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:272 - worker
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-10 16:47:30.904 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 120 distributed across all 12 gpus.
+2025-08-10 16:47:30.904 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:272 - worker
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+2025-08-10 16:47:39.388 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-10 16:47:39.388 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-10 16:47:39.388 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-10 16:47:39.388 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-10 16:47:39.388 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-10 16:47:39.388 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-10 16:47:39.388 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-10 16:47:39.388 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-10 16:47:39.388 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-10 16:47:39.388 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-10 16:47:39.388 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-10 16:47:39.388 | WARNING  | nnssl.ssl_data.dataloading.simclr_transform:__init__:84 - Assuming that the axes have the same spacing. If not, the crop rotations will introduce changing spacings.
+2025-08-10 16:47:44.308 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:577 - Train dataset contains 113318 images.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+2025-08-10 16:47:44.360 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:577 - Train dataset contains 113318 images.
+2025-08-10 16:47:44.370 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:577 - Train dataset contains 113318 images.
+2025-08-10 16:47:44.385 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:577 - Train dataset contains 113318 images.
+2025-08-10 16:47:44.388 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:577 - Train dataset contains 113318 images.
+2025-08-10 16:47:44.390 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:577 - Train dataset contains 113318 images.
+2025-08-10 16:47:44.404 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:577 - Train dataset contains 113318 images.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+2025-08-10 16:47:44.430 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:577 - Train dataset contains 113318 images.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+2025-08-10 16:47:44.449 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:577 - Train dataset contains 113318 images.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+2025-08-10 16:47:44.475 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:577 - Train dataset contains 113318 images.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+2025-08-10 16:47:44.502 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:577 - Train dataset contains 113318 images.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+2025-08-10 16:47:44.537 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:get_tr_and_val_datasets:577 - Train dataset contains 113318 images.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+[rank10]: Traceback (most recent call last):
+[rank10]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank10]:   File "<frozen runpy>", line 88, in _run_code
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 445, in <module>
+[rank10]:     run_training_entry()
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 427, in run_training_entry
+[rank10]:     run_training(
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 238, in run_training
+[rank10]:     run_ddp(
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 193, in run_ddp
+[rank10]:     nnunet_trainer.run_training()
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 449, in run_training
+[rank10]:     train_outputs.append(self.train_step(next(self.dataloader_train)))
+[rank10]:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/simCLR/simCLRTrainer.py", line 308, in train_step
+[rank10]:     all_crop_embeddings1 = self.network(aug1)
+[rank10]:                            ^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank10]:     return self._call_impl(*args, **kwargs)
+[rank10]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank10]:     return forward_call(*args, **kwargs)
+[rank10]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1643, in forward
+[rank10]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank10]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1459, in _run_ddp_forward
+[rank10]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank10]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank10]:     return self._call_impl(*args, **kwargs)
+[rank10]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank10]:     return forward_call(*args, **kwargs)
+[rank10]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/architectures/voco_architecture.py", line 46, in forward
+[rank10]:     flat = torch.cat([o.mean(dim=1) for o in seqs], dim=1) 
+[rank10]:                                              ^^^^
+[rank10]: NameError: name 'seqs' is not defined
+terminate called without an active exception
+[rank9]: Traceback (most recent call last):
+[rank9]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank9]:   File "<frozen runpy>", line 88, in _run_code
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 445, in <module>
+[rank9]:     run_training_entry()
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 427, in run_training_entry
+[rank9]:     run_training(
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 238, in run_training
+[rank9]:     run_ddp(
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 193, in run_ddp
+[rank9]:     nnunet_trainer.run_training()
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 449, in run_training
+[rank9]:     train_outputs.append(self.train_step(next(self.dataloader_train)))
+[rank9]:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/simCLR/simCLRTrainer.py", line 308, in train_step
+[rank9]:     all_crop_embeddings1 = self.network(aug1)
+[rank9]:                            ^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank9]:     return self._call_impl(*args, **kwargs)
+[rank9]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank9]:     return forward_call(*args, **kwargs)
+[rank9]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1643, in forward
+[rank9]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank9]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1459, in _run_ddp_forward
+[rank9]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank9]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank9]:     return self._call_impl(*args, **kwargs)
+[rank9]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank9]:     return forward_call(*args, **kwargs)
+[rank9]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/architectures/voco_architecture.py", line 46, in forward
+[rank9]:     flat = torch.cat([o.mean(dim=1) for o in seqs], dim=1) 
+[rank9]:                                              ^^^^
+[rank9]: NameError: name 'seqs' is not defined
+[rank11]: Traceback (most recent call last):
+[rank11]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank11]:   File "<frozen runpy>", line 88, in _run_code
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 445, in <module>
+[rank11]:     run_training_entry()
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 427, in run_training_entry
+[rank11]:     run_training(
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 238, in run_training
+[rank11]:     run_ddp(
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 193, in run_ddp
+[rank11]:     nnunet_trainer.run_training()
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 449, in run_training
+[rank11]:     train_outputs.append(self.train_step(next(self.dataloader_train)))
+[rank11]:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/simCLR/simCLRTrainer.py", line 308, in train_step
+[rank11]:     all_crop_embeddings1 = self.network(aug1)
+[rank11]:                            ^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank11]:     return self._call_impl(*args, **kwargs)
+[rank11]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank11]:     return forward_call(*args, **kwargs)
+[rank11]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1643, in forward
+[rank11]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank11]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1459, in _run_ddp_forward
+[rank11]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank11]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank11]:     return self._call_impl(*args, **kwargs)
+[rank11]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank11]:     return forward_call(*args, **kwargs)
+[rank11]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/architectures/voco_architecture.py", line 46, in forward
+[rank11]:     flat = torch.cat([o.mean(dim=1) for o in seqs], dim=1) 
+[rank11]:                                              ^^^^
+[rank11]: NameError: name 'seqs' is not defined
+[rank8]: Traceback (most recent call last):
+[rank8]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank8]:   File "<frozen runpy>", line 88, in _run_code
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 445, in <module>
+[rank8]:     run_training_entry()
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 427, in run_training_entry
+[rank8]:     run_training(
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 238, in run_training
+[rank8]:     run_ddp(
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 193, in run_ddp
+[rank8]:     nnunet_trainer.run_training()
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 449, in run_training
+[rank8]:     train_outputs.append(self.train_step(next(self.dataloader_train)))
+[rank8]:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/simCLR/simCLRTrainer.py", line 308, in train_step
+[rank8]:     all_crop_embeddings1 = self.network(aug1)
+[rank8]:                            ^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank8]:     return self._call_impl(*args, **kwargs)
+[rank8]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank8]:     return forward_call(*args, **kwargs)
+[rank8]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1643, in forward
+[rank8]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank8]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1459, in _run_ddp_forward
+[rank8]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank8]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank8]:     return self._call_impl(*args, **kwargs)
+[rank8]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank8]:     return forward_call(*args, **kwargs)
+[rank8]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/architectures/voco_architecture.py", line 46, in forward
+[rank8]:     flat = torch.cat([o.mean(dim=1) for o in seqs], dim=1) 
+[rank8]:                                              ^^^^
+[rank8]: NameError: name 'seqs' is not defined
+Exception in thread Thread-2 (results_loop):
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/batchgenerators/dataloading/nondet_multi_threaded_augmenter.py", line 125, in results_loop
+    raise e
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/batchgenerators/dataloading/nondet_multi_threaded_augmenter.py", line 103, in results_loop
+    raise RuntimeError("One or more background workers are no longer alive. Exiting. Please check the "
+RuntimeError: One or more background workers are no longer alive. Exiting. Please check the print statements above for the actual error message
+terminate called without an active exception
+[rank5]: Traceback (most recent call last):
+[rank5]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank5]:   File "<frozen runpy>", line 88, in _run_code
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 445, in <module>
+[rank5]:     run_training_entry()
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 427, in run_training_entry
+[rank5]:     run_training(
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 238, in run_training
+[rank5]:     run_ddp(
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 193, in run_ddp
+[rank5]:     nnunet_trainer.run_training()
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 449, in run_training
+[rank5]:     train_outputs.append(self.train_step(next(self.dataloader_train)))
+[rank5]:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/simCLR/simCLRTrainer.py", line 308, in train_step
+[rank5]:     all_crop_embeddings1 = self.network(aug1)
+[rank5]:                            ^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank5]:     return self._call_impl(*args, **kwargs)
+[rank5]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank5]:     return forward_call(*args, **kwargs)
+[rank5]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1643, in forward
+[rank5]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank5]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1459, in _run_ddp_forward
+[rank5]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank5]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank5]:     return self._call_impl(*args, **kwargs)
+[rank5]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank5]:     return forward_call(*args, **kwargs)
+[rank5]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/architectures/voco_architecture.py", line 46, in forward
+[rank5]:     flat = torch.cat([o.mean(dim=1) for o in seqs], dim=1) 
+[rank5]:                                              ^^^^
+[rank5]: NameError: name 'seqs' is not defined
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank3]:   File "<frozen runpy>", line 88, in _run_code
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 445, in <module>
+[rank3]:     run_training_entry()
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 427, in run_training_entry
+[rank3]:     run_training(
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 238, in run_training
+[rank3]:     run_ddp(
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 193, in run_ddp
+[rank3]:     nnunet_trainer.run_training()
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 449, in run_training
+[rank3]:     train_outputs.append(self.train_step(next(self.dataloader_train)))
+[rank3]:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/simCLR/simCLRTrainer.py", line 308, in train_step
+[rank3]:     all_crop_embeddings1 = self.network(aug1)
+[rank3]:                            ^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1643, in forward
+[rank3]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank3]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1459, in _run_ddp_forward
+[rank3]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/architectures/voco_architecture.py", line 46, in forward
+[rank3]:     flat = torch.cat([o.mean(dim=1) for o in seqs], dim=1) 
+[rank3]:                                              ^^^^
+[rank3]: NameError: name 'seqs' is not defined
+[rank6]: Traceback (most recent call last):
+[rank6]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank6]:   File "<frozen runpy>", line 88, in _run_code
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 445, in <module>
+[rank6]:     run_training_entry()
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 427, in run_training_entry
+[rank6]:     run_training(
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 238, in run_training
+[rank6]:     run_ddp(
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 193, in run_ddp
+[rank6]:     nnunet_trainer.run_training()
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 449, in run_training
+[rank6]:     train_outputs.append(self.train_step(next(self.dataloader_train)))
+[rank6]:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/simCLR/simCLRTrainer.py", line 308, in train_step
+[rank6]:     all_crop_embeddings1 = self.network(aug1)
+[rank6]:                            ^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank6]:     return self._call_impl(*args, **kwargs)
+[rank6]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank6]:     return forward_call(*args, **kwargs)
+[rank6]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1643, in forward
+[rank6]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank6]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1459, in _run_ddp_forward
+[rank6]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank6]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank6]:     return self._call_impl(*args, **kwargs)
+[rank6]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank6]:     return forward_call(*args, **kwargs)
+[rank6]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/architectures/voco_architecture.py", line 46, in forward
+[rank6]:     flat = torch.cat([o.mean(dim=1) for o in seqs], dim=1) 
+[rank6]:                                              ^^^^
+[rank6]: NameError: name 'seqs' is not defined
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank4]:   File "<frozen runpy>", line 88, in _run_code
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 445, in <module>
+[rank4]:     run_training_entry()
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 427, in run_training_entry
+[rank4]:     run_training(
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 238, in run_training
+[rank4]:     run_ddp(
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 193, in run_ddp
+[rank4]:     nnunet_trainer.run_training()
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 449, in run_training
+[rank4]:     train_outputs.append(self.train_step(next(self.dataloader_train)))
+[rank4]:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/simCLR/simCLRTrainer.py", line 308, in train_step
+[rank4]:     all_crop_embeddings1 = self.network(aug1)
+[rank4]:                            ^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank4]:     return self._call_impl(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank4]:     return forward_call(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1643, in forward
+[rank4]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank4]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1459, in _run_ddp_forward
+[rank4]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank4]:     return self._call_impl(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank4]:     return forward_call(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/architectures/voco_architecture.py", line 46, in forward
+[rank4]:     flat = torch.cat([o.mean(dim=1) for o in seqs], dim=1) 
+[rank4]:                                              ^^^^
+[rank4]: NameError: name 'seqs' is not defined
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank2]:   File "<frozen runpy>", line 88, in _run_code
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 445, in <module>
+[rank2]:     run_training_entry()
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 427, in run_training_entry
+[rank2]:     run_training(
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 238, in run_training
+[rank2]:     run_ddp(
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 193, in run_ddp
+[rank2]:     nnunet_trainer.run_training()
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 449, in run_training
+[rank2]:     train_outputs.append(self.train_step(next(self.dataloader_train)))
+[rank2]:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/simCLR/simCLRTrainer.py", line 308, in train_step
+[rank2]:     all_crop_embeddings1 = self.network(aug1)
+[rank2]:                            ^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1643, in forward
+[rank2]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank2]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1459, in _run_ddp_forward
+[rank2]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/architectures/voco_architecture.py", line 46, in forward
+[rank2]:     flat = torch.cat([o.mean(dim=1) for o in seqs], dim=1) 
+[rank2]:                                              ^^^^
+[rank2]: NameError: name 'seqs' is not defined
+[rank7]: Traceback (most recent call last):
+[rank7]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank7]:   File "<frozen runpy>", line 88, in _run_code
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 445, in <module>
+[rank7]:     run_training_entry()
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 427, in run_training_entry
+[rank7]:     run_training(
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 238, in run_training
+[rank7]:     run_ddp(
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 193, in run_ddp
+[rank7]:     nnunet_trainer.run_training()
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 449, in run_training
+[rank7]:     train_outputs.append(self.train_step(next(self.dataloader_train)))
+[rank7]:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/simCLR/simCLRTrainer.py", line 308, in train_step
+[rank7]:     all_crop_embeddings1 = self.network(aug1)
+[rank7]:                            ^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank7]:     return self._call_impl(*args, **kwargs)
+[rank7]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank7]:     return forward_call(*args, **kwargs)
+[rank7]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1643, in forward
+[rank7]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank7]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1459, in _run_ddp_forward
+[rank7]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank7]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank7]:     return self._call_impl(*args, **kwargs)
+[rank7]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank7]:     return forward_call(*args, **kwargs)
+[rank7]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/architectures/voco_architecture.py", line 46, in forward
+[rank7]:     flat = torch.cat([o.mean(dim=1) for o in seqs], dim=1) 
+[rank7]:                                              ^^^^
+[rank7]: NameError: name 'seqs' is not defined
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank0]:   File "<frozen runpy>", line 88, in _run_code
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 445, in <module>
+[rank0]:     run_training_entry()
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 427, in run_training_entry
+[rank0]:     run_training(
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 238, in run_training
+[rank0]:     run_ddp(
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 193, in run_ddp
+[rank0]:     nnunet_trainer.run_training()
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 449, in run_training
+[rank0]:     train_outputs.append(self.train_step(next(self.dataloader_train)))
+[rank0]:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/simCLR/simCLRTrainer.py", line 308, in train_step
+[rank0]:     all_crop_embeddings1 = self.network(aug1)
+[rank0]:                            ^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1643, in forward
+[rank0]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank0]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1459, in _run_ddp_forward
+[rank0]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/architectures/voco_architecture.py", line 46, in forward
+[rank0]:     flat = torch.cat([o.mean(dim=1) for o in seqs], dim=1) 
+[rank0]:                                              ^^^^
+[rank0]: NameError: name 'seqs' is not defined
+Exception in thread Thread-2 (results_loop):
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/batchgenerators/dataloading/nondet_multi_threaded_augmenter.py", line 125, in results_loop
+    raise e
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/batchgenerators/dataloading/nondet_multi_threaded_augmenter.py", line 103, in results_loop
+    raise RuntimeError("One or more background workers are no longer alive. Exiting. Please check the "
+RuntimeError: One or more background workers are no longer alive. Exiting. Please check the print statements above for the actual error message
+terminate called without an active exception
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank1]:   File "<frozen runpy>", line 88, in _run_code
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 445, in <module>
+[rank1]:     run_training_entry()
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 427, in run_training_entry
+[rank1]:     run_training(
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 238, in run_training
+[rank1]:     run_ddp(
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 193, in run_ddp
+[rank1]:     nnunet_trainer.run_training()
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 449, in run_training
+[rank1]:     train_outputs.append(self.train_step(next(self.dataloader_train)))
+[rank1]:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/simCLR/simCLRTrainer.py", line 308, in train_step
+[rank1]:     all_crop_embeddings1 = self.network(aug1)
+[rank1]:                            ^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1643, in forward
+[rank1]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank1]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1459, in _run_ddp_forward
+[rank1]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/architectures/voco_architecture.py", line 46, in forward
+[rank1]:     flat = torch.cat([o.mean(dim=1) for o in seqs], dim=1) 
+[rank1]:                                              ^^^^
+[rank1]: NameError: name 'seqs' is not defined
+W0810 16:48:27.978000 1497729 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1497745 closing signal SIGTERM
+W0810 16:48:27.980000 1497729 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1497746 closing signal SIGTERM
+W0810 16:48:27.982000 1497729 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1497747 closing signal SIGTERM
+W0810 16:48:30.096000 1746025 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1746045 closing signal SIGTERM
+W0810 16:48:30.098000 1746025 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1746046 closing signal SIGTERM
+W0810 16:48:30.100000 1746025 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1746047 closing signal SIGTERM
+W0810 16:48:30.600000 1607696 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1607727 closing signal SIGTERM
+W0810 16:48:30.602000 1607696 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1607728 closing signal SIGTERM
+W0810 16:48:30.604000 1607696 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1607729 closing signal SIGTERM
+E0810 16:48:30.970000 1607696 torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 3 (pid: 1607730) of binary: /home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/python3
+Traceback (most recent call last):
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+nnssl.run.run_training FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-08-10_16:48:30
+  host      : tg10908.tamia.ecpia.ca
+  rank      : 7 (local_rank: 3)
+  exitcode  : 1 (pid: 1607730)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+srun: error: tg10908: task 1: Exited with exit code 1
+srun: Terminating StepId=65248.0
+slurmstepd: error: *** STEP 65248.0 ON tg10907 CANCELLED AT 2025-08-10T20:48:31 ***
+W0810 16:48:31.870000 1746025 torch/distributed/elastic/agent/server/api.py:704] Received 15 death signal, shutting down workers
+W0810 16:48:31.870000 1497729 torch/distributed/elastic/agent/server/api.py:704] Received 15 death signal, shutting down workers
+W0810 16:48:31.872000 1746025 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1746047 closing signal SIGTERM
+W0810 16:48:31.872000 1497729 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1497745 closing signal SIGTERM
+W0810 16:48:31.873000 1497729 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1497747 closing signal SIGTERM
+srun: error: tg10907: task 0: Killed
+srun: error: tg11104: task 2: Killed
+srun: Force Terminated StepId=65248.0

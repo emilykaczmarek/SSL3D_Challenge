@@ -1,0 +1,2693 @@
+Node=tg11201.tamia.ecpia.ca, SLURM_NODEID=0
+Node=tg11205.tamia.ecpia.ca, SLURM_NODEID=2
+Node=tg11202.tamia.ecpia.ca, SLURM_NODEID=1
+Using torchrun: rank=10, world_size=12, local_rank=2
+Using torchrun: rank=9, world_size=12, local_rank=1
+Using torchrun: rank=8, world_size=12, local_rank=0
+Using torchrun: rank=11, world_size=12, local_rank=3
+Using torchrun: rank=5, world_size=12, local_rank=1Using torchrun: rank=6, world_size=12, local_rank=2
+
+Using torchrun: rank=7, world_size=12, local_rank=3
+Using torchrun: rank=4, world_size=12, local_rank=0
+Using torchrun: rank=3, world_size=12, local_rank=3
+Using torchrun: rank=1, world_size=12, local_rank=1
+Using torchrun: rank=2, world_size=12, local_rank=2
+Using torchrun: rank=0, world_size=12, local_rank=0
+I am global rank 11, local rank 3. 4 GPUs are available. The world size is 12. Setting device to cuda:3
+I am global rank 10, local rank 2. 4 GPUs are available. The world size is 12. Setting device to cuda:2
+I am global rank 8, local rank 0. 4 GPUs are available. The world size is 12. Setting device to cuda:0
+I am global rank 9, local rank 1. 4 GPUs are available. The world size is 12. Setting device to cuda:1
+I am global rank 5, local rank 1. 4 GPUs are available. The world size is 12. Setting device to cuda:1
+I am global rank 4, local rank 0. 4 GPUs are available. The world size is 12. Setting device to cuda:0
+I am global rank 6, local rank 2. 4 GPUs are available. The world size is 12. Setting device to cuda:2
+I am global rank 7, local rank 3. 4 GPUs are available. The world size is 12. Setting device to cuda:3
+I am global rank 0, local rank 0. 4 GPUs are available. The world size is 12. Setting device to cuda:0
+I am global rank 1, local rank 1. 4 GPUs are available. The world size is 12. Setting device to cuda:1
+I am global rank 2, local rank 2. 4 GPUs are available. The world size is 12. Setting device to cuda:2
+I am global rank 3, local rank 3. 4 GPUs are available. The world size is 12. Setting device to cuda:3
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+
+This is the configuration used by this training:
+Configuration name: onemmiso
+ {'data_identifier': 'nnsslPlans_onemmiso', 'preprocessor_name': 'DefaultPreprocessor', 'spacing_style': 'onemmiso', 'normalization_schemes': ['ZScoreNormalization'], 'use_mask_for_norm': [False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_mask': 'resample_data_or_seg_to_shape', 'resampling_fn_mask_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'spacing': [1, 1, 1], 'patch_size': (192, 192, 64)} 
+
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset745_OpenMind', 'plans_name': 'nnsslPlans', 'original_median_spacing_after_transp': [1.1979166269302368, 1.0, 1.0], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner'} 
+
+
+This is the configuration used by this training:
+Configuration name: onemmiso
+ {'data_identifier': 'nnsslPlans_onemmiso', 'preprocessor_name': 'DefaultPreprocessor', 'spacing_style': 'onemmiso', 'normalization_schemes': ['ZScoreNormalization'], 'use_mask_for_norm': [False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_mask': 'resample_data_or_seg_to_shape', 'resampling_fn_mask_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'spacing': [1, 1, 1], 'patch_size': (192, 192, 64)} 
+
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset745_OpenMind', 'plans_name': 'nnsslPlans', 'original_median_spacing_after_transp': [1.1979166269302368, 1.0, 1.0], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner'} 
+
+
+This is the configuration used by this training:
+Configuration name: onemmiso
+ {'data_identifier': 'nnsslPlans_onemmiso', 'preprocessor_name': 'DefaultPreprocessor', 'spacing_style': 'onemmiso', 'normalization_schemes': ['ZScoreNormalization'], 'use_mask_for_norm': [False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_mask': 'resample_data_or_seg_to_shape', 'resampling_fn_mask_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'spacing': [1, 1, 1], 'patch_size': (192, 192, 64)} 
+
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset745_OpenMind', 'plans_name': 'nnsslPlans', 'original_median_spacing_after_transp': [1.1979166269302368, 1.0, 1.0], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner'} 
+
+2025-08-03 16:41:50.160453: 
+2025-08-03 16:41:50.162927: Epoch 189
+2025-08-03 16:41:50.163562: Current learning rate: 0.00828
+2025-08-03 16:41:50.186668: 
+2025-08-03 16:41:50.188299: Epoch 189
+2025-08-03 16:41:50.188840: Current learning rate: 0.00828
+2025-08-03 16:41:50.279204: 
+2025-08-03 16:41:50.280884: Epoch 189
+2025-08-03 16:41:50.281488: Current learning rate: 0.00828
+using pin_memory on device 1
+using pin_memory on device 1
+using pin_memory on device 1
+using pin_memory on device 3
+using pin_memory on device 2
+using pin_memory on device 2
+using pin_memory on device 0
+using pin_memory on device 3
+using pin_memory on device 2
+using pin_memory on device 0
+using pin_memory on device 0
+using pin_memory on device 3
+2025-08-03 16:49:47.594423: train_loss 5.4749
+2025-08-03 16:49:47.594033: train_loss 5.4749
+2025-08-03 16:49:47.598083: Epoch time: 477.32 s
+2025-08-03 16:49:47.601022: train_loss 5.4749
+2025-08-03 16:49:47.603640: Epoch time: 477.41 s
+2025-08-03 16:49:47.599894: Epoch time: 477.43 s
+2025-08-03 16:49:52.205760: 
+2025-08-03 16:49:52.208264: Epoch 190
+2025-08-03 16:49:52.209357: Current learning rate: 0.00827
+2025-08-03 16:49:53.657744: 
+2025-08-03 16:49:53.659840: Epoch 190
+2025-08-03 16:49:53.660529: Current learning rate: 0.00827
+2025-08-03 16:49:53.690584: 
+2025-08-03 16:49:53.692875: Epoch 190
+2025-08-03 16:49:53.693742: Current learning rate: 0.00827
+NaN values found in embeddings!
+2025-08-03 16:57:11.089897: train_loss nan
+2025-08-03 16:57:11.095998: train_loss nan
+2025-08-03 16:57:11.099421: train_loss nan
+2025-08-03 16:57:11.096860: Epoch time: 438.89 s
+2025-08-03 16:57:11.098326: Epoch time: 437.41 s
+2025-08-03 16:57:11.103310: Epoch time: 437.44 s
+2025-08-03 16:57:16.143971: 
+2025-08-03 16:57:16.146437: Epoch 191
+2025-08-03 16:57:16.147177: Current learning rate: 0.00826
+2025-08-03 16:57:17.313334: 
+2025-08-03 16:57:17.315157: Epoch 191
+2025-08-03 16:57:17.315868: Current learning rate: 0.00826
+2025-08-03 16:57:17.449737: 
+2025-08-03 16:57:17.451390: Epoch 191
+2025-08-03 16:57:17.451966: Current learning rate: 0.00826
+NaN values found in embeddings!
+2025-08-03 17:04:29.917537: train_loss nan
+2025-08-03 17:04:29.921523: Epoch time: 432.61 s
+2025-08-03 17:04:29.921800: train_loss nan
+2025-08-03 17:04:29.923254: train_loss nan
+2025-08-03 17:04:29.931852: Epoch time: 433.78 s
+2025-08-03 17:04:29.931117: Epoch time: 432.47 s
+2025-08-03 17:04:33.870088: 
+2025-08-03 17:04:33.872675: Epoch 192
+2025-08-03 17:04:33.873814: Current learning rate: 0.00825
+2025-08-03 17:04:34.691965: 
+2025-08-03 17:04:34.697147: Epoch 192
+2025-08-03 17:04:34.697794: Current learning rate: 0.00825
+2025-08-03 17:04:35.215813: 
+2025-08-03 17:04:35.217981: Epoch 192
+2025-08-03 17:04:35.218628: Current learning rate: 0.00825
+NaN values found in embeddings!
+2025-08-03 17:11:56.436932: train_loss nan
+2025-08-03 17:11:56.441206: train_loss nan
+2025-08-03 17:11:56.441940: Epoch time: 442.57 s
+2025-08-03 17:11:56.439529: train_loss nan
+2025-08-03 17:11:56.443830: Epoch time: 441.23 s
+2025-08-03 17:11:56.445041: Epoch time: 441.75 s
+2025-08-03 17:12:01.529562: 
+2025-08-03 17:12:01.529953: Epoch 193
+2025-08-03 17:12:01.530586: Current learning rate: 0.00824
+2025-08-03 17:12:02.150113: 
+2025-08-03 17:12:02.152308: Epoch 193
+2025-08-03 17:12:02.153088: Current learning rate: 0.00824
+2025-08-03 17:12:02.472761: 
+2025-08-03 17:12:02.474740: Epoch 193
+2025-08-03 17:12:02.475879: Current learning rate: 0.00824
+2025-08-03 17:19:19.680421: train_loss 5.4749
+2025-08-03 17:19:19.682004: Epoch time: 437.21 s
+2025-08-03 17:19:19.683997: train_loss 5.4749
+2025-08-03 17:19:19.684245: train_loss 5.4749
+2025-08-03 17:19:19.691353: Epoch time: 437.53 s
+2025-08-03 17:19:19.690098: Epoch time: 438.16 s
+2025-08-03 17:19:25.392809: 
+2025-08-03 17:19:25.395221: Epoch 194
+2025-08-03 17:19:25.395875: Current learning rate: 0.00824
+2025-08-03 17:19:27.571060: 
+2025-08-03 17:19:27.572928: Epoch 194
+2025-08-03 17:19:27.573579: Current learning rate: 0.00824
+2025-08-03 17:19:27.587505: 
+2025-08-03 17:19:27.589297: Epoch 194
+2025-08-03 17:19:27.589933: Current learning rate: 0.00824
+2025-08-03 17:26:44.766997: train_loss 5.4749
+2025-08-03 17:26:44.768303: Epoch time: 437.18 s
+2025-08-03 17:26:44.770656: train_loss 5.4749
+2025-08-03 17:26:44.765508: train_loss 5.4749
+2025-08-03 17:26:44.775541: Epoch time: 437.2 s
+2025-08-03 17:26:44.773653: Epoch time: 439.38 s
+2025-08-03 17:26:48.979727: 
+2025-08-03 17:26:48.991320: Epoch 195
+2025-08-03 17:26:48.995553: Current learning rate: 0.00823
+2025-08-03 17:26:52.668808: 
+2025-08-03 17:26:52.671020: Epoch 195
+2025-08-03 17:26:52.671672: Current learning rate: 0.00823
+2025-08-03 17:26:52.746740: 
+2025-08-03 17:26:52.748810: Epoch 195
+2025-08-03 17:26:52.749538: Current learning rate: 0.00823
+2025-08-03 17:34:11.117160: train_loss 5.4748
+2025-08-03 17:34:11.117681: train_loss 5.4748
+2025-08-03 17:34:11.121867: Epoch time: 438.45 s
+2025-08-03 17:34:11.121965: train_loss 5.4748
+2025-08-03 17:34:11.125417: Epoch time: 438.37 s
+2025-08-03 17:34:11.120078: Epoch time: 442.14 s
+2025-08-03 17:34:16.355379: 
+2025-08-03 17:34:16.356306: Epoch 196
+2025-08-03 17:34:16.357042: Current learning rate: 0.00822
+2025-08-03 17:34:19.670022: 
+2025-08-03 17:34:19.671958: Epoch 196
+2025-08-03 17:34:19.672601: Current learning rate: 0.00822
+2025-08-03 17:34:19.707044: 
+2025-08-03 17:34:19.708719: Epoch 196
+2025-08-03 17:34:19.709307: Current learning rate: 0.00822
+NaN values found in embeddings!
+2025-08-03 17:41:48.331798: train_loss nan
+2025-08-03 17:41:48.330135: train_loss nan
+2025-08-03 17:41:48.331924: train_loss nan
+2025-08-03 17:41:48.333078: Epoch time: 448.66 s
+2025-08-03 17:41:48.335156: Epoch time: 448.62 s
+2025-08-03 17:41:48.336080: Epoch time: 451.98 s
+2025-08-03 17:41:52.482588: 
+2025-08-03 17:41:52.484758: Epoch 197
+2025-08-03 17:41:52.485706: Current learning rate: 0.00821
+2025-08-03 17:41:53.944778: 
+2025-08-03 17:41:53.946612: Epoch 197
+2025-08-03 17:41:53.947374: Current learning rate: 0.00821
+2025-08-03 17:41:54.037826: 
+2025-08-03 17:41:54.039768: Epoch 197
+2025-08-03 17:41:54.040501: Current learning rate: 0.00821
+NaN values found in embeddings!
+2025-08-03 17:49:17.948774: train_loss nan
+2025-08-03 17:49:17.953286: Epoch time: 444.01 s
+2025-08-03 17:49:17.953955: train_loss nan
+2025-08-03 17:49:17.955708: train_loss nan
+2025-08-03 17:49:17.961364: Epoch time: 445.47 s
+2025-08-03 17:49:17.962284: Epoch time: 443.92 s
+2025-08-03 17:49:22.344023: 
+2025-08-03 17:49:22.346520: Epoch 198
+2025-08-03 17:49:22.347593: Current learning rate: 0.0082
+2025-08-03 17:49:23.901243: 
+2025-08-03 17:49:23.903168: Epoch 198
+2025-08-03 17:49:23.903859: Current learning rate: 0.0082
+2025-08-03 17:49:24.006356: 
+2025-08-03 17:49:24.008015: Epoch 198
+2025-08-03 17:49:24.008674: Current learning rate: 0.0082
+2025-08-03 17:56:49.717439: train_loss 5.4749
+2025-08-03 17:56:49.724171: Epoch time: 445.71 s
+2025-08-03 17:56:49.724143: train_loss 5.4749
+2025-08-03 17:56:49.723359: train_loss 5.4749
+2025-08-03 17:56:49.728407: Epoch time: 445.82 s
+2025-08-03 17:56:49.730146: Epoch time: 447.38 s
+2025-08-03 17:56:55.157451: 
+2025-08-03 17:56:55.158281: Epoch 199
+2025-08-03 17:56:55.159052: Current learning rate: 0.00819
+2025-08-03 17:56:55.457465: 
+2025-08-03 17:56:55.460001: Epoch 199
+2025-08-03 17:56:55.460978: Current learning rate: 0.00819
+2025-08-03 17:56:56.605771: 
+2025-08-03 17:56:56.608062: Epoch 199
+2025-08-03 17:56:56.608862: Current learning rate: 0.00819
+2025-08-03 18:04:18.852690: train_loss 5.4749
+2025-08-03 18:04:18.854095: Epoch time: 443.4 s
+2025-08-03 18:04:18.855791: train_loss 5.4749
+2025-08-03 18:04:18.858974: train_loss 5.4749
+2025-08-03 18:04:18.862277: Epoch time: 442.25 s
+2025-08-03 18:04:18.860918: Epoch time: 443.7 s
+2025-08-03 18:04:22.667433: Saving checkpoint at epoch 200...
+2025-08-03 18:04:24.392802: Saving checkpoint at epoch 200...
+2025-08-03 18:04:24.397304: Saving checkpoint at epoch 200...
+2025-08-03 18:04:26.633692: 
+2025-08-03 18:04:26.636693: Epoch 200
+2025-08-03 18:04:26.639159: Current learning rate: 0.00818
+2025-08-03 18:04:28.706653: 
+2025-08-03 18:04:28.709709: Epoch 200
+2025-08-03 18:04:28.712752: Current learning rate: 0.00818
+2025-08-03 18:04:29.169606: 
+2025-08-03 18:04:29.172391: Epoch 200
+2025-08-03 18:04:29.173353: Current learning rate: 0.00818
+2025-08-03 18:11:49.421957: train_loss 5.4748
+2025-08-03 18:11:49.421938: train_loss 5.4748
+2025-08-03 18:11:49.423494: Epoch time: 440.25 s
+2025-08-03 18:11:49.425116: Epoch time: 442.79 s
+2025-08-03 18:11:49.421470: train_loss 5.4748
+2025-08-03 18:11:49.429415: Epoch time: 440.72 s
+2025-08-03 18:11:54.530367: 
+2025-08-03 18:11:54.533718: Epoch 201
+2025-08-03 18:11:54.545876: Current learning rate: 0.00817
+2025-08-03 18:11:55.849167: 
+2025-08-03 18:11:55.851687: Epoch 201
+2025-08-03 18:11:55.853288: Current learning rate: 0.00817
+2025-08-03 18:11:55.986197: 
+2025-08-03 18:11:55.988810: Epoch 201
+2025-08-03 18:11:55.989792: Current learning rate: 0.00817
+2025-08-03 18:19:23.481871: train_loss 5.4749
+2025-08-03 18:19:23.484395: Epoch time: 447.63 s
+2025-08-03 18:19:23.484993: train_loss 5.4749
+2025-08-03 18:19:23.490261: Epoch time: 448.96 s
+2025-08-03 18:19:23.490874: train_loss 5.4749
+2025-08-03 18:19:23.497619: Epoch time: 447.5 s
+2025-08-03 18:19:28.389944: 
+2025-08-03 18:19:28.393599: Epoch 202
+2025-08-03 18:19:28.396053: Current learning rate: 0.00816
+2025-08-03 18:19:28.810247: 
+2025-08-03 18:19:28.812333: Epoch 202
+2025-08-03 18:19:28.813278: Current learning rate: 0.00816
+2025-08-03 18:19:29.385539: 
+2025-08-03 18:19:29.388332: Epoch 202
+2025-08-03 18:19:29.389019: Current learning rate: 0.00816
+NaN values found in embeddings!
+2025-08-03 18:26:57.362180: train_loss nan
+2025-08-03 18:26:57.364442: Epoch time: 447.98 s
+2025-08-03 18:26:57.366934: train_loss nan
+2025-08-03 18:26:57.371527: Epoch time: 448.98 s
+2025-08-03 18:26:57.368483: train_loss nan
+2025-08-03 18:26:57.379028: Epoch time: 448.56 s
+2025-08-03 18:27:02.016276: 
+2025-08-03 18:27:02.019902: Epoch 203
+2025-08-03 18:27:02.021124: Current learning rate: 0.00815
+2025-08-03 18:27:03.265716: 
+2025-08-03 18:27:03.267885: Epoch 203
+2025-08-03 18:27:03.269052: Current learning rate: 0.00815
+2025-08-03 18:27:03.567497: 
+2025-08-03 18:27:03.570017: Epoch 203
+2025-08-03 18:27:03.570650: Current learning rate: 0.00815
+2025-08-03 18:34:30.389825: train_loss 5.4749
+2025-08-03 18:34:30.390617: train_loss 5.4749
+2025-08-03 18:34:30.396055: Epoch time: 448.37 s
+2025-08-03 18:34:30.397758: Epoch time: 447.13 s
+2025-08-03 18:34:30.398964: train_loss 5.4749
+2025-08-03 18:34:30.405447: Epoch time: 446.83 s
+2025-08-03 18:34:34.527470: 
+2025-08-03 18:34:34.529677: Epoch 204
+2025-08-03 18:34:34.530350: Current learning rate: 0.00814
+2025-08-03 18:34:34.802593: 
+2025-08-03 18:34:34.805167: Epoch 204
+2025-08-03 18:34:34.805836: Current learning rate: 0.00814
+2025-08-03 18:34:35.947056: 
+2025-08-03 18:34:35.949382: Epoch 204
+2025-08-03 18:34:35.950024: Current learning rate: 0.00814
+2025-08-03 18:41:58.413073: train_loss 5.4748
+2025-08-03 18:41:58.414599: Epoch time: 442.47 s
+2025-08-03 18:41:58.416152: train_loss 5.4748
+2025-08-03 18:41:58.419224: Epoch time: 443.61 s
+2025-08-03 18:41:58.412305: train_loss 5.4748
+2025-08-03 18:41:58.424820: Epoch time: 443.88 s
+2025-08-03 18:42:03.003951: 
+2025-08-03 18:42:03.005922: Epoch 205
+2025-08-03 18:42:03.006543: Current learning rate: 0.00813
+2025-08-03 18:42:03.377219: 
+2025-08-03 18:42:03.380219: Epoch 205
+2025-08-03 18:42:03.381116: Current learning rate: 0.00813
+2025-08-03 18:42:04.437707: 
+2025-08-03 18:42:04.440004: Epoch 205
+2025-08-03 18:42:04.440958: Current learning rate: 0.00813
+2025-08-03 18:49:19.728188: train_loss 5.4748
+2025-08-03 18:49:19.727940: train_loss 5.4748
+2025-08-03 18:49:19.728172: train_loss 5.4748
+2025-08-03 18:49:19.733155: Epoch time: 436.73 s
+2025-08-03 18:49:19.735162: Epoch time: 435.29 s
+2025-08-03 18:49:19.736276: Epoch time: 436.35 s
+2025-08-03 18:49:24.405034: 
+2025-08-03 18:49:24.406388: Epoch 206
+2025-08-03 18:49:24.408282: Current learning rate: 0.00813
+2025-08-03 18:49:25.289025: 
+2025-08-03 18:49:25.291287: Epoch 206
+2025-08-03 18:49:25.291885: Current learning rate: 0.00813
+2025-08-03 18:49:25.586110: 
+2025-08-03 18:49:25.589432: Epoch 206
+2025-08-03 18:49:25.590362: Current learning rate: 0.00813
+NaN values found in embeddings!
+2025-08-03 18:56:50.168046: train_loss nan
+2025-08-03 18:56:50.169993: train_loss nan
+2025-08-03 18:56:50.171158: Epoch time: 444.59 s
+2025-08-03 18:56:50.170924: train_loss nan
+2025-08-03 18:56:50.174288: Epoch time: 444.88 s
+2025-08-03 18:56:50.172338: Epoch time: 445.76 s
+2025-08-03 18:56:55.332899: 
+2025-08-03 18:56:55.341086: Epoch 207
+2025-08-03 18:56:55.341753: Current learning rate: 0.00812
+2025-08-03 18:56:57.696401: 
+2025-08-03 18:56:57.699525: Epoch 207
+2025-08-03 18:56:57.700175: Current learning rate: 0.00812
+2025-08-03 18:56:58.899996: 
+2025-08-03 18:56:58.902486: Epoch 207
+2025-08-03 18:56:58.904601: Current learning rate: 0.00812
+2025-08-03 19:04:24.955812: train_loss 5.4749
+2025-08-03 19:04:24.959122: Epoch time: 446.06 s
+2025-08-03 19:04:24.959671: train_loss 5.4749
+2025-08-03 19:04:24.960027: train_loss 5.4749
+2025-08-03 19:04:24.969288: Epoch time: 447.26 s
+2025-08-03 19:04:24.970491: Epoch time: 449.63 s
+2025-08-03 19:04:28.676169: 
+2025-08-03 19:04:28.678157: Epoch 208
+2025-08-03 19:04:28.678858: Current learning rate: 0.00811
+2025-08-03 19:04:29.371547: 
+2025-08-03 19:04:29.374670: Epoch 208
+2025-08-03 19:04:29.375435: Current learning rate: 0.00811
+2025-08-03 19:04:30.401337: 
+2025-08-03 19:04:30.403704: Epoch 208
+2025-08-03 19:04:30.405328: Current learning rate: 0.00811
+2025-08-03 19:11:52.668522: train_loss 5.4748
+2025-08-03 19:11:52.666879: train_loss 5.4748
+2025-08-03 19:11:52.669680: train_loss 5.4748
+2025-08-03 19:11:52.671611: Epoch time: 443.99 s
+2025-08-03 19:11:52.679330: Epoch time: 443.3 s
+2025-08-03 19:11:52.681024: Epoch time: 442.27 s
+2025-08-03 19:11:57.515079: 
+2025-08-03 19:11:57.518611: Epoch 209
+2025-08-03 19:11:57.520417: Current learning rate: 0.0081
+2025-08-03 19:11:57.955585: 
+2025-08-03 19:11:57.957777: Epoch 209
+2025-08-03 19:11:57.958715: Current learning rate: 0.0081
+2025-08-03 19:11:58.216447: 
+2025-08-03 19:11:58.219719: Epoch 209
+2025-08-03 19:11:58.220344: Current learning rate: 0.0081
+2025-08-03 19:19:25.764919: train_loss 5.4748
+2025-08-03 19:19:25.762703: train_loss 5.4748
+2025-08-03 19:19:25.770814: Epoch time: 447.81 s
+2025-08-03 19:19:25.769179: Epoch time: 447.55 s
+2025-08-03 19:19:25.766998: train_loss 5.4748
+2025-08-03 19:19:25.775035: Epoch time: 448.25 s
+2025-08-03 19:19:30.265607: 
+2025-08-03 19:19:30.268396: Epoch 210
+2025-08-03 19:19:30.280033: Current learning rate: 0.00809
+2025-08-03 19:19:31.240990: 
+2025-08-03 19:19:31.244657: Epoch 210
+2025-08-03 19:19:31.245482: Current learning rate: 0.00809
+2025-08-03 19:19:31.385223: 
+2025-08-03 19:19:31.387988: Epoch 210
+2025-08-03 19:19:31.388675: Current learning rate: 0.00809
+2025-08-03 19:26:59.285885: train_loss 5.4748
+2025-08-03 19:26:59.287041: Epoch time: 447.9 s
+2025-08-03 19:26:59.285852: train_loss 5.4748
+2025-08-03 19:26:59.286073: train_loss 5.4748
+2025-08-03 19:26:59.294489: Epoch time: 449.02 s
+2025-08-03 19:26:59.295767: Epoch time: 448.05 s
+2025-08-03 19:27:03.911162: 
+2025-08-03 19:27:03.912783: Epoch 211
+2025-08-03 19:27:03.922386: Current learning rate: 0.00808
+2025-08-03 19:27:04.503286: 
+2025-08-03 19:27:04.505580: Epoch 211
+2025-08-03 19:27:04.506201: Current learning rate: 0.00808
+2025-08-03 19:27:04.646469: 
+2025-08-03 19:27:04.648870: Epoch 211
+2025-08-03 19:27:04.649987: Current learning rate: 0.00808
+2025-08-03 19:34:25.479696: train_loss 5.4748
+2025-08-03 19:34:25.483191: Epoch time: 441.57 s
+2025-08-03 19:34:25.481083: train_loss 5.4748
+2025-08-03 19:34:25.480966: train_loss 5.4748
+2025-08-03 19:34:25.491261: Epoch time: 440.84 s
+2025-08-03 19:34:25.492070: Epoch time: 440.97 s
+2025-08-03 19:34:30.471098: 
+2025-08-03 19:34:30.471514: Epoch 212
+2025-08-03 19:34:30.472204: Current learning rate: 0.00807
+2025-08-03 19:34:30.668920: 
+2025-08-03 19:34:30.671029: Epoch 212
+2025-08-03 19:34:30.671698: Current learning rate: 0.00807
+2025-08-03 19:34:31.762006: 
+2025-08-03 19:34:31.765407: Epoch 212
+2025-08-03 19:34:31.766066: Current learning rate: 0.00807
+2025-08-03 19:41:57.803824: train_loss 5.4748
+2025-08-03 19:41:57.805727: Epoch time: 446.04 s
+2025-08-03 19:41:57.807055: train_loss 5.4748
+2025-08-03 19:41:57.811037: Epoch time: 447.34 s
+2025-08-03 19:41:57.812004: train_loss 5.4748
+2025-08-03 19:41:57.814566: Epoch time: 447.14 s
+2025-08-03 19:42:01.425067: 
+2025-08-03 19:42:01.427879: Epoch 213
+2025-08-03 19:42:01.436826: Current learning rate: 0.00806
+2025-08-03 19:42:03.192166: 
+2025-08-03 19:42:03.194448: Epoch 213
+2025-08-03 19:42:03.195333: Current learning rate: 0.00806
+2025-08-03 19:42:03.198337: 
+2025-08-03 19:42:03.200077: Epoch 213
+2025-08-03 19:42:03.200714: Current learning rate: 0.00806
+2025-08-03 19:49:19.639818: train_loss 5.4748
+2025-08-03 19:49:19.642429: train_loss 5.4748
+2025-08-03 19:49:19.645696: Epoch time: 438.22 s
+2025-08-03 19:49:19.646650: Epoch time: 436.45 s
+2025-08-03 19:49:19.647285: train_loss 5.4748
+2025-08-03 19:49:19.653859: Epoch time: 436.45 s
+2025-08-03 19:49:25.472083: 
+2025-08-03 19:49:25.472572: Epoch 214
+2025-08-03 19:49:25.473221: Current learning rate: 0.00805
+2025-08-03 19:49:27.649796: 
+2025-08-03 19:49:27.651692: Epoch 214
+2025-08-03 19:49:27.652566: Current learning rate: 0.00805
+2025-08-03 19:49:27.750656: 
+2025-08-03 19:49:27.752702: Epoch 214
+2025-08-03 19:49:27.753917: Current learning rate: 0.00805
+2025-08-03 19:56:56.350331: train_loss 5.4748
+2025-08-03 19:56:56.353703: Epoch time: 450.88 s
+2025-08-03 19:56:56.351603: train_loss 5.4748
+2025-08-03 19:56:56.358199: Epoch time: 448.6 s
+2025-08-03 19:56:56.362332: train_loss 5.4748
+2025-08-03 19:56:56.365824: Epoch time: 448.71 s
+2025-08-03 19:57:00.322158: 
+2025-08-03 19:57:00.325964: Epoch 215
+2025-08-03 19:57:00.337198: Current learning rate: 0.00804
+2025-08-03 19:57:00.860634: 
+2025-08-03 19:57:00.864240: Epoch 215
+2025-08-03 19:57:00.865080: Current learning rate: 0.00804
+2025-08-03 19:57:02.073203: 
+2025-08-03 19:57:02.076554: Epoch 215
+2025-08-03 19:57:02.079566: Current learning rate: 0.00804
+2025-08-03 20:04:20.009845: train_loss 5.4749
+2025-08-03 20:04:20.008532: train_loss 5.4749
+2025-08-03 20:04:20.013920: Epoch time: 439.15 s
+2025-08-03 20:04:20.014214: Epoch time: 439.69 s
+2025-08-03 20:04:20.015073: train_loss 5.4749
+2025-08-03 20:04:20.020782: Epoch time: 437.94 s
+2025-08-03 20:04:24.101650: 
+2025-08-03 20:04:24.105576: Epoch 216
+2025-08-03 20:04:24.107708: Current learning rate: 0.00803
+2025-08-03 20:04:24.935724: 
+2025-08-03 20:04:24.937624: Epoch 216
+2025-08-03 20:04:24.938291: Current learning rate: 0.00803
+2025-08-03 20:04:25.128056: 
+2025-08-03 20:04:25.130080: Epoch 216
+2025-08-03 20:04:25.130769: Current learning rate: 0.00803
+2025-08-03 20:11:53.652043: train_loss 5.4748
+2025-08-03 20:11:53.652966: train_loss 5.4748
+2025-08-03 20:11:53.656579: Epoch time: 448.72 s
+2025-08-03 20:11:53.653665: Epoch time: 448.53 s
+2025-08-03 20:11:53.659026: train_loss 5.4748
+2025-08-03 20:11:53.660817: Epoch time: 449.56 s
+2025-08-03 20:11:58.940160: 
+2025-08-03 20:11:58.943959: Epoch 217
+2025-08-03 20:11:58.952733: Current learning rate: 0.00802
+2025-08-03 20:12:00.135362: 
+2025-08-03 20:12:00.138724: Epoch 217
+2025-08-03 20:12:00.141001: Current learning rate: 0.00802
+2025-08-03 20:12:00.338930: 
+2025-08-03 20:12:00.342230: Epoch 217
+2025-08-03 20:12:00.342871: Current learning rate: 0.00802
+2025-08-03 20:19:24.322496: train_loss 5.4749
+2025-08-03 20:19:24.321555: train_loss 5.4749
+2025-08-03 20:19:24.322679: train_loss 5.4749
+2025-08-03 20:19:24.329973: Epoch time: 443.98 s
+2025-08-03 20:19:24.329088: Epoch time: 444.19 s
+2025-08-03 20:19:24.326501: Epoch time: 445.38 s
+2025-08-03 20:19:28.668744: 
+2025-08-03 20:19:28.670468: Epoch 218
+2025-08-03 20:19:28.672345: Current learning rate: 0.00801
+2025-08-03 20:19:30.306711: 
+2025-08-03 20:19:30.308796: Epoch 218
+2025-08-03 20:19:30.310097: Current learning rate: 0.00801
+2025-08-03 20:19:32.307811: 
+2025-08-03 20:19:32.310062: Epoch 218
+2025-08-03 20:19:32.312867: Current learning rate: 0.00801
+2025-08-03 20:26:55.893776: train_loss 5.4749
+2025-08-03 20:26:55.894187: train_loss 5.4749
+2025-08-03 20:26:55.898603: Epoch time: 443.59 s
+2025-08-03 20:26:55.896556: Epoch time: 447.23 s
+2025-08-03 20:26:55.902077: train_loss 5.4749
+2025-08-03 20:26:55.911527: Epoch time: 445.6 s
+2025-08-03 20:27:00.561768: 
+2025-08-03 20:27:00.564606: Epoch 219
+2025-08-03 20:27:00.565519: Current learning rate: 0.00801
+2025-08-03 20:27:00.824513: 
+2025-08-03 20:27:00.827468: Epoch 219
+2025-08-03 20:27:00.828854: Current learning rate: 0.00801
+2025-08-03 20:27:02.603043: 
+2025-08-03 20:27:02.605155: Epoch 219
+2025-08-03 20:27:02.607698: Current learning rate: 0.00801
+2025-08-03 20:34:29.797958: train_loss 5.4748
+2025-08-03 20:34:29.795119: train_loss 5.4748
+2025-08-03 20:34:29.801961: Epoch time: 447.19 s
+2025-08-03 20:34:29.800660: Epoch time: 448.97 s
+2025-08-03 20:34:29.799112: train_loss 5.4748
+2025-08-03 20:34:29.806276: Epoch time: 449.24 s
+2025-08-03 20:34:34.074761: 
+2025-08-03 20:34:34.075262: Epoch 220
+2025-08-03 20:34:34.075969: Current learning rate: 0.008
+2025-08-03 20:34:35.685657: 
+2025-08-03 20:34:35.687651: Epoch 220
+2025-08-03 20:34:35.688265: Current learning rate: 0.008
+2025-08-03 20:34:35.831810: 
+2025-08-03 20:34:35.833688: Epoch 220
+2025-08-03 20:34:35.834320: Current learning rate: 0.008
+2025-08-03 20:41:50.805695: train_loss 5.4748
+2025-08-03 20:41:50.810383: Epoch time: 436.73 s
+2025-08-03 20:41:50.813305: train_loss 5.4748
+2025-08-03 20:41:50.814989: train_loss 5.4748
+2025-08-03 20:41:50.817037: Epoch time: 435.13 s
+2025-08-03 20:41:50.815827: Epoch time: 434.98 s
+2025-08-03 20:41:55.172842: 
+2025-08-03 20:41:55.175513: Epoch 221
+2025-08-03 20:41:55.177154: Current learning rate: 0.00799
+2025-08-03 20:41:56.348930: 
+2025-08-03 20:41:56.350941: Epoch 221
+2025-08-03 20:41:56.351644: Current learning rate: 0.00799
+2025-08-03 20:41:56.371687: 
+2025-08-03 20:41:56.373619: Epoch 221
+2025-08-03 20:41:56.374308: Current learning rate: 0.00799
+2025-08-03 20:49:21.392932: train_loss 5.4748
+2025-08-03 20:49:21.394232: Epoch time: 445.02 s
+2025-08-03 20:49:21.395648: train_loss 5.4748
+2025-08-03 20:49:21.400401: Epoch time: 446.22 s
+2025-08-03 20:49:21.403261: train_loss 5.4748
+2025-08-03 20:49:21.411222: Epoch time: 445.06 s
+2025-08-03 20:49:25.814310: 
+2025-08-03 20:49:25.817605: Epoch 222
+2025-08-03 20:49:25.823062: Current learning rate: 0.00798
+2025-08-03 20:49:27.072086: 
+2025-08-03 20:49:27.074145: Epoch 222
+2025-08-03 20:49:27.076499: Current learning rate: 0.00798
+2025-08-03 20:49:27.145329: 
+2025-08-03 20:49:27.147781: Epoch 222
+2025-08-03 20:49:27.148521: Current learning rate: 0.00798
+2025-08-03 20:56:46.256656: train_loss 5.4748
+2025-08-03 20:56:46.256804: train_loss 5.4748
+2025-08-03 20:56:46.258154: Epoch time: 440.44 s
+2025-08-03 20:56:46.254814: train_loss 5.4748
+2025-08-03 20:56:46.259858: Epoch time: 439.11 s
+2025-08-03 20:56:46.261870: Epoch time: 439.18 s
+2025-08-03 20:56:50.963962: 
+2025-08-03 20:56:50.968082: Epoch 223
+2025-08-03 20:56:50.974898: Current learning rate: 0.00797
+2025-08-03 20:56:51.436572: 
+2025-08-03 20:56:51.440364: Epoch 223
+2025-08-03 20:56:51.441026: Current learning rate: 0.00797
+2025-08-03 20:56:52.103685: 
+2025-08-03 20:56:52.106502: Epoch 223
+2025-08-03 20:56:52.107167: Current learning rate: 0.00797
+2025-08-03 21:04:17.476213: train_loss 5.4748
+2025-08-03 21:04:17.480951: train_loss 5.4748
+2025-08-03 21:04:17.483240: Epoch time: 446.04 s
+2025-08-03 21:04:17.481446: Epoch time: 446.51 s
+2025-08-03 21:04:17.477678: train_loss 5.4748
+2025-08-03 21:04:17.487670: Epoch time: 445.38 s
+2025-08-03 21:04:22.863922: 
+2025-08-03 21:04:22.866610: Epoch 224
+2025-08-03 21:04:22.867299: Current learning rate: 0.00796
+2025-08-03 21:04:25.303411: 
+2025-08-03 21:04:25.306404: Epoch 224
+2025-08-03 21:04:25.307717: Current learning rate: 0.00796
+2025-08-03 21:04:25.313604: 
+2025-08-03 21:04:25.316086: Epoch 224
+2025-08-03 21:04:25.316752: Current learning rate: 0.00796
+2025-08-03 21:11:50.938785: train_loss 5.4748
+2025-08-03 21:11:50.941489: Epoch time: 445.63 s
+2025-08-03 21:11:50.942038: train_loss 5.4748
+2025-08-03 21:11:50.943291: train_loss 5.4748
+2025-08-03 21:11:50.944919: Epoch time: 448.08 s
+2025-08-03 21:11:50.946482: Epoch time: 445.64 s
+2025-08-03 21:11:55.175545: Saving checkpoint at epoch 225...
+2025-08-03 21:11:57.812773: Saving checkpoint at epoch 225...
+2025-08-03 21:11:57.916595: Saving checkpoint at epoch 225...
+2025-08-03 21:11:58.274895: 
+2025-08-03 21:11:58.277299: Epoch 225
+2025-08-03 21:11:58.278827: Current learning rate: 0.00795
+2025-08-03 21:12:01.443416: 
+2025-08-03 21:12:01.445791: Epoch 225
+2025-08-03 21:12:01.446956: Current learning rate: 0.00795
+2025-08-03 21:12:01.723228: 
+2025-08-03 21:12:01.725128: Epoch 225
+2025-08-03 21:12:01.726093: Current learning rate: 0.00795
+NaN values found in embeddings!
+2025-08-03 21:19:19.406131: train_loss nan
+2025-08-03 21:19:19.411301: Epoch time: 437.68 s
+2025-08-03 21:19:19.412001: train_loss nan
+2025-08-03 21:19:19.407941: train_loss nan
+2025-08-03 21:19:19.416294: Epoch time: 437.97 s
+2025-08-03 21:19:19.418001: Epoch time: 441.13 s
+2025-08-03 21:19:23.624438: 
+2025-08-03 21:19:23.627038: Epoch 226
+2025-08-03 21:19:23.633347: Current learning rate: 0.00794
+2025-08-03 21:19:27.151899: 
+2025-08-03 21:19:27.153907: Epoch 226
+2025-08-03 21:19:27.155399: Current learning rate: 0.00794
+2025-08-03 21:19:27.210780: 
+2025-08-03 21:19:27.213060: Epoch 226
+2025-08-03 21:19:27.213737: Current learning rate: 0.00794
+2025-08-03 21:26:46.350771: train_loss 5.4748
+2025-08-03 21:26:46.348968: train_loss 5.4748
+2025-08-03 21:26:46.347898: train_loss 5.4748
+2025-08-03 21:26:46.355194: Epoch time: 439.2 s
+2025-08-03 21:26:46.357561: Epoch time: 439.14 s
+2025-08-03 21:26:46.358493: Epoch time: 442.72 s
+2025-08-03 21:26:51.577245: 
+2025-08-03 21:26:51.579338: Epoch 227
+2025-08-03 21:26:51.585622: Current learning rate: 0.00793
+2025-08-03 21:26:52.865807: 
+2025-08-03 21:26:52.868524: Epoch 227
+2025-08-03 21:26:52.869141: Current learning rate: 0.00793
+2025-08-03 21:26:52.889434: 
+2025-08-03 21:26:52.891756: Epoch 227
+2025-08-03 21:26:52.892343: Current learning rate: 0.00793
+2025-08-03 21:34:15.320069: train_loss 5.4748
+2025-08-03 21:34:15.323925: Epoch time: 442.43 s
+2025-08-03 21:34:15.322909: train_loss 5.4748
+2025-08-03 21:34:15.324986: train_loss 5.4748
+2025-08-03 21:34:15.333486: Epoch time: 442.46 s
+2025-08-03 21:34:15.328193: Epoch time: 443.75 s
+2025-08-03 21:34:19.127562: 
+2025-08-03 21:34:19.130136: Epoch 228
+2025-08-03 21:34:19.137196: Current learning rate: 0.00792
+2025-08-03 21:34:20.056592: 
+2025-08-03 21:34:20.058747: Epoch 228
+2025-08-03 21:34:20.059680: Current learning rate: 0.00792
+2025-08-03 21:34:20.355381: 
+2025-08-03 21:34:20.358239: Epoch 228
+2025-08-03 21:34:20.359049: Current learning rate: 0.00792
+2025-08-03 21:41:43.386052: train_loss 5.4748
+2025-08-03 21:41:43.387002: train_loss 5.4748
+2025-08-03 21:41:43.383988: train_loss 5.4748
+2025-08-03 21:41:43.397572: Epoch time: 444.26 s
+2025-08-03 21:41:43.395516: Epoch time: 443.33 s
+2025-08-03 21:41:43.396837: Epoch time: 443.03 s
+2025-08-03 21:41:48.719493: 
+2025-08-03 21:41:48.721960: Epoch 229
+2025-08-03 21:41:48.729884: Current learning rate: 0.00791
+2025-08-03 21:41:50.528113: 
+2025-08-03 21:41:50.531184: Epoch 229
+2025-08-03 21:41:50.532861: Current learning rate: 0.00791
+2025-08-03 21:41:50.546813: 
+2025-08-03 21:41:50.549286: Epoch 229
+2025-08-03 21:41:50.549895: Current learning rate: 0.00791
+2025-08-03 21:49:17.985839: train_loss 5.4748
+2025-08-03 21:49:17.987318: Epoch time: 447.44 s
+2025-08-03 21:49:17.986670: train_loss 5.4748
+2025-08-03 21:49:17.985009: train_loss 5.4748
+2025-08-03 21:49:17.990682: Epoch time: 447.46 s
+2025-08-03 21:49:17.994272: Epoch time: 449.27 s
+2025-08-03 21:49:22.266100: 
+2025-08-03 21:49:22.269165: Epoch 230
+2025-08-03 21:49:22.276548: Current learning rate: 0.0079
+2025-08-03 21:49:22.988138: 
+2025-08-03 21:49:22.990568: Epoch 230
+2025-08-03 21:49:22.991570: Current learning rate: 0.0079
+2025-08-03 21:49:23.139544: 
+2025-08-03 21:49:23.141379: Epoch 230
+2025-08-03 21:49:23.142078: Current learning rate: 0.0079
+2025-08-03 21:56:46.010167: train_loss 5.4748
+2025-08-03 21:56:46.011457: Epoch time: 442.87 s
+2025-08-03 21:56:46.012557: train_loss 5.4748
+2025-08-03 21:56:46.017117: train_loss 5.4748
+2025-08-03 21:56:46.020686: Epoch time: 443.75 s
+2025-08-03 21:56:46.019704: Epoch time: 443.02 s
+2025-08-03 21:56:50.667424: 
+2025-08-03 21:56:50.667832: Epoch 231
+2025-08-03 21:56:50.674417: Current learning rate: 0.00789
+2025-08-03 21:56:51.094398: 
+2025-08-03 21:56:51.097055: Epoch 231
+2025-08-03 21:56:51.097703: Current learning rate: 0.00789
+2025-08-03 21:56:51.629614: 
+2025-08-03 21:56:51.631675: Epoch 231
+2025-08-03 21:56:51.632441: Current learning rate: 0.00789
+NaN values found in embeddings!
+2025-08-03 22:04:13.251533: train_loss nan
+2025-08-03 22:04:13.252921: Epoch time: 442.58 s
+2025-08-03 22:04:13.255659: train_loss nan
+2025-08-03 22:04:13.259977: Epoch time: 441.63 s
+2025-08-03 22:04:13.256270: train_loss nan
+2025-08-03 22:04:13.265208: Epoch time: 442.16 s
+2025-08-03 22:04:17.706123: 
+2025-08-03 22:04:17.708658: Epoch 232
+2025-08-03 22:04:17.709690: Current learning rate: 0.00789
+2025-08-03 22:04:18.146089: 
+2025-08-03 22:04:18.148814: Epoch 232
+2025-08-03 22:04:18.149823: Current learning rate: 0.00789
+2025-08-03 22:04:19.477065: 
+2025-08-03 22:04:19.479342: Epoch 232
+2025-08-03 22:04:19.481269: Current learning rate: 0.00789
+NaN values found in embeddings!
+2025-08-03 22:11:41.226129: train_loss nan
+2025-08-03 22:11:41.228844: Epoch time: 443.52 s
+2025-08-03 22:11:41.229645: train_loss nan
+2025-08-03 22:11:41.227093: train_loss nan
+2025-08-03 22:11:41.236432: Epoch time: 443.08 s
+2025-08-03 22:11:41.235438: Epoch time: 441.75 s
+2025-08-03 22:11:44.861244: 
+2025-08-03 22:11:44.862669: Epoch 233
+2025-08-03 22:11:44.871511: Current learning rate: 0.00788
+2025-08-03 22:11:47.081587: 
+2025-08-03 22:11:47.084110: Epoch 233
+2025-08-03 22:11:47.086050: Current learning rate: 0.00788
+2025-08-03 22:11:47.198441: 
+2025-08-03 22:11:47.202339: Epoch 233
+2025-08-03 22:11:47.203403: Current learning rate: 0.00788
+2025-08-03 22:19:08.324774: train_loss 5.4748
+2025-08-03 22:19:08.328850: Epoch time: 443.46 s
+2025-08-03 22:19:08.327655: train_loss 5.4748
+2025-08-03 22:19:08.333940: Epoch time: 441.25 s
+2025-08-03 22:19:08.328604: train_loss 5.4748
+2025-08-03 22:19:08.338295: Epoch time: 441.13 s
+2025-08-03 22:19:13.698119: 
+2025-08-03 22:19:13.700013: Epoch 234
+2025-08-03 22:19:13.700612: Current learning rate: 0.00787
+2025-08-03 22:19:16.314555: 
+2025-08-03 22:19:16.316683: Epoch 234
+2025-08-03 22:19:16.317496: Current learning rate: 0.00787
+2025-08-03 22:19:16.331841: 
+2025-08-03 22:19:16.333492: Epoch 234
+2025-08-03 22:19:16.334039: Current learning rate: 0.00787
+2025-08-03 22:26:38.415786: train_loss 5.4748
+2025-08-03 22:26:38.417702: train_loss 5.4748
+2025-08-03 22:26:38.420427: Epoch time: 444.72 s
+2025-08-03 22:26:38.412971: train_loss 5.4748
+2025-08-03 22:26:38.418607: Epoch time: 442.1 s
+2025-08-03 22:26:38.422087: Epoch time: 442.08 s
+2025-08-03 22:26:42.439932: 
+2025-08-03 22:26:42.443820: Epoch 235
+2025-08-03 22:26:42.445200: Current learning rate: 0.00786
+2025-08-03 22:26:45.956006: 
+2025-08-03 22:26:45.958288: Epoch 235
+2025-08-03 22:26:45.961021: Current learning rate: 0.00786
+2025-08-03 22:26:46.986273: 
+2025-08-03 22:26:46.989233: Epoch 235
+2025-08-03 22:26:46.989818: Current learning rate: 0.00786
+2025-08-03 22:34:01.418007: train_loss 5.4748
+2025-08-03 22:34:01.417319: train_loss 5.4748
+2025-08-03 22:34:01.424893: Epoch time: 438.98 s
+2025-08-03 22:34:01.422703: Epoch time: 435.46 s
+2025-08-03 22:34:01.420141: train_loss 5.4748
+2025-08-03 22:34:01.433242: Epoch time: 434.43 s
+2025-08-03 22:34:05.219778: 
+2025-08-03 22:34:05.221637: Epoch 236
+2025-08-03 22:34:05.222489: Current learning rate: 0.00785
+2025-08-03 22:34:05.866521: 
+2025-08-03 22:34:05.868845: Epoch 236
+2025-08-03 22:34:05.869636: Current learning rate: 0.00785
+2025-08-03 22:34:06.354064: 
+2025-08-03 22:34:06.357312: Epoch 236
+2025-08-03 22:34:06.357950: Current learning rate: 0.00785
+NaN values found in embeddings!
+2025-08-03 22:41:28.687963: train_loss nan
+2025-08-03 22:41:28.693107: Epoch time: 443.47 s
+2025-08-03 22:41:28.696057: train_loss nan
+2025-08-03 22:41:28.695400: train_loss nan
+2025-08-03 22:41:28.707274: Epoch time: 442.83 s
+2025-08-03 22:41:28.706243: Epoch time: 442.34 s
+2025-08-03 22:41:34.279167: 
+2025-08-03 22:41:34.279536: Epoch 237
+2025-08-03 22:41:34.284763: Current learning rate: 0.00784
+2025-08-03 22:41:35.972157: 
+2025-08-03 22:41:35.974640: Epoch 237
+2025-08-03 22:41:35.976236: Current learning rate: 0.00784
+2025-08-03 22:41:36.132133: 
+2025-08-03 22:41:36.134488: Epoch 237
+2025-08-03 22:41:36.135139: Current learning rate: 0.00784
+NaN values found in embeddings!
+2025-08-03 22:48:56.711231: train_loss nan
+2025-08-03 22:48:56.712283: Epoch time: 440.58 s
+2025-08-03 22:48:56.715879: train_loss nan
+2025-08-03 22:48:56.717714: train_loss nan
+2025-08-03 22:48:56.722594: Epoch time: 442.44 s
+2025-08-03 22:48:56.721993: Epoch time: 440.74 s
+2025-08-03 22:49:00.872315: 
+2025-08-03 22:49:00.872803: Epoch 238
+2025-08-03 22:49:00.874425: Current learning rate: 0.00783
+2025-08-03 22:49:01.860990: 
+2025-08-03 22:49:01.863776: Epoch 238
+2025-08-03 22:49:01.864471: Current learning rate: 0.00783
+2025-08-03 22:49:03.414393: 
+2025-08-03 22:49:03.417100: Epoch 238
+2025-08-03 22:49:03.418009: Current learning rate: 0.00783
+2025-08-03 22:56:28.423047: train_loss 5.4748
+2025-08-03 22:56:28.424811: Epoch time: 447.55 s
+2025-08-03 22:56:28.428520: train_loss 5.4748
+2025-08-03 22:56:28.426934: train_loss 5.4748
+2025-08-03 22:56:28.435859: Epoch time: 446.56 s
+2025-08-03 22:56:28.435052: Epoch time: 445.01 s
+2025-08-03 22:56:33.800329: 
+2025-08-03 22:56:33.800683: Epoch 239
+2025-08-03 22:56:33.801262: Current learning rate: 0.00782
+2025-08-03 22:56:34.053920: 
+2025-08-03 22:56:34.057042: Epoch 239
+2025-08-03 22:56:34.057696: Current learning rate: 0.00782
+2025-08-03 22:56:34.572537: 
+2025-08-03 22:56:34.574778: Epoch 239
+2025-08-03 22:56:34.575408: Current learning rate: 0.00782
+2025-08-03 23:03:58.233752: train_loss 5.4748
+2025-08-03 23:03:58.233490: train_loss 5.4748
+2025-08-03 23:03:58.237562: Epoch time: 444.18 s
+2025-08-03 23:03:58.235185: Epoch time: 444.43 s
+2025-08-03 23:03:58.239555: train_loss 5.4748
+2025-08-03 23:03:58.245149: Epoch time: 443.67 s
+2025-08-03 23:04:03.190064: 
+2025-08-03 23:04:03.192769: Epoch 240
+2025-08-03 23:04:03.193415: Current learning rate: 0.00781
+2025-08-03 23:04:03.396337: 
+2025-08-03 23:04:03.399551: Epoch 240
+2025-08-03 23:04:03.400232: Current learning rate: 0.00781
+2025-08-03 23:04:04.331678: 
+2025-08-03 23:04:04.334122: Epoch 240
+2025-08-03 23:04:04.334780: Current learning rate: 0.00781
+2025-08-03 23:11:27.489319: train_loss 5.4748
+2025-08-03 23:11:27.495209: Epoch time: 444.09 s
+2025-08-03 23:11:27.493477: train_loss 5.4748
+2025-08-03 23:11:27.493056: train_loss 5.4748
+2025-08-03 23:11:27.501030: Epoch time: 443.16 s
+2025-08-03 23:11:27.503117: Epoch time: 444.3 s
+2025-08-03 23:11:32.187238: 
+2025-08-03 23:11:32.190590: Epoch 241
+2025-08-03 23:11:32.197357: Current learning rate: 0.0078
+2025-08-03 23:11:32.986623: 
+2025-08-03 23:11:32.989211: Epoch 241
+2025-08-03 23:11:32.989963: Current learning rate: 0.0078
+2025-08-03 23:11:33.271684: 
+2025-08-03 23:11:33.274788: Epoch 241
+2025-08-03 23:11:33.275524: Current learning rate: 0.0078
+2025-08-03 23:19:09.683435: train_loss 5.4748
+2025-08-03 23:19:09.685733: train_loss 5.4748
+2025-08-03 23:19:09.682777: train_loss 5.4748
+2025-08-03 23:19:09.690441: Epoch time: 456.7 s
+2025-08-03 23:19:09.692103: Epoch time: 457.5 s
+2025-08-03 23:19:09.693974: Epoch time: 456.41 s
+2025-08-03 23:19:14.594202: 
+2025-08-03 23:19:14.595098: Epoch 242
+2025-08-03 23:19:14.602511: Current learning rate: 0.00779
+2025-08-03 23:19:17.228711: 
+2025-08-03 23:19:17.231324: Epoch 242
+2025-08-03 23:19:17.233598: Current learning rate: 0.00779
+2025-08-03 23:19:17.241719: 
+2025-08-03 23:19:17.245409: Epoch 242
+2025-08-03 23:19:17.246006: Current learning rate: 0.00779
+2025-08-03 23:26:35.255101: train_loss 5.4748
+2025-08-03 23:26:35.257261: Epoch time: 438.01 s
+2025-08-03 23:26:35.263179: train_loss 5.4748
+2025-08-03 23:26:35.268688: Epoch time: 438.04 s
+2025-08-03 23:26:35.265905: train_loss 5.4748
+2025-08-03 23:26:35.275477: Epoch time: 440.67 s
+2025-08-03 23:26:40.200436: 
+2025-08-03 23:26:40.201895: Epoch 243
+2025-08-03 23:26:40.202489: Current learning rate: 0.00778
+2025-08-03 23:26:42.869747: 
+2025-08-03 23:26:42.873162: Epoch 243
+2025-08-03 23:26:42.874785: Current learning rate: 0.00778
+2025-08-03 23:26:42.939487: 
+2025-08-03 23:26:42.942027: Epoch 243
+2025-08-03 23:26:42.942957: Current learning rate: 0.00778
+2025-08-03 23:34:05.248459: train_loss 5.4748
+2025-08-03 23:34:05.248814: train_loss 5.4748
+2025-08-03 23:34:05.255286: Epoch time: 445.05 s
+2025-08-03 23:34:05.247985: train_loss 5.4748
+2025-08-03 23:34:05.253369: Epoch time: 442.31 s
+2025-08-03 23:34:05.258114: Epoch time: 442.38 s
+2025-08-03 23:34:09.993896: 
+2025-08-03 23:34:09.994893: Epoch 244
+2025-08-03 23:34:10.004750: Current learning rate: 0.00777
+2025-08-03 23:34:10.241260: 
+2025-08-03 23:34:10.244250: Epoch 244
+2025-08-03 23:34:10.244890: Current learning rate: 0.00777
+2025-08-03 23:34:11.376513: 
+2025-08-03 23:34:11.383845: Epoch 244
+2025-08-03 23:34:11.389116: Current learning rate: 0.00777
+2025-08-03 23:41:38.338346: train_loss 5.4748
+2025-08-03 23:41:38.338510: train_loss 5.4748
+2025-08-03 23:41:38.340259: Epoch time: 446.96 s
+2025-08-03 23:41:38.341066: train_loss 5.4748
+2025-08-03 23:41:38.346206: Epoch time: 448.35 s
+2025-08-03 23:41:38.348163: Epoch time: 448.1 s
+2025-08-03 23:41:43.156594: 
+2025-08-03 23:41:43.159346: Epoch 245
+2025-08-03 23:41:43.164692: Current learning rate: 0.00777
+2025-08-03 23:41:44.246331: 
+2025-08-03 23:41:44.248945: Epoch 245
+2025-08-03 23:41:44.250476: Current learning rate: 0.00777
+2025-08-03 23:41:44.332407: 
+2025-08-03 23:41:44.334846: Epoch 245
+2025-08-03 23:41:44.335824: Current learning rate: 0.00777
+2025-08-03 23:49:11.656670: train_loss 5.4748
+2025-08-03 23:49:11.656809: train_loss 5.4748
+2025-08-03 23:49:11.663448: Epoch time: 447.33 s
+2025-08-03 23:49:11.658971: train_loss 5.4748
+2025-08-03 23:49:11.661970: Epoch time: 447.41 s
+2025-08-03 23:49:11.666226: Epoch time: 448.5 s
+2025-08-03 23:49:15.196221: 
+2025-08-03 23:49:15.198596: Epoch 246
+2025-08-03 23:49:15.201878: Current learning rate: 0.00776
+2025-08-03 23:49:17.486533: 
+2025-08-03 23:49:17.488424: Epoch 246
+2025-08-03 23:49:17.489052: Current learning rate: 0.00776
+2025-08-03 23:49:17.748943: 
+2025-08-03 23:49:17.751607: Epoch 246
+2025-08-03 23:49:17.752505: Current learning rate: 0.00776
+2025-08-03 23:56:39.609118: train_loss 5.4748
+2025-08-03 23:56:39.610475: Epoch time: 444.41 s
+2025-08-03 23:56:39.609964: train_loss 5.4748
+2025-08-03 23:56:39.612876: Epoch time: 442.12 s
+2025-08-03 23:56:39.612987: train_loss 5.4748
+2025-08-03 23:56:39.617754: Epoch time: 441.86 s
+2025-08-03 23:56:42.854430: 
+2025-08-03 23:56:42.856979: Epoch 247
+2025-08-03 23:56:42.857777: Current learning rate: 0.00775
+2025-08-03 23:56:44.865788: 
+2025-08-03 23:56:44.868136: Epoch 247
+2025-08-03 23:56:44.869851: Current learning rate: 0.00775
+2025-08-03 23:56:45.054082: 
+2025-08-03 23:56:45.056097: Epoch 247
+2025-08-03 23:56:45.056984: Current learning rate: 0.00775
+2025-08-04 00:04:05.420198: train_loss 5.4748
+2025-08-04 00:04:05.421489: Epoch time: 440.36 s
+2025-08-04 00:04:05.421977: train_loss 5.4748
+2025-08-04 00:04:05.424323: train_loss 5.4748
+2025-08-04 00:04:05.426420: Epoch time: 440.56 s
+2025-08-04 00:04:05.427211: Epoch time: 442.57 s
+2025-08-04 00:04:10.783420: 
+2025-08-04 00:04:10.786095: Epoch 248
+2025-08-04 00:04:10.794287: Current learning rate: 0.00774
+2025-08-04 00:04:12.897007: 
+2025-08-04 00:04:12.898838: Epoch 248
+2025-08-04 00:04:12.900023: Current learning rate: 0.00774
+2025-08-04 00:04:13.160642: 
+2025-08-04 00:04:13.162693: Epoch 248
+2025-08-04 00:04:13.163345: Current learning rate: 0.00774
+2025-08-04 00:11:26.082341: train_loss 5.4748
+2025-08-04 00:11:26.080281: train_loss 5.4748
+2025-08-04 00:11:26.088331: Epoch time: 435.3 s
+2025-08-04 00:11:26.086861: Epoch time: 433.19 s
+2025-08-04 00:11:26.089963: train_loss 5.4748
+2025-08-04 00:11:26.094422: Epoch time: 432.93 s
+2025-08-04 00:11:29.968627: 
+2025-08-04 00:11:29.971227: Epoch 249
+2025-08-04 00:11:29.972892: Current learning rate: 0.00773
+2025-08-04 00:11:33.815727: 
+2025-08-04 00:11:33.817684: Epoch 249
+2025-08-04 00:11:33.818319: Current learning rate: 0.00773
+2025-08-04 00:11:33.856342: 
+2025-08-04 00:11:33.858006: Epoch 249
+2025-08-04 00:11:33.858600: Current learning rate: 0.00773
+2025-08-04 00:18:55.603874: train_loss 5.4748
+2025-08-04 00:18:55.605507: train_loss 5.4748
+2025-08-04 00:18:55.609136: Epoch time: 445.64 s
+2025-08-04 00:18:55.600407: train_loss 5.4748
+2025-08-04 00:18:55.617684: Epoch time: 441.75 s
+2025-08-04 00:18:55.615990: Epoch time: 441.79 s
+2025-08-04 00:18:58.968536: Saving checkpoint at epoch 250...
+2025-08-04 00:19:00.417266: Saving checkpoint at epoch 250...
+2025-08-04 00:19:00.656581: Saving checkpoint at epoch 250...
+2025-08-04 00:19:02.840548: 
+2025-08-04 00:19:02.842758: Epoch 250
+2025-08-04 00:19:02.844452: Current learning rate: 0.00772
+2025-08-04 00:19:04.209728: 
+2025-08-04 00:19:04.211703: Epoch 250
+2025-08-04 00:19:04.212341: Current learning rate: 0.00772
+2025-08-04 00:19:04.758663: 
+2025-08-04 00:19:04.760558: Epoch 250
+2025-08-04 00:19:04.761159: Current learning rate: 0.00772
+2025-08-04 00:26:32.530280: train_loss 5.4748
+2025-08-04 00:26:32.529912: train_loss 5.4748
+2025-08-04 00:26:32.536456: Epoch time: 447.77 s
+2025-08-04 00:26:32.534271: train_loss 5.4748
+2025-08-04 00:26:32.538111: Epoch time: 449.69 s
+2025-08-04 00:26:32.540552: Epoch time: 448.33 s
+2025-08-04 00:26:37.089933: 
+2025-08-04 00:26:37.092339: Epoch 251
+2025-08-04 00:26:37.093029: Current learning rate: 0.00771
+2025-08-04 00:26:37.403851: 
+2025-08-04 00:26:37.406346: Epoch 251
+2025-08-04 00:26:37.407236: Current learning rate: 0.00771
+2025-08-04 00:26:38.274089: 
+2025-08-04 00:26:38.276570: Epoch 251
+2025-08-04 00:26:38.277262: Current learning rate: 0.00771
+2025-08-04 00:33:51.328974: train_loss 5.4748
+2025-08-04 00:33:51.335000: Epoch time: 433.06 s
+2025-08-04 00:33:51.332545: train_loss 5.4748
+2025-08-04 00:33:51.337554: Epoch time: 434.24 s
+2025-08-04 00:33:51.336072: train_loss 5.4748
+2025-08-04 00:33:51.341845: Epoch time: 433.93 s
+2025-08-04 00:33:55.690073: 
+2025-08-04 00:33:55.693375: Epoch 252
+2025-08-04 00:33:55.700121: Current learning rate: 0.0077
+2025-08-04 00:33:58.704429: 
+2025-08-04 00:33:58.707084: Epoch 252
+2025-08-04 00:33:58.708555: Current learning rate: 0.0077
+2025-08-04 00:33:58.884733: 
+2025-08-04 00:33:58.887479: Epoch 252
+2025-08-04 00:33:58.888367: Current learning rate: 0.0077
+2025-08-04 00:41:15.742801: train_loss 5.4748
+2025-08-04 00:41:15.747917: Epoch time: 437.04 s
+2025-08-04 00:41:15.749515: train_loss 5.4748
+2025-08-04 00:41:15.746304: train_loss 5.4748
+2025-08-04 00:41:15.756286: Epoch time: 440.06 s
+2025-08-04 00:41:15.752648: Epoch time: 436.86 s
+2025-08-04 00:41:20.265319: 
+2025-08-04 00:41:20.265977: Epoch 253
+2025-08-04 00:41:20.266673: Current learning rate: 0.00769
+2025-08-04 00:41:21.068202: 
+2025-08-04 00:41:21.070758: Epoch 253
+2025-08-04 00:41:21.071609: Current learning rate: 0.00769
+2025-08-04 00:41:22.054160: 
+2025-08-04 00:41:22.056514: Epoch 253
+2025-08-04 00:41:22.057152: Current learning rate: 0.00769
+2025-08-04 00:48:38.628444: train_loss 5.4748
+2025-08-04 00:48:38.630150: train_loss 5.4748
+2025-08-04 00:48:38.632898: Epoch time: 437.56 s
+2025-08-04 00:48:38.631181: Epoch time: 438.36 s
+2025-08-04 00:48:38.630545: train_loss 5.4748
+2025-08-04 00:48:38.643909: Epoch time: 436.58 s
+2025-08-04 00:48:42.434324: 
+2025-08-04 00:48:42.434741: Epoch 254
+2025-08-04 00:48:42.435843: Current learning rate: 0.00768
+2025-08-04 00:48:42.973640: 
+2025-08-04 00:48:42.976960: Epoch 254
+2025-08-04 00:48:42.978362: Current learning rate: 0.00768
+2025-08-04 00:48:43.965920: 
+2025-08-04 00:48:43.968557: Epoch 254
+2025-08-04 00:48:43.969885: Current learning rate: 0.00768
+NaN values found in embeddings!
+2025-08-04 00:56:07.380313: train_loss nan
+2025-08-04 00:56:07.384429: Epoch time: 443.42 s
+2025-08-04 00:56:07.384809: train_loss nan
+2025-08-04 00:56:07.390004: Epoch time: 444.95 s
+2025-08-04 00:56:07.388985: train_loss nan
+2025-08-04 00:56:07.394109: Epoch time: 444.41 s
+2025-08-04 00:56:12.146001: 
+2025-08-04 00:56:12.147897: Epoch 255
+2025-08-04 00:56:12.153342: Current learning rate: 0.00767
+2025-08-04 00:56:13.281360: 
+2025-08-04 00:56:13.283664: Epoch 255
+2025-08-04 00:56:13.284479: Current learning rate: 0.00767
+2025-08-04 00:56:13.385363: 
+2025-08-04 00:56:13.387125: Epoch 255
+2025-08-04 00:56:13.387763: Current learning rate: 0.00767
+2025-08-04 01:03:33.859988: train_loss 5.4748
+2025-08-04 01:03:33.861343: train_loss 5.4748
+2025-08-04 01:03:33.859080: train_loss 5.4748
+2025-08-04 01:03:33.862180: Epoch time: 440.58 s
+2025-08-04 01:03:33.863721: Epoch time: 440.48 s
+2025-08-04 01:03:33.864930: Epoch time: 441.71 s
+2025-08-04 01:03:38.588595: 
+2025-08-04 01:03:38.591056: Epoch 256
+2025-08-04 01:03:38.597197: Current learning rate: 0.00766
+2025-08-04 01:03:39.611812: 
+2025-08-04 01:03:39.614558: Epoch 256
+2025-08-04 01:03:39.615347: Current learning rate: 0.00766
+2025-08-04 01:03:39.723610: 
+2025-08-04 01:03:39.726088: Epoch 256
+2025-08-04 01:03:39.727375: Current learning rate: 0.00766
+2025-08-04 01:11:10.542928: train_loss 5.4748
+2025-08-04 01:11:10.543410: train_loss 5.4748
+2025-08-04 01:11:10.544763: Epoch time: 450.82 s
+2025-08-04 01:11:10.544391: train_loss 5.4748
+2025-08-04 01:11:10.546648: Epoch time: 451.96 s
+2025-08-04 01:11:10.548704: Epoch time: 450.93 s
+2025-08-04 01:11:14.859634: 
+2025-08-04 01:11:14.860059: Epoch 257
+2025-08-04 01:11:14.860731: Current learning rate: 0.00765
+2025-08-04 01:11:15.630193: 
+2025-08-04 01:11:15.632131: Epoch 257
+2025-08-04 01:11:15.632767: Current learning rate: 0.00765
+2025-08-04 01:11:18.812307: 
+2025-08-04 01:11:18.814897: Epoch 257
+2025-08-04 01:11:18.815721: Current learning rate: 0.00765
+2025-08-04 01:18:38.723412: train_loss 5.4748
+2025-08-04 01:18:38.728896: Epoch time: 443.09 s
+2025-08-04 01:18:38.729189: train_loss 5.4748
+2025-08-04 01:18:38.729422: train_loss 5.4748
+2025-08-04 01:18:38.734570: Epoch time: 439.92 s
+2025-08-04 01:18:38.736368: Epoch time: 443.87 s
+2025-08-04 01:18:42.721131: 
+2025-08-04 01:18:42.726274: Epoch 258
+2025-08-04 01:18:42.730434: Current learning rate: 0.00764
+2025-08-04 01:18:44.015390: 
+2025-08-04 01:18:44.018054: Epoch 258
+2025-08-04 01:18:44.018699: Current learning rate: 0.00764
+2025-08-04 01:18:44.600799: 
+2025-08-04 01:18:44.603452: Epoch 258
+2025-08-04 01:18:44.604034: Current learning rate: 0.00764
+2025-08-04 01:26:06.716655: train_loss 5.4748
+2025-08-04 01:26:06.714935: train_loss 5.4748
+2025-08-04 01:26:06.721251: Epoch time: 444.0 s
+2025-08-04 01:26:06.719033: Epoch time: 442.7 s
+2025-08-04 01:26:06.715402: train_loss 5.4748
+2025-08-04 01:26:06.729085: Epoch time: 442.12 s
+2025-08-04 01:26:11.093743: 
+2025-08-04 01:26:11.096469: Epoch 259
+2025-08-04 01:26:11.097164: Current learning rate: 0.00764
+2025-08-04 01:26:12.279591: 
+2025-08-04 01:26:12.282322: Epoch 259
+2025-08-04 01:26:12.284139: Current learning rate: 0.00764
+2025-08-04 01:26:12.413317: 
+2025-08-04 01:26:12.415714: Epoch 259
+2025-08-04 01:26:12.416348: Current learning rate: 0.00764
+2025-08-04 01:33:50.879088: train_loss 5.4748
+2025-08-04 01:33:50.879582: train_loss 5.4748
+2025-08-04 01:33:50.882054: Epoch time: 459.79 s
+2025-08-04 01:33:50.880524: Epoch time: 458.6 s
+2025-08-04 01:33:50.879266: train_loss 5.4748
+2025-08-04 01:33:50.889025: Epoch time: 458.47 s
+2025-08-04 01:33:55.595745: 
+2025-08-04 01:33:55.596600: Epoch 260
+2025-08-04 01:33:55.597223: Current learning rate: 0.00763
+2025-08-04 01:33:57.027691: 
+2025-08-04 01:33:57.029621: Epoch 260
+2025-08-04 01:33:57.031822: Current learning rate: 0.00763
+2025-08-04 01:33:57.128792: 
+2025-08-04 01:33:57.130633: Epoch 260
+2025-08-04 01:33:57.131325: Current learning rate: 0.00763
+2025-08-04 01:41:11.149559: train_loss 5.4748
+2025-08-04 01:41:11.153013: train_loss 5.4748
+2025-08-04 01:41:11.157901: Epoch time: 434.02 s
+2025-08-04 01:41:11.151602: train_loss 5.4748
+2025-08-04 01:41:11.155395: Epoch time: 434.12 s
+2025-08-04 01:41:11.160060: Epoch time: 435.56 s
+2025-08-04 01:41:15.110378: 
+2025-08-04 01:41:15.113698: Epoch 261
+2025-08-04 01:41:15.116477: Current learning rate: 0.00762
+2025-08-04 01:41:16.733816: 
+2025-08-04 01:41:16.735665: Epoch 261
+2025-08-04 01:41:16.738076: Current learning rate: 0.00762
+2025-08-04 01:41:16.888681: 
+2025-08-04 01:41:16.891191: Epoch 261
+2025-08-04 01:41:16.891769: Current learning rate: 0.00762
+2025-08-04 01:48:34.448568: train_loss 5.4748
+2025-08-04 01:48:34.456052: Epoch time: 439.34 s
+2025-08-04 01:48:34.455981: train_loss 5.4748
+2025-08-04 01:48:34.460312: Epoch time: 437.72 s
+2025-08-04 01:48:34.462008: train_loss 5.4748
+2025-08-04 01:48:34.470001: Epoch time: 437.57 s
+2025-08-04 01:48:39.914541: 
+2025-08-04 01:48:39.914958: Epoch 262
+2025-08-04 01:48:39.915552: Current learning rate: 0.00761
+2025-08-04 01:48:40.146119: 
+2025-08-04 01:48:40.147938: Epoch 262
+2025-08-04 01:48:40.148525: Current learning rate: 0.00761
+2025-08-04 01:48:40.558878: 
+2025-08-04 01:48:40.560791: Epoch 262
+2025-08-04 01:48:40.561416: Current learning rate: 0.00761
+2025-08-04 01:55:57.365762: train_loss 5.4748
+2025-08-04 01:55:57.367124: Epoch time: 437.45 s
+2025-08-04 01:55:57.367373: train_loss 5.4748
+2025-08-04 01:55:57.370836: Epoch time: 436.81 s
+2025-08-04 01:55:57.368793: train_loss 5.4748
+2025-08-04 01:55:57.374562: Epoch time: 437.22 s
+2025-08-04 01:56:01.631205: 
+2025-08-04 01:56:01.634470: Epoch 263
+2025-08-04 01:56:01.639742: Current learning rate: 0.0076
+2025-08-04 01:56:02.638047: 
+2025-08-04 01:56:02.639815: Epoch 263
+2025-08-04 01:56:02.640843: Current learning rate: 0.0076
+2025-08-04 01:56:02.957058: 
+2025-08-04 01:56:02.958824: Epoch 263
+2025-08-04 01:56:02.959452: Current learning rate: 0.0076
+NaN values found in embeddings!
+NaN values found in embeddings!
+2025-08-04 02:03:26.602982: train_loss nan
+2025-08-04 02:03:26.604031: train_loss nan
+2025-08-04 02:03:26.604557: Epoch time: 444.97 s
+2025-08-04 02:03:26.606592: Epoch time: 443.65 s
+2025-08-04 02:03:26.605044: train_loss nan
+2025-08-04 02:03:26.609738: Epoch time: 443.97 s
+2025-08-04 02:03:30.485352: 
+2025-08-04 02:03:30.489069: Epoch 264
+2025-08-04 02:03:30.496400: Current learning rate: 0.00759
+2025-08-04 02:03:32.375382: 
+2025-08-04 02:03:32.378008: Epoch 264
+2025-08-04 02:03:32.378905: Current learning rate: 0.00759
+2025-08-04 02:03:32.437285: 
+2025-08-04 02:03:32.439279: Epoch 264
+2025-08-04 02:03:32.440132: Current learning rate: 0.00759
+2025-08-04 02:10:51.934616: train_loss 5.4748
+2025-08-04 02:10:51.934417: train_loss 5.4748
+2025-08-04 02:10:51.938711: Epoch time: 441.45 s
+2025-08-04 02:10:51.943004: Epoch time: 439.5 s
+2025-08-04 02:10:51.939515: train_loss 5.4748
+2025-08-04 02:10:51.945845: Epoch time: 439.56 s
+2025-08-04 02:10:56.827167: 
+2025-08-04 02:10:56.843751: Epoch 265
+2025-08-04 02:10:56.845113: Current learning rate: 0.00758
+2025-08-04 02:10:57.286822: 
+2025-08-04 02:10:57.288856: Epoch 265
+2025-08-04 02:10:57.289502: Current learning rate: 0.00758
+2025-08-04 02:11:04.109932: 
+2025-08-04 02:11:04.111953: Epoch 265
+2025-08-04 02:11:04.112551: Current learning rate: 0.00758
+2025-08-04 02:18:17.624688: train_loss 5.4748
+2025-08-04 02:18:17.622983: train_loss 5.4748
+2025-08-04 02:18:17.620948: train_loss 5.4748
+2025-08-04 02:18:17.626180: Epoch time: 433.51 s
+2025-08-04 02:18:17.627218: Epoch time: 440.34 s
+2025-08-04 02:18:17.632273: Epoch time: 440.79 s
+2025-08-04 02:18:21.319253: 
+2025-08-04 02:18:21.320091: Epoch 266
+2025-08-04 02:18:21.321056: Current learning rate: 0.00757
+2025-08-04 02:18:22.230942: 
+2025-08-04 02:18:22.232945: Epoch 266
+2025-08-04 02:18:22.233656: Current learning rate: 0.00757
+2025-08-04 02:18:23.305018: 
+2025-08-04 02:18:23.307890: Epoch 266
+2025-08-04 02:18:23.308535: Current learning rate: 0.00757
+2025-08-04 02:25:51.190967: train_loss 5.4748
+2025-08-04 02:25:51.195845: Epoch time: 447.89 s
+2025-08-04 02:25:51.194221: train_loss 5.4748
+2025-08-04 02:25:51.195995: train_loss 5.4748
+2025-08-04 02:25:51.200182: Epoch time: 449.87 s
+2025-08-04 02:25:51.198740: Epoch time: 448.96 s
+2025-08-04 02:25:55.434914: 
+2025-08-04 02:25:55.437448: Epoch 267
+2025-08-04 02:25:55.444005: Current learning rate: 0.00756
+2025-08-04 02:25:57.260365: 
+2025-08-04 02:25:57.263062: Epoch 267
+2025-08-04 02:25:57.263687: Current learning rate: 0.00756
+2025-08-04 02:25:57.272098: 
+2025-08-04 02:25:57.274111: Epoch 267
+2025-08-04 02:25:57.274765: Current learning rate: 0.00756
+2025-08-04 02:33:22.365561: train_loss 5.4748
+2025-08-04 02:33:22.370930: Epoch time: 446.93 s
+2025-08-04 02:33:22.370985: train_loss 5.4748
+2025-08-04 02:33:22.383026: Epoch time: 445.11 s
+2025-08-04 02:33:22.365901: train_loss 5.4748
+2025-08-04 02:33:22.385823: Epoch time: 445.1 s
+2025-08-04 02:33:26.995216: 
+2025-08-04 02:33:26.996160: Epoch 268
+2025-08-04 02:33:26.996954: Current learning rate: 0.00755
+2025-08-04 02:33:27.233110: 
+2025-08-04 02:33:27.235525: Epoch 268
+2025-08-04 02:33:27.236167: Current learning rate: 0.00755
+2025-08-04 02:33:27.818302: 
+2025-08-04 02:33:27.821373: Epoch 268
+2025-08-04 02:33:27.821985: Current learning rate: 0.00755
+NaN values found in embeddings!
+2025-08-04 02:40:47.423892: train_loss nan
+2025-08-04 02:40:47.428989: Epoch time: 439.61 s
+2025-08-04 02:40:47.425752: train_loss nan
+2025-08-04 02:40:47.424980: train_loss nan
+2025-08-04 02:40:47.431266: Epoch time: 440.19 s
+2025-08-04 02:40:47.432187: Epoch time: 440.43 s
+2025-08-04 02:40:51.537239: 
+2025-08-04 02:40:51.541262: Epoch 269
+2025-08-04 02:40:51.546282: Current learning rate: 0.00754
+2025-08-04 02:40:52.861244: 
+2025-08-04 02:40:52.864043: Epoch 269
+2025-08-04 02:40:52.866050: Current learning rate: 0.00754
+2025-08-04 02:40:55.606001: 
+2025-08-04 02:40:55.608278: Epoch 269
+2025-08-04 02:40:55.610639: Current learning rate: 0.00754
+2025-08-04 02:48:23.546683: train_loss 5.4748
+2025-08-04 02:48:23.552118: Epoch time: 447.94 s
+2025-08-04 02:48:23.548142: train_loss 5.4748
+2025-08-04 02:48:23.556092: Epoch time: 450.69 s
+2025-08-04 02:48:23.550439: train_loss 5.4748
+2025-08-04 02:48:23.558837: Epoch time: 452.01 s
+2025-08-04 02:48:27.626725: 
+2025-08-04 02:48:27.629004: Epoch 270
+2025-08-04 02:48:27.629825: Current learning rate: 0.00753
+2025-08-04 02:48:28.558913: 
+2025-08-04 02:48:28.561265: Epoch 270
+2025-08-04 02:48:28.562118: Current learning rate: 0.00753
+2025-08-04 02:48:28.928030: 
+2025-08-04 02:48:28.930675: Epoch 270
+2025-08-04 02:48:28.931386: Current learning rate: 0.00753
+2025-08-04 02:55:50.626529: train_loss 5.4748
+2025-08-04 02:55:50.628198: Epoch time: 442.07 s
+2025-08-04 02:55:50.621099: train_loss 5.4748
+2025-08-04 02:55:50.623156: train_loss 5.4748
+2025-08-04 02:55:50.635126: Epoch time: 441.69 s
+2025-08-04 02:55:50.636111: Epoch time: 443.0 s
+2025-08-04 02:55:56.052147: 
+2025-08-04 02:55:56.052557: Epoch 271
+2025-08-04 02:55:56.053368: Current learning rate: 0.00752
+2025-08-04 02:55:57.042032: 
+2025-08-04 02:55:57.044927: Epoch 271
+2025-08-04 02:55:57.045578: Current learning rate: 0.00752
+2025-08-04 02:55:57.120871: 
+2025-08-04 02:55:57.123868: Epoch 271
+2025-08-04 02:55:57.124668: Current learning rate: 0.00752
+NaN values found in embeddings!
+2025-08-04 03:03:19.528200: train_loss nan
+2025-08-04 03:03:19.523633: train_loss nan
+2025-08-04 03:03:19.531262: Epoch time: 442.48 s
+2025-08-04 03:03:19.530200: Epoch time: 443.47 s
+2025-08-04 03:03:19.529427: train_loss nan
+2025-08-04 03:03:19.538615: Epoch time: 442.41 s
+2025-08-04 03:03:24.008417: 
+2025-08-04 03:03:24.008837: Epoch 272
+2025-08-04 03:03:24.009472: Current learning rate: 0.00751
+2025-08-04 03:03:24.601404: 
+2025-08-04 03:03:24.604084: Epoch 272
+2025-08-04 03:03:24.604767: Current learning rate: 0.00751
+2025-08-04 03:03:25.974293: 
+2025-08-04 03:03:25.976986: Epoch 272
+2025-08-04 03:03:25.978772: Current learning rate: 0.00751
+2025-08-04 03:10:41.930885: train_loss 5.4748
+2025-08-04 03:10:41.932736: Epoch time: 437.33 s
+2025-08-04 03:10:41.932460: train_loss 5.4748
+2025-08-04 03:10:41.937743: train_loss 5.4748
+2025-08-04 03:10:41.939091: Epoch time: 437.93 s
+2025-08-04 03:10:41.941337: Epoch time: 435.96 s
+2025-08-04 03:10:45.908686: 
+2025-08-04 03:10:45.911743: Epoch 273
+2025-08-04 03:10:45.916716: Current learning rate: 0.00751
+2025-08-04 03:10:47.212605: 
+2025-08-04 03:10:47.215009: Epoch 273
+2025-08-04 03:10:47.215691: Current learning rate: 0.00751
+2025-08-04 03:10:47.450051: 
+2025-08-04 03:10:47.452248: Epoch 273
+2025-08-04 03:10:47.452877: Current learning rate: 0.00751
+2025-08-04 03:18:06.326555: train_loss 5.4748
+2025-08-04 03:18:06.328966: Epoch time: 438.88 s
+2025-08-04 03:18:06.327219: train_loss 5.4748
+2025-08-04 03:18:06.336290: Epoch time: 439.12 s
+2025-08-04 03:18:06.326417: train_loss 5.4748
+2025-08-04 03:18:06.338903: Epoch time: 440.42 s
+2025-08-04 03:18:10.860177: 
+2025-08-04 03:18:10.863391: Epoch 274
+2025-08-04 03:18:10.871710: Current learning rate: 0.0075
+2025-08-04 03:18:11.627715: 
+2025-08-04 03:18:11.630306: Epoch 274
+2025-08-04 03:18:11.630987: Current learning rate: 0.0075
+2025-08-04 03:18:11.839296: 
+2025-08-04 03:18:11.841449: Epoch 274
+2025-08-04 03:18:11.842253: Current learning rate: 0.0075
+2025-08-04 03:25:33.147419: train_loss 5.4748
+2025-08-04 03:25:33.157095: Epoch time: 442.29 s
+2025-08-04 03:25:33.161714: train_loss 5.4748
+2025-08-04 03:25:33.150792: train_loss 5.4748
+2025-08-04 03:25:33.166589: Epoch time: 441.53 s
+2025-08-04 03:25:33.168007: Epoch time: 441.31 s
+2025-08-04 03:25:37.107666: Saving checkpoint at epoch 275...
+2025-08-04 03:25:38.030170: Saving checkpoint at epoch 275...
+2025-08-04 03:25:38.351731: Saving checkpoint at epoch 275...
+2025-08-04 03:25:40.806749: 
+2025-08-04 03:25:40.809769: Epoch 275
+2025-08-04 03:25:40.810456: Current learning rate: 0.00749
+2025-08-04 03:25:42.413656: 
+2025-08-04 03:25:42.415962: Epoch 275
+2025-08-04 03:25:42.418052: Current learning rate: 0.00749
+2025-08-04 03:25:42.588947: 
+2025-08-04 03:25:42.592414: Epoch 275
+2025-08-04 03:25:42.593037: Current learning rate: 0.00749
+2025-08-04 03:32:58.526822: train_loss 5.4748
+2025-08-04 03:32:58.527669: train_loss 5.4748
+2025-08-04 03:32:58.529328: Epoch time: 437.72 s
+2025-08-04 03:32:58.532092: Epoch time: 435.94 s
+2025-08-04 03:32:58.530247: train_loss 5.4748
+2025-08-04 03:32:58.535836: Epoch time: 436.12 s
+2025-08-04 03:33:02.836811: 
+2025-08-04 03:33:02.840132: Epoch 276
+2025-08-04 03:33:02.843928: Current learning rate: 0.00748
+2025-08-04 03:33:04.315039: 
+2025-08-04 03:33:04.318135: Epoch 276
+2025-08-04 03:33:04.320672: Current learning rate: 0.00748
+2025-08-04 03:33:04.534265: 
+2025-08-04 03:33:04.537065: Epoch 276
+2025-08-04 03:33:04.537670: Current learning rate: 0.00748
+2025-08-04 03:40:27.351886: train_loss 5.4748
+2025-08-04 03:40:27.352619: train_loss 5.4748
+2025-08-04 03:40:27.359138: Epoch time: 442.82 s
+2025-08-04 03:40:27.355552: Epoch time: 444.52 s
+2025-08-04 03:40:27.353984: train_loss 5.4748
+2025-08-04 03:40:27.364562: Epoch time: 443.04 s
+2025-08-04 03:40:31.852446: 
+2025-08-04 03:40:31.854751: Epoch 277
+2025-08-04 03:40:31.855386: Current learning rate: 0.00747
+2025-08-04 03:40:32.020208: 
+2025-08-04 03:40:32.022668: Epoch 277
+2025-08-04 03:40:32.023379: Current learning rate: 0.00747
+2025-08-04 03:40:32.639817: 
+2025-08-04 03:40:32.643101: Epoch 277
+2025-08-04 03:40:32.644026: Current learning rate: 0.00747
+2025-08-04 03:47:58.314014: train_loss 5.4748
+2025-08-04 03:47:58.316117: Epoch time: 446.29 s
+2025-08-04 03:47:58.313776: train_loss 5.4748
+2025-08-04 03:47:58.315256: train_loss 5.4748
+2025-08-04 03:47:58.324331: Epoch time: 445.68 s
+2025-08-04 03:47:58.319870: Epoch time: 446.46 s
+2025-08-04 03:48:02.107873: 
+2025-08-04 03:48:02.110984: Epoch 278
+2025-08-04 03:48:02.113929: Current learning rate: 0.00746
+2025-08-04 03:48:03.641828: 
+2025-08-04 03:48:03.644324: Epoch 278
+2025-08-04 03:48:03.645120: Current learning rate: 0.00746
+2025-08-04 03:48:04.150267: 
+2025-08-04 03:48:04.153197: Epoch 278
+2025-08-04 03:48:04.154125: Current learning rate: 0.00746
+2025-08-04 03:55:21.081583: train_loss 5.4748
+2025-08-04 03:55:21.082048: train_loss 5.4748
+2025-08-04 03:55:21.084503: Epoch time: 438.97 s
+2025-08-04 03:55:21.083408: train_loss 5.4748
+2025-08-04 03:55:21.086500: Epoch time: 436.93 s
+2025-08-04 03:55:21.089989: Epoch time: 437.44 s
+2025-08-04 03:55:26.034972: 
+2025-08-04 03:55:26.035351: Epoch 279
+2025-08-04 03:55:26.036011: Current learning rate: 0.00745
+2025-08-04 03:55:28.344431: 
+2025-08-04 03:55:28.346832: Epoch 279
+2025-08-04 03:55:28.347478: Current learning rate: 0.00745
+2025-08-04 03:55:28.440019: 
+2025-08-04 03:55:28.441669: Epoch 279
+2025-08-04 03:55:28.442471: Current learning rate: 0.00745
+2025-08-04 04:02:58.449559: train_loss 5.4748
+2025-08-04 04:02:58.453374: train_loss 5.4748
+2025-08-04 04:02:58.450289: train_loss 5.4748
+2025-08-04 04:02:58.455083: Epoch time: 452.42 s
+2025-08-04 04:02:58.458438: Epoch time: 450.11 s
+2025-08-04 04:02:58.460560: Epoch time: 450.01 s
+2025-08-04 04:03:02.559525: 
+2025-08-04 04:03:02.562484: Epoch 280
+2025-08-04 04:03:02.564305: Current learning rate: 0.00744
+2025-08-04 04:03:03.750887: 
+2025-08-04 04:03:03.752938: Epoch 280
+2025-08-04 04:03:03.753932: Current learning rate: 0.00744
+2025-08-04 04:03:03.899506: 
+2025-08-04 04:03:03.901773: Epoch 280
+2025-08-04 04:03:03.902410: Current learning rate: 0.00744
+2025-08-04 04:10:14.992705: train_loss 5.4748
+2025-08-04 04:10:14.994122: Epoch time: 432.43 s
+2025-08-04 04:10:14.992354: train_loss 5.4748
+2025-08-04 04:10:14.996820: Epoch time: 431.24 s
+2025-08-04 04:10:14.997314: train_loss 5.4748
+2025-08-04 04:10:15.001442: Epoch time: 431.1 s
+2025-08-04 04:10:19.313645: 
+2025-08-04 04:10:19.314108: Epoch 281
+2025-08-04 04:10:19.314750: Current learning rate: 0.00743
+2025-08-04 04:10:19.865291: 
+2025-08-04 04:10:19.868405: Epoch 281
+2025-08-04 04:10:19.869039: Current learning rate: 0.00743
+2025-08-04 04:10:21.007153: 
+2025-08-04 04:10:21.009891: Epoch 281
+2025-08-04 04:10:21.011448: Current learning rate: 0.00743
+2025-08-04 04:17:49.801570: train_loss 5.4748
+2025-08-04 04:17:49.802778: train_loss 5.4748
+2025-08-04 04:17:49.804775: Epoch time: 449.94 s
+2025-08-04 04:17:49.809776: Epoch time: 450.49 s
+2025-08-04 04:17:49.810983: train_loss 5.4748
+2025-08-04 04:17:49.814698: Epoch time: 448.8 s
+2025-08-04 04:17:54.572931: 
+2025-08-04 04:17:54.573875: Epoch 282
+2025-08-04 04:17:54.574566: Current learning rate: 0.00742
+2025-08-04 04:17:55.721650: 
+2025-08-04 04:17:55.724267: Epoch 282
+2025-08-04 04:17:55.725312: Current learning rate: 0.00742
+2025-08-04 04:17:57.813983: 
+2025-08-04 04:17:57.816627: Epoch 282
+2025-08-04 04:17:57.817341: Current learning rate: 0.00742
+2025-08-04 04:25:18.446922: train_loss 5.4748
+2025-08-04 04:25:18.448976: train_loss 5.4748
+2025-08-04 04:25:18.450234: Epoch time: 440.63 s
+2025-08-04 04:25:18.449550: train_loss 5.4748
+2025-08-04 04:25:18.454334: Epoch time: 442.73 s
+2025-08-04 04:25:18.457039: Epoch time: 443.88 s
+2025-08-04 04:25:22.692342: 
+2025-08-04 04:25:22.695818: Epoch 283
+2025-08-04 04:25:22.700508: Current learning rate: 0.00741
+2025-08-04 04:25:25.090941: 
+2025-08-04 04:25:25.093756: Epoch 283
+2025-08-04 04:25:25.095797: Current learning rate: 0.00741
+2025-08-04 04:25:25.251559: 
+2025-08-04 04:25:25.254537: Epoch 283
+2025-08-04 04:25:25.255123: Current learning rate: 0.00741
+NaN values found in embeddings!
+2025-08-04 04:32:48.551949: train_loss nan
+2025-08-04 04:32:48.557296: Epoch time: 443.3 s
+2025-08-04 04:32:48.552845: train_loss nan
+2025-08-04 04:32:48.560538: Epoch time: 445.86 s
+2025-08-04 04:32:48.555965: train_loss nan
+2025-08-04 04:32:48.564533: Epoch time: 443.46 s
+2025-08-04 04:32:53.589472: 
+2025-08-04 04:32:53.593092: Epoch 284
+2025-08-04 04:32:53.593769: Current learning rate: 0.0074
+2025-08-04 04:32:54.895092: 
+2025-08-04 04:32:54.897488: Epoch 284
+2025-08-04 04:32:54.898599: Current learning rate: 0.0074
+2025-08-04 04:32:55.002305: 
+2025-08-04 04:32:55.004578: Epoch 284
+2025-08-04 04:32:55.005427: Current learning rate: 0.0074
+2025-08-04 04:40:25.605836: train_loss 5.4748
+2025-08-04 04:40:25.608858: Epoch time: 450.71 s
+2025-08-04 04:40:25.608762: train_loss 5.4748
+2025-08-04 04:40:25.614598: Epoch time: 452.02 s
+2025-08-04 04:40:25.616456: train_loss 5.4748
+2025-08-04 04:40:25.620366: Epoch time: 450.61 s
+2025-08-04 04:40:30.336372: 
+2025-08-04 04:40:30.337336: Epoch 285
+2025-08-04 04:40:30.337942: Current learning rate: 0.00739
+2025-08-04 04:40:31.877077: 
+2025-08-04 04:40:31.879087: Epoch 285
+2025-08-04 04:40:31.879733: Current learning rate: 0.00739
+2025-08-04 04:40:31.951864: 
+2025-08-04 04:40:31.953554: Epoch 285
+2025-08-04 04:40:31.954232: Current learning rate: 0.00739
+2025-08-04 04:47:46.543961: train_loss 5.4748
+2025-08-04 04:47:46.546067: Epoch time: 434.67 s
+2025-08-04 04:47:46.541985: train_loss 5.4748
+2025-08-04 04:47:46.548214: train_loss 5.4748
+2025-08-04 04:47:46.550567: Epoch time: 434.59 s
+2025-08-04 04:47:46.553146: Epoch time: 436.21 s
+2025-08-04 04:47:50.716227: 
+2025-08-04 04:47:50.719268: Epoch 286
+2025-08-04 04:47:50.724099: Current learning rate: 0.00738
+2025-08-04 04:47:52.477479: 
+2025-08-04 04:47:52.479918: Epoch 286
+2025-08-04 04:47:52.480535: Current learning rate: 0.00738
+2025-08-04 04:47:52.554343: 
+2025-08-04 04:47:52.556563: Epoch 286
+2025-08-04 04:47:52.557605: Current learning rate: 0.00738
+NaN values found in embeddings!
+2025-08-04 04:55:17.342887: train_loss nan
+2025-08-04 04:55:17.340626: train_loss nan
+2025-08-04 04:55:17.343130: train_loss nan
+2025-08-04 04:55:17.347371: Epoch time: 444.79 s
+2025-08-04 04:55:17.345754: Epoch time: 444.87 s
+2025-08-04 04:55:17.352103: Epoch time: 446.63 s
+2025-08-04 04:55:21.487696: 
+2025-08-04 04:55:21.490967: Epoch 287
+2025-08-04 04:55:21.496684: Current learning rate: 0.00738
+2025-08-04 04:55:25.446021: 
+2025-08-04 04:55:25.448537: Epoch 287
+2025-08-04 04:55:25.449193: Current learning rate: 0.00738
+2025-08-04 04:55:25.449964: 
+2025-08-04 04:55:25.451963: Epoch 287
+2025-08-04 04:55:25.452531: Current learning rate: 0.00738
+2025-08-04 05:02:42.173387: train_loss 5.4748
+2025-08-04 05:02:42.176360: Epoch time: 436.73 s
+2025-08-04 05:02:42.173882: train_loss 5.4748
+2025-08-04 05:02:42.179708: train_loss 5.4748
+2025-08-04 05:02:42.180819: Epoch time: 436.72 s
+2025-08-04 05:02:42.182376: Epoch time: 440.69 s
+2025-08-04 05:02:46.180134: 
+2025-08-04 05:02:46.184362: Epoch 288
+2025-08-04 05:02:46.190302: Current learning rate: 0.00737
+2025-08-04 05:02:46.789518: 
+2025-08-04 05:02:46.792691: Epoch 288
+2025-08-04 05:02:46.793408: Current learning rate: 0.00737
+2025-08-04 05:02:48.466724: 
+2025-08-04 05:02:48.469751: Epoch 288
+2025-08-04 05:02:48.472002: Current learning rate: 0.00737
+2025-08-04 05:10:15.778318: train_loss 5.4748
+2025-08-04 05:10:15.777789: train_loss 5.4748
+2025-08-04 05:10:15.782308: Epoch time: 447.31 s
+2025-08-04 05:10:15.784442: Epoch time: 449.6 s
+2025-08-04 05:10:15.778535: train_loss 5.4748
+2025-08-04 05:10:15.792269: Epoch time: 448.99 s
+2025-08-04 05:10:19.550967: 
+2025-08-04 05:10:19.554387: Epoch 289
+2025-08-04 05:10:19.557894: Current learning rate: 0.00736
+2025-08-04 05:10:21.068790: 
+2025-08-04 05:10:21.071645: Epoch 289
+2025-08-04 05:10:21.073234: Current learning rate: 0.00736
+2025-08-04 05:10:21.646645: 
+2025-08-04 05:10:21.648965: Epoch 289
+2025-08-04 05:10:21.649607: Current learning rate: 0.00736
+2025-08-04 05:17:38.734380: train_loss 5.4748
+2025-08-04 05:17:38.738965: train_loss 5.4748
+2025-08-04 05:17:38.736930: train_loss 5.4748
+2025-08-04 05:17:38.741890: Epoch time: 437.09 s
+2025-08-04 05:17:38.738503: Epoch time: 437.67 s
+2025-08-04 05:17:38.744570: Epoch time: 439.19 s
+2025-08-04 05:17:42.814764: 
+2025-08-04 05:17:42.818265: Epoch 290
+2025-08-04 05:17:42.820717: Current learning rate: 0.00735
+2025-08-04 05:17:43.484032: 
+2025-08-04 05:17:43.487055: Epoch 290
+2025-08-04 05:17:43.487757: Current learning rate: 0.00735
+2025-08-04 05:17:45.352105: 
+2025-08-04 05:17:45.354853: Epoch 290
+2025-08-04 05:17:45.357701: Current learning rate: 0.00735
+2025-08-04 05:24:59.082140: train_loss 5.4748
+2025-08-04 05:24:59.087004: train_loss 5.4748
+2025-08-04 05:24:59.091084: Epoch time: 433.73 s
+2025-08-04 05:24:59.089091: Epoch time: 435.6 s
+2025-08-04 05:24:59.085871: train_loss 5.4748
+2025-08-04 05:24:59.098100: Epoch time: 436.27 s
+2025-08-04 05:25:03.562162: 
+2025-08-04 05:25:03.565569: Epoch 291
+2025-08-04 05:25:03.571831: Current learning rate: 0.00734
+2025-08-04 05:25:06.510908: 
+2025-08-04 05:25:06.513578: Epoch 291
+2025-08-04 05:25:06.514259: Current learning rate: 0.00734
+2025-08-04 05:25:06.598587: 
+2025-08-04 05:25:06.600934: Epoch 291
+2025-08-04 05:25:06.601669: Current learning rate: 0.00734
+2025-08-04 05:32:19.375073: train_loss 5.4748
+2025-08-04 05:32:19.377446: train_loss 5.4748
+2025-08-04 05:32:19.378717: train_loss 5.4748
+2025-08-04 05:32:19.383756: Epoch time: 435.82 s
+2025-08-04 05:32:19.381774: Epoch time: 432.87 s
+2025-08-04 05:32:19.385741: Epoch time: 432.78 s
+2025-08-04 05:32:24.460907: 
+2025-08-04 05:32:24.461991: Epoch 292
+2025-08-04 05:32:24.462773: Current learning rate: 0.00733
+2025-08-04 05:32:26.854642: 
+2025-08-04 05:32:26.857400: Epoch 292
+2025-08-04 05:32:26.858999: Current learning rate: 0.00733
+2025-08-04 05:32:27.028799: 
+2025-08-04 05:32:27.030885: Epoch 292
+2025-08-04 05:32:27.031463: Current learning rate: 0.00733
+2025-08-04 05:39:43.895381: train_loss 5.4748
+2025-08-04 05:39:43.897104: Epoch time: 439.44 s
+2025-08-04 05:39:43.898711: train_loss 5.4748
+2025-08-04 05:39:43.900724: train_loss 5.4748
+2025-08-04 05:39:43.905985: Epoch time: 437.05 s
+2025-08-04 05:39:43.902407: Epoch time: 436.87 s
+2025-08-04 05:39:48.018774: 
+2025-08-04 05:39:48.022380: Epoch 293
+2025-08-04 05:39:48.023398: Current learning rate: 0.00732
+2025-08-04 05:39:48.575183: 
+2025-08-04 05:39:48.577706: Epoch 293
+2025-08-04 05:39:48.579019: Current learning rate: 0.00732
+2025-08-04 05:39:49.652777: 
+2025-08-04 05:39:49.655107: Epoch 293
+2025-08-04 05:39:49.655706: Current learning rate: 0.00732
+2025-08-04 05:47:04.612469: train_loss 5.4748
+2025-08-04 05:47:04.609280: train_loss 5.4748
+2025-08-04 05:47:04.608099: train_loss 5.4748
+2025-08-04 05:47:04.617093: Epoch time: 436.04 s
+2025-08-04 05:47:04.620114: Epoch time: 434.96 s
+2025-08-04 05:47:04.617006: Epoch time: 436.59 s
+2025-08-04 05:47:08.041421: 
+2025-08-04 05:47:08.048433: Epoch 294
+2025-08-04 05:47:08.054070: Current learning rate: 0.00731
+2025-08-04 05:47:09.384487: 
+2025-08-04 05:47:09.387295: Epoch 294
+2025-08-04 05:47:09.389041: Current learning rate: 0.00731
+2025-08-04 05:47:12.322846: 
+2025-08-04 05:47:12.325662: Epoch 294
+2025-08-04 05:47:12.326507: Current learning rate: 0.00731
+2025-08-04 05:54:26.107147: train_loss 5.4748
+2025-08-04 05:54:26.108445: Epoch time: 436.72 s
+2025-08-04 05:54:26.107495: train_loss 5.4748
+2025-08-04 05:54:26.111771: train_loss 5.4748
+2025-08-04 05:54:26.117397: Epoch time: 433.79 s
+2025-08-04 05:54:26.119456: Epoch time: 438.07 s
+2025-08-04 05:54:30.940619: 
+2025-08-04 05:54:30.943162: Epoch 295
+2025-08-04 05:54:30.947986: Current learning rate: 0.0073
+2025-08-04 05:54:32.928666: 
+2025-08-04 05:54:32.932290: Epoch 295
+2025-08-04 05:54:32.933899: Current learning rate: 0.0073
+2025-08-04 05:54:33.585610: 
+2025-08-04 05:54:33.587987: Epoch 295
+2025-08-04 05:54:33.588576: Current learning rate: 0.0073
+2025-08-04 06:01:50.535731: train_loss 5.4748
+2025-08-04 06:01:50.537048: Epoch time: 437.61 s
+2025-08-04 06:01:50.538926: train_loss 5.4748
+2025-08-04 06:01:50.545289: Epoch time: 439.6 s
+2025-08-04 06:01:50.538687: train_loss 5.4748
+2025-08-04 06:01:50.560139: Epoch time: 436.95 s
+2025-08-04 06:01:54.723910: 
+2025-08-04 06:01:54.727478: Epoch 296
+2025-08-04 06:01:54.728407: Current learning rate: 0.00729
+2025-08-04 06:01:55.294373: 
+2025-08-04 06:01:55.296793: Epoch 296
+2025-08-04 06:01:55.297674: Current learning rate: 0.00729
+2025-08-04 06:01:55.581582: 
+2025-08-04 06:01:55.583797: Epoch 296
+2025-08-04 06:01:55.584432: Current learning rate: 0.00729
+2025-08-04 06:09:12.626094: train_loss 5.4748
+2025-08-04 06:09:12.629059: Epoch time: 437.05 s
+2025-08-04 06:09:12.631263: train_loss 5.4748
+2025-08-04 06:09:12.634188: Epoch time: 437.34 s
+2025-08-04 06:09:12.633758: train_loss 5.4748
+2025-08-04 06:09:12.636475: Epoch time: 437.9 s
+2025-08-04 06:09:17.352408: 
+2025-08-04 06:09:17.355527: Epoch 297
+2025-08-04 06:09:17.358802: Current learning rate: 0.00728
+2025-08-04 06:09:18.538610: 
+2025-08-04 06:09:18.541485: Epoch 297
+2025-08-04 06:09:18.542629: Current learning rate: 0.00728
+2025-08-04 06:09:18.640050: 
+2025-08-04 06:09:18.641702: Epoch 297
+2025-08-04 06:09:18.642846: Current learning rate: 0.00728
+2025-08-04 06:16:41.072128: train_loss 5.4748
+2025-08-04 06:16:41.072632: train_loss 5.4748
+2025-08-04 06:16:41.076737: Epoch time: 443.72 s
+2025-08-04 06:16:41.075802: Epoch time: 442.43 s
+2025-08-04 06:16:41.073559: train_loss 5.4748
+2025-08-04 06:16:41.079956: Epoch time: 442.54 s
+2025-08-04 06:16:44.505484: 
+2025-08-04 06:16:44.507822: Epoch 298
+2025-08-04 06:16:44.512805: Current learning rate: 0.00727
+2025-08-04 06:16:47.200790: 
+2025-08-04 06:16:47.213559: Epoch 298
+2025-08-04 06:16:47.221549: Current learning rate: 0.00727
+2025-08-04 06:16:47.367211: 
+2025-08-04 06:16:47.369936: Epoch 298
+2025-08-04 06:16:47.370605: Current learning rate: 0.00727
+NaN values found in embeddings!
+2025-08-04 06:24:08.776906: train_loss nan
+2025-08-04 06:24:08.780142: train_loss nan
+2025-08-04 06:24:08.779792: train_loss nan
+2025-08-04 06:24:08.783539: Epoch time: 444.27 s
+2025-08-04 06:24:08.784988: Epoch time: 441.41 s
+2025-08-04 06:24:08.788425: Epoch time: 441.58 s
+2025-08-04 06:24:13.203326: 
+2025-08-04 06:24:13.206803: Epoch 299
+2025-08-04 06:24:13.211856: Current learning rate: 0.00726
+2025-08-04 06:24:14.598722: 
+2025-08-04 06:24:14.601213: Epoch 299
+2025-08-04 06:24:14.602445: Current learning rate: 0.00726
+2025-08-04 06:24:14.863082: 
+2025-08-04 06:24:14.864922: Epoch 299
+2025-08-04 06:24:14.865700: Current learning rate: 0.00726
+2025-08-04 06:31:40.098549: train_loss 5.4748
+2025-08-04 06:31:40.099693: train_loss 5.4748
+2025-08-04 06:31:40.106321: Epoch time: 445.24 s
+2025-08-04 06:31:40.102561: train_loss 5.4748
+2025-08-04 06:31:40.104844: Epoch time: 445.5 s
+2025-08-04 06:31:40.107882: Epoch time: 446.9 s
+2025-08-04 06:31:43.982442: Saving checkpoint at epoch 300...
+2025-08-04 06:31:44.983965: Saving checkpoint at epoch 300...
+2025-08-04 06:31:45.287188: Saving checkpoint at epoch 300...
+2025-08-04 06:31:48.050686: 
+2025-08-04 06:31:48.060035: Epoch 300
+2025-08-04 06:31:48.064600: Current learning rate: 0.00725
+2025-08-04 06:31:48.593070: 
+2025-08-04 06:31:48.595027: Epoch 300
+2025-08-04 06:31:48.595790: Current learning rate: 0.00725
+2025-08-04 06:31:48.989905: 
+2025-08-04 06:31:48.991749: Epoch 300
+2025-08-04 06:31:48.992383: Current learning rate: 0.00725
+2025-08-04 06:39:01.601604: train_loss 5.4748
+2025-08-04 06:39:01.604864: train_loss 5.4748
+2025-08-04 06:39:01.615258: Epoch time: 433.56 s
+2025-08-04 06:39:01.616172: train_loss 5.4748
+2025-08-04 06:39:01.612004: Epoch time: 433.01 s
+2025-08-04 06:39:01.619335: Epoch time: 432.63 s
+2025-08-04 06:39:05.764692: 
+2025-08-04 06:39:05.767607: Epoch 301
+2025-08-04 06:39:05.768245: Current learning rate: 0.00724
+2025-08-04 06:39:08.640018: 
+2025-08-04 06:39:08.642017: Epoch 301
+2025-08-04 06:39:08.643118: Current learning rate: 0.00724
+2025-08-04 06:39:08.776931: 
+2025-08-04 06:39:08.778955: Epoch 301
+2025-08-04 06:39:08.779648: Current learning rate: 0.00724
+2025-08-04 06:46:27.938864: train_loss 5.4748
+2025-08-04 06:46:27.940313: Epoch time: 439.3 s
+2025-08-04 06:46:27.942789: train_loss 5.4748
+2025-08-04 06:46:27.945098: Epoch time: 439.17 s
+2025-08-04 06:46:27.947562: train_loss 5.4748
+2025-08-04 06:46:27.949820: Epoch time: 442.18 s
+2025-08-04 06:46:32.920226: 
+2025-08-04 06:46:32.923471: Epoch 302
+2025-08-04 06:46:32.928419: Current learning rate: 0.00724
+2025-08-04 06:46:34.058902: 
+2025-08-04 06:46:34.060934: Epoch 302
+2025-08-04 06:46:34.061586: Current learning rate: 0.00724
+2025-08-04 06:46:34.920370: 
+2025-08-04 06:46:34.923197: Epoch 302
+2025-08-04 06:46:34.923791: Current learning rate: 0.00724
+2025-08-04 06:53:50.364077: train_loss 5.4748
+2025-08-04 06:53:50.367233: train_loss 5.4748
+2025-08-04 06:53:50.374495: Epoch time: 435.45 s
+2025-08-04 06:53:50.371937: Epoch time: 436.31 s
+2025-08-04 06:53:50.373340: train_loss 5.4748
+2025-08-04 06:53:50.378149: Epoch time: 437.45 s
+2025-08-04 06:53:54.032231: 
+2025-08-04 06:53:54.035108: Epoch 303
+2025-08-04 06:53:54.035802: Current learning rate: 0.00723
+2025-08-04 06:53:55.196318: 
+2025-08-04 06:53:55.200176: Epoch 303
+2025-08-04 06:53:55.200852: Current learning rate: 0.00723
+2025-08-04 06:53:55.695100: 
+2025-08-04 06:53:55.697617: Epoch 303
+2025-08-04 06:53:55.698482: Current learning rate: 0.00723
+2025-08-04 07:01:16.509884: train_loss 5.4748
+2025-08-04 07:01:16.515411: Epoch time: 442.48 s
+2025-08-04 07:01:16.513127: train_loss 5.4748
+2025-08-04 07:01:16.518132: Epoch time: 440.82 s
+2025-08-04 07:01:16.524065: train_loss 5.4748
+2025-08-04 07:01:16.529720: Epoch time: 441.32 s
+2025-08-04 07:01:21.444751: 
+2025-08-04 07:01:21.445188: Epoch 304
+2025-08-04 07:01:21.445802: Current learning rate: 0.00722
+2025-08-04 07:01:24.949331: 
+2025-08-04 07:01:24.952504: Epoch 304
+2025-08-04 07:01:24.953201: Current learning rate: 0.00722
+2025-08-04 07:01:24.992661: 
+2025-08-04 07:01:24.994812: Epoch 304
+2025-08-04 07:01:24.995868: Current learning rate: 0.00722
+2025-08-04 07:08:43.077851: train_loss 5.4748
+2025-08-04 07:08:43.080424: Epoch time: 438.09 s
+2025-08-04 07:08:43.080576: train_loss 5.4748
+2025-08-04 07:08:43.084395: Epoch time: 438.13 s
+2025-08-04 07:08:43.085124: train_loss 5.4748
+2025-08-04 07:08:43.093311: Epoch time: 441.64 s
+2025-08-04 07:08:46.689339: 
+2025-08-04 07:08:46.692865: Epoch 305
+2025-08-04 07:08:46.696631: Current learning rate: 0.00721
+2025-08-04 07:08:47.302249: 
+2025-08-04 07:08:47.304732: Epoch 305
+2025-08-04 07:08:47.305438: Current learning rate: 0.00721
+2025-08-04 07:08:48.788105: 
+2025-08-04 07:08:48.790445: Epoch 305
+2025-08-04 07:08:48.791077: Current learning rate: 0.00721
+2025-08-04 07:16:14.157857: train_loss 5.4748
+2025-08-04 07:16:14.157794: train_loss 5.4748
+2025-08-04 07:16:14.159140: Epoch time: 447.47 s
+2025-08-04 07:16:14.160393: Epoch time: 445.37 s
+2025-08-04 07:16:14.159018: train_loss 5.4748
+2025-08-04 07:16:14.166858: Epoch time: 446.86 s
+2025-08-04 07:16:17.884643: 
+2025-08-04 07:16:17.887352: Epoch 306
+2025-08-04 07:16:17.888061: Current learning rate: 0.0072
+2025-08-04 07:16:18.185766: 
+2025-08-04 07:16:18.187843: Epoch 306
+2025-08-04 07:16:18.188516: Current learning rate: 0.0072
+2025-08-04 07:16:19.750720: 
+2025-08-04 07:16:19.753297: Epoch 306
+2025-08-04 07:16:19.754031: Current learning rate: 0.0072
+NaN values found in embeddings!
+2025-08-04 07:23:38.433254: train_loss nan
+2025-08-04 07:23:38.436521: train_loss nan
+2025-08-04 07:23:38.438010: Epoch time: 438.68 s
+2025-08-04 07:23:38.442871: Epoch time: 440.25 s
+2025-08-04 07:23:38.440006: train_loss nan
+2025-08-04 07:23:38.446201: Epoch time: 440.56 s
+2025-08-04 07:23:43.564790: 
+2025-08-04 07:23:43.565520: Epoch 307
+2025-08-04 07:23:43.566136: Current learning rate: 0.00719
+2025-08-04 07:23:46.860067: 
+2025-08-04 07:23:46.862524: Epoch 307
+2025-08-04 07:23:46.863281: Current learning rate: 0.00719
+2025-08-04 07:23:46.867365: 
+2025-08-04 07:23:46.869373: Epoch 307
+2025-08-04 07:23:46.869928: Current learning rate: 0.00719
+2025-08-04 07:31:13.632990: train_loss 5.4748
+2025-08-04 07:31:13.634379: train_loss 5.4748
+2025-08-04 07:31:13.635665: Epoch time: 446.76 s
+2025-08-04 07:31:13.638997: Epoch time: 446.78 s
+2025-08-04 07:31:13.639521: train_loss 5.4748
+2025-08-04 07:31:13.642759: Epoch time: 450.07 s
+2025-08-04 07:31:18.897979: 
+2025-08-04 07:31:18.900887: Epoch 308
+2025-08-04 07:31:18.901851: Current learning rate: 0.00718
+2025-08-04 07:31:21.172473: 
+2025-08-04 07:31:21.174822: Epoch 308
+2025-08-04 07:31:21.176178: Current learning rate: 0.00718
+2025-08-04 07:31:21.184153: 
+2025-08-04 07:31:21.186958: Epoch 308
+2025-08-04 07:31:21.187615: Current learning rate: 0.00718
+2025-08-04 07:38:41.283515: train_loss 5.4748
+2025-08-04 07:38:41.283378: train_loss 5.4748
+2025-08-04 07:38:41.284713: Epoch time: 440.1 s
+2025-08-04 07:38:41.286969: Epoch time: 442.39 s
+2025-08-04 07:38:41.282322: train_loss 5.4748
+2025-08-04 07:38:41.290278: Epoch time: 440.11 s
+2025-08-04 07:38:44.401943: 
+2025-08-04 07:38:44.403469: Epoch 309
+2025-08-04 07:38:44.404548: Current learning rate: 0.00717
+2025-08-04 07:38:46.516311: 
+2025-08-04 07:38:46.518618: Epoch 309
+2025-08-04 07:38:46.520128: Current learning rate: 0.00717
+2025-08-04 07:38:46.630350: 
+2025-08-04 07:38:46.632018: Epoch 309
+2025-08-04 07:38:46.632789: Current learning rate: 0.00717
+NaN values found in embeddings!
+2025-08-04 07:45:56.243294: train_loss nan
+2025-08-04 07:45:56.246072: Epoch time: 431.84 s
+2025-08-04 07:45:56.246073: train_loss nan
+2025-08-04 07:45:56.251534: Epoch time: 429.73 s
+2025-08-04 07:45:56.251816: train_loss nan
+2025-08-04 07:45:56.259208: Epoch time: 429.62 s
+2025-08-04 07:46:00.376554: 
+2025-08-04 07:46:00.379989: Epoch 310
+2025-08-04 07:46:00.381705: Current learning rate: 0.00716
+2025-08-04 07:46:01.106414: 
+2025-08-04 07:46:01.109385: Epoch 310
+2025-08-04 07:46:01.110365: Current learning rate: 0.00716
+2025-08-04 07:46:02.445691: 
+2025-08-04 07:46:02.448545: Epoch 310
+2025-08-04 07:46:02.450354: Current learning rate: 0.00716
+2025-08-04 07:53:30.264535: train_loss 5.4748
+2025-08-04 07:53:30.264194: train_loss 5.4748
+2025-08-04 07:53:30.272987: Epoch time: 449.16 s
+2025-08-04 07:53:30.269009: Epoch time: 449.89 s
+2025-08-04 07:53:30.269919: train_loss 5.4748
+2025-08-04 07:53:30.275594: Epoch time: 447.83 s
+2025-08-04 07:53:34.115210: 
+2025-08-04 07:53:34.115923: Epoch 311
+2025-08-04 07:53:34.116548: Current learning rate: 0.00715
+2025-08-04 07:53:35.207057: 
+2025-08-04 07:53:35.209032: Epoch 311
+2025-08-04 07:53:35.209659: Current learning rate: 0.00715
+2025-08-04 07:53:35.294438: 
+2025-08-04 07:53:35.296999: Epoch 311
+2025-08-04 07:53:35.297698: Current learning rate: 0.00715
+NaN values found in embeddings!
+2025-08-04 08:00:53.623200: train_loss nan
+2025-08-04 08:00:53.624500: Epoch time: 438.42 s
+2025-08-04 08:00:53.625165: train_loss nan
+2025-08-04 08:00:53.629046: Epoch time: 438.33 s
+2025-08-04 08:00:53.623191: train_loss nan
+2025-08-04 08:00:53.632058: Epoch time: 439.51 s
+2025-08-04 08:00:57.209073: 
+2025-08-04 08:00:57.212217: Epoch 312
+2025-08-04 08:00:57.214626: Current learning rate: 0.00714
+2025-08-04 08:00:59.539207: 
+2025-08-04 08:00:59.541906: Epoch 312
+2025-08-04 08:00:59.543550: Current learning rate: 0.00714
+2025-08-04 08:01:01.768899: 
+2025-08-04 08:01:01.771513: Epoch 312
+2025-08-04 08:01:01.773115: Current learning rate: 0.00714
+2025-08-04 08:08:21.196945: train_loss 5.4748
+2025-08-04 08:08:21.201902: Epoch time: 441.66 s
+2025-08-04 08:08:21.204826: train_loss 5.4748
+2025-08-04 08:08:21.207995: train_loss 5.4748
+2025-08-04 08:08:21.211089: Epoch time: 439.44 s
+2025-08-04 08:08:21.212413: Epoch time: 444.0 s
+2025-08-04 08:08:26.315101: 
+2025-08-04 08:08:26.318110: Epoch 313
+2025-08-04 08:08:26.321238: Current learning rate: 0.00713
+2025-08-04 08:08:27.469579: 
+2025-08-04 08:08:27.472206: Epoch 313
+2025-08-04 08:08:27.473396: Current learning rate: 0.00713
+2025-08-04 08:08:27.982813: 
+2025-08-04 08:08:27.985337: Epoch 313
+2025-08-04 08:08:27.986005: Current learning rate: 0.00713
+NaN values found in embeddings!
+2025-08-04 08:15:46.350843: train_loss nan
+2025-08-04 08:15:46.354504: train_loss nan
+2025-08-04 08:15:46.357966: Epoch time: 440.04 s
+2025-08-04 08:15:46.359572: Epoch time: 438.89 s
+2025-08-04 08:15:46.352399: train_loss nan
+2025-08-04 08:15:46.365739: Epoch time: 438.37 s
+2025-08-04 08:15:50.047770: 
+2025-08-04 08:15:50.048202: Epoch 314
+2025-08-04 08:15:50.052021: Current learning rate: 0.00712
+2025-08-04 08:15:51.168428: 
+2025-08-04 08:15:51.170870: Epoch 314
+2025-08-04 08:15:51.171509: Current learning rate: 0.00712
+2025-08-04 08:15:51.611607: 
+2025-08-04 08:15:51.614675: Epoch 314
+2025-08-04 08:15:51.615374: Current learning rate: 0.00712
+2025-08-04 08:23:09.558395: train_loss 5.4748
+2025-08-04 08:23:09.556873: train_loss 5.4748
+2025-08-04 08:23:09.563761: Epoch time: 439.51 s
+2025-08-04 08:23:09.562044: Epoch time: 437.95 s
+2025-08-04 08:23:09.565371: train_loss 5.4748
+2025-08-04 08:23:09.568612: Epoch time: 438.39 s
+2025-08-04 08:23:13.580894: 
+2025-08-04 08:23:13.583719: Epoch 315
+2025-08-04 08:23:13.584646: Current learning rate: 0.00711
+2025-08-04 08:23:15.242368: 
+2025-08-04 08:23:15.244776: Epoch 315
+2025-08-04 08:23:15.245453: Current learning rate: 0.00711
+2025-08-04 08:23:15.582874: 
+2025-08-04 08:23:15.585415: Epoch 315
+2025-08-04 08:23:15.586089: Current learning rate: 0.00711
+2025-08-04 08:30:39.485342: train_loss 5.4748
+2025-08-04 08:30:39.487091: train_loss 5.4748
+2025-08-04 08:30:39.489343: Epoch time: 444.24 s
+2025-08-04 08:30:39.492794: Epoch time: 445.91 s
+2025-08-04 08:30:39.489286: train_loss 5.4748
+2025-08-04 08:30:39.499018: Epoch time: 443.91 s
+2025-08-04 08:30:44.117929: 
+2025-08-04 08:30:44.121181: Epoch 316
+2025-08-04 08:30:44.121918: Current learning rate: 0.0071
+2025-08-04 08:30:44.969461: 
+2025-08-04 08:30:44.971935: Epoch 316
+2025-08-04 08:30:44.972570: Current learning rate: 0.0071
+2025-08-04 08:30:45.254331: 
+2025-08-04 08:30:45.256668: Epoch 316
+2025-08-04 08:30:45.257376: Current learning rate: 0.0071
+NaN values found in embeddings!
+2025-08-04 08:38:11.964558: train_loss nan
+2025-08-04 08:38:11.969260: Epoch time: 447.0 s
+2025-08-04 08:38:11.971718: train_loss nan
+2025-08-04 08:38:11.967073: train_loss nan
+2025-08-04 08:38:11.974931: Epoch time: 447.85 s
+2025-08-04 08:38:11.976337: Epoch time: 446.71 s
+2025-08-04 08:38:16.814000: 
+2025-08-04 08:38:16.814419: Epoch 317
+2025-08-04 08:38:16.815047: Current learning rate: 0.0071
+2025-08-04 08:38:17.228381: 
+2025-08-04 08:38:17.230687: Epoch 317
+2025-08-04 08:38:17.231387: Current learning rate: 0.0071
+2025-08-04 08:38:18.427751: 
+2025-08-04 08:38:18.430108: Epoch 317
+2025-08-04 08:38:18.431335: Current learning rate: 0.0071
+NaN values found in embeddings!
+2025-08-04 08:45:34.077805: train_loss nan
+2025-08-04 08:45:34.077690: train_loss nan
+2025-08-04 08:45:34.081370: Epoch time: 437.26 s
+2025-08-04 08:45:34.084323: Epoch time: 435.65 s
+2025-08-04 08:45:34.080020: train_loss nan
+2025-08-04 08:45:34.092199: Epoch time: 436.85 s
+2025-08-04 08:45:38.490306: 
+2025-08-04 08:45:38.491160: Epoch 318
+2025-08-04 08:45:38.495253: Current learning rate: 0.00709
+2025-08-04 08:45:38.954329: 
+2025-08-04 08:45:38.957360: Epoch 318
+2025-08-04 08:45:38.958039: Current learning rate: 0.00709
+2025-08-04 08:45:40.207747: 
+2025-08-04 08:45:40.211108: Epoch 318
+2025-08-04 08:45:40.212376: Current learning rate: 0.00709
+2025-08-04 08:53:09.243053: train_loss 5.4748
+2025-08-04 08:53:09.244676: Epoch time: 450.75 s
+2025-08-04 08:53:09.247982: train_loss 5.4748
+2025-08-04 08:53:09.251004: train_loss 5.4748
+2025-08-04 08:53:09.254875: Epoch time: 449.04 s
+2025-08-04 08:53:09.253515: Epoch time: 450.29 s
+2025-08-04 08:53:13.290436: 
+2025-08-04 08:53:13.293175: Epoch 319
+2025-08-04 08:53:13.301036: Current learning rate: 0.00708
+2025-08-04 08:53:15.025939: 
+2025-08-04 08:53:15.028353: Epoch 319
+2025-08-04 08:53:15.029016: Current learning rate: 0.00708
+2025-08-04 08:53:15.099475: 
+2025-08-04 08:53:15.101617: Epoch 319
+2025-08-04 08:53:15.102225: Current learning rate: 0.00708
+2025-08-04 09:00:37.457999: train_loss 5.4748
+2025-08-04 09:00:37.460859: Epoch time: 442.43 s
+2025-08-04 09:00:37.455954: train_loss 5.4748
+2025-08-04 09:00:37.459106: train_loss 5.4748
+2025-08-04 09:00:37.468135: Epoch time: 444.17 s
+2025-08-04 09:00:37.465670: Epoch time: 442.36 s
+2025-08-04 09:00:42.060074: 
+2025-08-04 09:00:42.063923: Epoch 320
+2025-08-04 09:00:42.069716: Current learning rate: 0.00707
+2025-08-04 09:00:45.416676: 
+2025-08-04 09:00:45.420843: Epoch 320
+2025-08-04 09:00:45.422398: Current learning rate: 0.00707
+2025-08-04 09:00:47.065037: 
+2025-08-04 09:00:47.067623: Epoch 320
+2025-08-04 09:00:47.068925: Current learning rate: 0.00707
+2025-08-04 09:08:10.392651: train_loss 5.4748
+2025-08-04 09:08:10.390710: train_loss 5.4748
+2025-08-04 09:08:10.395102: Epoch time: 448.33 s
+2025-08-04 09:08:10.394948: train_loss 5.4748
+2025-08-04 09:08:10.396428: Epoch time: 443.33 s
+2025-08-04 09:08:10.399089: Epoch time: 444.98 s
+2025-08-04 09:08:14.834448: 
+2025-08-04 09:08:14.837006: Epoch 321
+2025-08-04 09:08:14.840286: Current learning rate: 0.00706
+2025-08-04 09:08:17.988644: 
+2025-08-04 09:08:17.990938: Epoch 321
+2025-08-04 09:08:17.993516: Current learning rate: 0.00706
+2025-08-04 09:08:18.118158: 
+2025-08-04 09:08:18.121011: Epoch 321
+2025-08-04 09:08:18.122067: Current learning rate: 0.00706
+2025-08-04 09:15:40.480960: train_loss 5.4748
+2025-08-04 09:15:40.484505: Epoch time: 442.36 s
+2025-08-04 09:15:40.481905: train_loss 5.4748
+2025-08-04 09:15:40.484025: train_loss 5.4748
+2025-08-04 09:15:40.492998: Epoch time: 442.5 s
+2025-08-04 09:15:40.491068: Epoch time: 445.65 s
+2025-08-04 09:15:44.537888: 
+2025-08-04 09:15:44.538693: Epoch 322
+2025-08-04 09:15:44.548590: Current learning rate: 0.00705
+2025-08-04 09:15:44.840836: 
+2025-08-04 09:15:44.844467: Epoch 322
+2025-08-04 09:15:44.845283: Current learning rate: 0.00705
+2025-08-04 09:15:45.292589: 
+2025-08-04 09:15:45.294926: Epoch 322
+2025-08-04 09:15:45.295664: Current learning rate: 0.00705
+2025-08-04 09:23:05.590061: train_loss 5.4748
+2025-08-04 09:23:05.590265: train_loss 5.4748
+2025-08-04 09:23:05.595385: Epoch time: 440.75 s
+2025-08-04 09:23:05.590129: train_loss 5.4748
+2025-08-04 09:23:05.599026: Epoch time: 441.05 s
+2025-08-04 09:23:05.597323: Epoch time: 440.3 s
+2025-08-04 09:23:10.882354: 
+2025-08-04 09:23:10.882783: Epoch 323
+2025-08-04 09:23:10.883463: Current learning rate: 0.00704
+2025-08-04 09:23:12.643256: 
+2025-08-04 09:23:12.645251: Epoch 323
+2025-08-04 09:23:12.645925: Current learning rate: 0.00704
+2025-08-04 09:23:12.736855: 
+2025-08-04 09:23:12.738588: Epoch 323
+2025-08-04 09:23:12.739568: Current learning rate: 0.00704
+2025-08-04 09:30:25.537207: train_loss 5.4748
+2025-08-04 09:30:25.538698: train_loss 5.4748
+2025-08-04 09:30:25.542974: train_loss 5.4748
+2025-08-04 09:30:25.543471: Epoch time: 432.8 s
+2025-08-04 09:30:25.544700: Epoch time: 434.66 s
+2025-08-04 09:30:25.545538: Epoch time: 432.9 s
+2025-08-04 09:30:29.307384: 
+2025-08-04 09:30:29.310685: Epoch 324
+2025-08-04 09:30:29.318553: Current learning rate: 0.00703
+2025-08-04 09:30:29.960607: 
+2025-08-04 09:30:29.962627: Epoch 324
+2025-08-04 09:30:29.963296: Current learning rate: 0.00703
+2025-08-04 09:30:30.537384: 
+2025-08-04 09:30:30.539634: Epoch 324
+2025-08-04 09:30:30.540255: Current learning rate: 0.00703
+NaN values found in embeddings!
+2025-08-04 09:37:50.940140: train_loss nan
+2025-08-04 09:37:50.945313: Epoch time: 440.4 s
+2025-08-04 09:37:50.940729: train_loss nan
+2025-08-04 09:37:50.944182: train_loss nan
+2025-08-04 09:37:50.951058: Epoch time: 440.98 s
+2025-08-04 09:37:50.952046: Epoch time: 441.64 s
+2025-08-04 09:37:55.225063: Saving checkpoint at epoch 325...
+2025-08-04 09:37:55.417441: Saving checkpoint at epoch 325...
+2025-08-04 09:37:56.312745: Saving checkpoint at epoch 325...
+2025-08-04 09:37:59.478342: 
+2025-08-04 09:37:59.480311: Epoch 325
+2025-08-04 09:37:59.481917: Current learning rate: 0.00702
+2025-08-04 09:37:59.920861: 
+2025-08-04 09:37:59.922670: Epoch 325
+2025-08-04 09:37:59.923476: Current learning rate: 0.00702
+2025-08-04 09:38:00.467642: 
+2025-08-04 09:38:00.470822: Epoch 325
+2025-08-04 09:38:00.471936: Current learning rate: 0.00702
+2025-08-04 09:45:14.413216: train_loss 5.4748
+2025-08-04 09:45:14.414575: Epoch time: 434.49 s
+2025-08-04 09:45:14.411036: train_loss 5.4748
+2025-08-04 09:45:14.407554: train_loss 5.4748
+2025-08-04 09:45:14.420058: Epoch time: 433.94 s
+2025-08-04 09:45:14.419128: Epoch time: 434.93 s
+2025-08-04 09:45:19.247145: 
+2025-08-04 09:45:19.249416: Epoch 326
+2025-08-04 09:45:19.255043: Current learning rate: 0.00701
+2025-08-04 09:45:20.296370: 
+2025-08-04 09:45:20.298913: Epoch 326
+2025-08-04 09:45:20.299576: Current learning rate: 0.00701
+2025-08-04 09:45:20.365518: 
+2025-08-04 09:45:20.367891: Epoch 326
+2025-08-04 09:45:20.368695: Current learning rate: 0.00701
+2025-08-04 09:52:36.529886: train_loss 5.4748
+2025-08-04 09:52:36.533158: Epoch time: 437.28 s
+2025-08-04 09:52:36.535598: train_loss 5.4748
+2025-08-04 09:52:36.531735: train_loss 5.4748
+2025-08-04 09:52:36.544619: Epoch time: 436.17 s
+2025-08-04 09:52:36.543622: Epoch time: 436.24 s
+2025-08-04 09:52:40.933206: 
+2025-08-04 09:52:40.933631: Epoch 327
+2025-08-04 09:52:40.934278: Current learning rate: 0.007
+2025-08-04 09:52:41.375689: 
+2025-08-04 09:52:41.377609: Epoch 327
+2025-08-04 09:52:41.378361: Current learning rate: 0.007
+2025-08-04 09:52:42.217592: 
+2025-08-04 09:52:42.219806: Epoch 327
+2025-08-04 09:52:42.220473: Current learning rate: 0.007
+2025-08-04 10:00:05.254637: train_loss 5.4748
+2025-08-04 10:00:05.259028: train_loss 5.4748
+2025-08-04 10:00:05.262102: Epoch time: 444.32 s
+2025-08-04 10:00:05.259838: Epoch time: 443.88 s
+2025-08-04 10:00:05.263459: train_loss 5.4748
+2025-08-04 10:00:05.269880: Epoch time: 443.04 s
+2025-08-04 10:00:08.988298: 
+2025-08-04 10:00:08.990593: Epoch 328
+2025-08-04 10:00:08.991745: Current learning rate: 0.00699
+2025-08-04 10:00:10.782001: 
+2025-08-04 10:00:10.783899: Epoch 328
+2025-08-04 10:00:10.784586: Current learning rate: 0.00699
+2025-08-04 10:00:10.960118: 
+2025-08-04 10:00:10.962025: Epoch 328
+2025-08-04 10:00:10.962702: Current learning rate: 0.00699
+2025-08-04 10:07:19.437891: train_loss 5.4748
+2025-08-04 10:07:19.442961: Epoch time: 428.48 s
+2025-08-04 10:07:19.444003: train_loss 5.4748
+2025-08-04 10:07:19.443453: train_loss 5.4748
+2025-08-04 10:07:19.449224: Epoch time: 430.46 s
+2025-08-04 10:07:19.449168: Epoch time: 428.66 s
+2025-08-04 10:07:23.483413: 
+2025-08-04 10:07:23.486886: Epoch 329
+2025-08-04 10:07:23.494175: Current learning rate: 0.00698
+2025-08-04 10:07:24.519485: 
+2025-08-04 10:07:24.521646: Epoch 329
+2025-08-04 10:07:24.522796: Current learning rate: 0.00698
+2025-08-04 10:07:25.088853: 
+2025-08-04 10:07:25.090808: Epoch 329
+2025-08-04 10:07:25.091830: Current learning rate: 0.00698
+2025-08-04 10:14:39.163715: train_loss 5.4748
+2025-08-04 10:14:39.165025: Epoch time: 434.65 s
+2025-08-04 10:14:39.164952: train_loss 5.4748
+2025-08-04 10:14:39.169021: train_loss 5.4748
+2025-08-04 10:14:39.172524: Epoch time: 434.07 s
+2025-08-04 10:14:39.172891: Epoch time: 435.68 s
+2025-08-04 10:14:44.743519: 
+2025-08-04 10:14:44.744976: Epoch 330
+2025-08-04 10:14:44.745594: Current learning rate: 0.00697
+2025-08-04 10:14:46.868966: 
+2025-08-04 10:14:46.871596: Epoch 330
+2025-08-04 10:14:46.873909: Current learning rate: 0.00697
+2025-08-04 10:14:47.060807: 
+2025-08-04 10:14:47.062648: Epoch 330
+2025-08-04 10:14:47.063393: Current learning rate: 0.00697
+2025-08-04 10:22:13.375673: train_loss 5.4748
+2025-08-04 10:22:13.376976: Epoch time: 448.63 s
+2025-08-04 10:22:13.375572: train_loss 5.4748
+2025-08-04 10:22:13.379286: Epoch time: 446.32 s
+2025-08-04 10:22:13.381977: train_loss 5.4748
+2025-08-04 10:22:13.388013: Epoch time: 446.51 s
+2025-08-04 10:22:16.959820: 
+2025-08-04 10:22:16.962206: Epoch 331
+2025-08-04 10:22:16.963698: Current learning rate: 0.00696
+2025-08-04 10:22:18.508099: 
+2025-08-04 10:22:18.510029: Epoch 331
+2025-08-04 10:22:18.510680: Current learning rate: 0.00696
+2025-08-04 10:22:18.675596: 
+2025-08-04 10:22:18.677394: Epoch 331
+2025-08-04 10:22:18.678196: Current learning rate: 0.00696
+2025-08-04 10:29:31.856563: train_loss 5.4748
+2025-08-04 10:29:31.860102: Epoch time: 434.89 s
+2025-08-04 10:29:31.858618: train_loss 5.4748
+2025-08-04 10:29:31.859574: train_loss 5.4748
+2025-08-04 10:29:31.880524: Epoch time: 433.18 s
+2025-08-04 10:29:31.879002: Epoch time: 433.35 s
+2025-08-04 10:29:35.168305: 
+2025-08-04 10:29:35.169937: Epoch 332
+2025-08-04 10:29:35.171996: Current learning rate: 0.00696
+2025-08-04 10:29:36.515652: 
+2025-08-04 10:29:36.517880: Epoch 332
+2025-08-04 10:29:36.518575: Current learning rate: 0.00696
+2025-08-04 10:29:43.523759: 
+2025-08-04 10:29:43.525772: Epoch 332
+2025-08-04 10:29:43.529268: Current learning rate: 0.00696
+2025-08-04 10:37:04.600857: train_loss 5.4748
+2025-08-04 10:37:04.602812: Epoch time: 448.09 s
+2025-08-04 10:37:04.604286: train_loss 5.4748
+2025-08-04 10:37:04.607013: train_loss 5.4748
+2025-08-04 10:37:04.606749: Epoch time: 441.08 s
+2025-08-04 10:37:04.609233: Epoch time: 449.44 s
+2025-08-04 10:37:09.587307: 
+2025-08-04 10:37:09.589701: Epoch 333
+2025-08-04 10:37:09.595276: Current learning rate: 0.00695
+2025-08-04 10:37:10.955380: 
+2025-08-04 10:37:10.958229: Epoch 333
+2025-08-04 10:37:10.961313: Current learning rate: 0.00695
+2025-08-04 10:37:11.178571: 
+2025-08-04 10:37:11.180539: Epoch 333
+2025-08-04 10:37:11.181591: Current learning rate: 0.00695
+2025-08-04 10:44:39.079992: train_loss 5.4748
+2025-08-04 10:44:39.082213: Epoch time: 448.12 s
+2025-08-04 10:44:39.081911: train_loss 5.4748
+2025-08-04 10:44:39.085018: Epoch time: 447.9 s
+2025-08-04 10:44:39.084700: train_loss 5.4748
+2025-08-04 10:44:39.092003: Epoch time: 449.49 s
+2025-08-04 10:44:43.290831: 
+2025-08-04 10:44:43.292682: Epoch 334
+2025-08-04 10:44:43.293411: Current learning rate: 0.00694
+2025-08-04 10:44:44.192757: 
+2025-08-04 10:44:44.195415: Epoch 334
+2025-08-04 10:44:44.196132: Current learning rate: 0.00694
+2025-08-04 10:44:44.335608: 
+2025-08-04 10:44:44.337293: Epoch 334
+2025-08-04 10:44:44.338611: Current learning rate: 0.00694
+2025-08-04 10:52:04.673286: train_loss 5.4748
+2025-08-04 10:52:04.677798: Epoch time: 441.38 s
+2025-08-04 10:52:04.676923: train_loss 5.4748
+2025-08-04 10:52:04.678890: train_loss 5.4748
+2025-08-04 10:52:04.684859: Epoch time: 440.49 s
+2025-08-04 10:52:04.682132: Epoch time: 440.34 s
+2025-08-04 10:52:09.348908: 
+2025-08-04 10:52:09.349284: Epoch 335
+2025-08-04 10:52:09.351978: Current learning rate: 0.00693
+2025-08-04 10:52:10.213161: 
+2025-08-04 10:52:10.215533: Epoch 335
+2025-08-04 10:52:10.216327: Current learning rate: 0.00693
+2025-08-04 10:52:10.556629: 
+2025-08-04 10:52:10.564198: Epoch 335
+2025-08-04 10:52:10.564905: Current learning rate: 0.00693
+NaN values found in embeddings!
+2025-08-04 10:59:33.212908: train_loss nan
+2025-08-04 10:59:33.217499: Epoch time: 442.66 s
+2025-08-04 10:59:33.217906: train_loss nan
+2025-08-04 10:59:33.223050: Epoch time: 443.0 s
+2025-08-04 10:59:33.214215: train_loss nan
+2025-08-04 10:59:33.226330: Epoch time: 443.87 s
+2025-08-04 10:59:37.117600: 
+2025-08-04 10:59:37.121123: Epoch 336
+2025-08-04 10:59:37.126352: Current learning rate: 0.00692
+2025-08-04 10:59:41.690012: 
+2025-08-04 10:59:41.692945: Epoch 336
+2025-08-04 10:59:41.695219: Current learning rate: 0.00692
+2025-08-04 10:59:42.265212: 
+2025-08-04 10:59:42.268596: Epoch 336
+2025-08-04 10:59:42.269202: Current learning rate: 0.00692
+2025-08-04 11:07:04.251737: train_loss 5.4748
+2025-08-04 11:07:04.254581: train_loss 5.4748
+2025-08-04 11:07:04.257983: Epoch time: 447.14 s
+2025-08-04 11:07:04.258155: Epoch time: 441.99 s
+2025-08-04 11:07:04.261051: train_loss 5.4748
+2025-08-04 11:07:04.268974: Epoch time: 442.57 s
+2025-08-04 11:07:07.791075: 
+2025-08-04 11:07:07.794082: Epoch 337
+2025-08-04 11:07:07.797290: Current learning rate: 0.00691
+
+======== GPU REPORT ========
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Mon Aug  4 11:07:09 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 2184443
+            GPU Utilization               : 94 %
+            Memory Utilization            : 33 %
+            Max memory usage              : 80114 MiB
+            Time                          : 0 ms
+            Is Running                    : 1
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 2184444
+            GPU Utilization               : 96 %
+            Memory Utilization            : 33 %
+            Max memory usage              : 80154 MiB
+            Time                          : 0 ms
+            Is Running                    : 1
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 2184445
+            GPU Utilization               : 96 %
+            Memory Utilization            : 33 %
+            Max memory usage              : 80236 MiB
+            Time                          : 0 ms
+            Is Running                    : 1
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 2184446
+            GPU Utilization               : 96 %
+            Memory Utilization            : 33 %
+            Max memory usage              : 80028 MiB
+            Time                          : 0 ms
+            Is Running                    : 1
+
+Mon Aug  4 11:07:09 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   51C    P0            132W /  700W |   80133MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   50C    P0            134W /  700W |   80173MiB /  81559MiB |    100%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   51C    P0            137W /  700W |   80255MiB /  81559MiB |    100%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   52C    P0            132W /  700W |   80047MiB /  81559MiB |    100%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
++-----------------------------------------------------------------------------------------+
+
+======== GPU REPORT ========
+
+======== GPU REPORT ========
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Mon Aug  4 11:07:13 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 1989321
+            GPU Utilization               : 95 %
+            Memory Utilization            : 33 %
+            Max memory usage              : 80044 MiB
+            Time                          : 66345299 ms
+            Is Running                    : 0
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 1989322
+            GPU Utilization               : 96 %
+            Memory Utilization            : 33 %
+            Max memory usage              : 80104 MiB
+            Time                          : 66344022 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 1989323
+            GPU Utilization               : 96 %
+            Memory Utilization            : 33 %
+            Max memory usage              : 80044 MiB
+            Time                          : 66345172 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 1989324
+            GPU Utilization               : 96 %
+            Memory Utilization            : 33 %
+            Max memory usage              : 80044 MiB
+            Time                          : 66344282 ms
+            Is Running                    : 0
+
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Mon Aug  4 11:07:13 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 2184443
+            GPU Utilization               : 94 %
+            Memory Utilization            : 33 %
+            Max memory usage              : 80114 MiB
+            Time                          : 66343818 ms
+            Is Running                    : 0
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 2184444
+            GPU Utilization               : 96 %
+            Memory Utilization            : 33 %
+            Max memory usage              : 80154 MiB
+            Time                          : 66345200 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 2184445
+            GPU Utilization               : 96 %
+            Memory Utilization            : 33 %
+            Max memory usage              : 80236 MiB
+            Time                          : 66344707 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 2184446
+            GPU Utilization               : 96 %
+            Memory Utilization            : 33 %
+            Max memory usage              : 80028 MiB
+            Time                          : 66344223 ms
+            Is Running                    : 0
+
+Mon Aug  4 11:07:13 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   56C    P0            144W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
+======== GPU REPORT ========
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   54C    P0            131W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   55C    P0            137W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   55C    P0            134W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Mon Aug  4 11:07:13 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   50C    P0            116W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   50C    P0            138W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   50C    P0            137W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   51C    P0            132W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Mon Aug  4 11:07:13 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 1434463
+            GPU Utilization               : 95 %
+            Memory Utilization            : 33 %
+            Max memory usage              : 80048 MiB
+            Time                          : 66343873 ms
+            Is Running                    : 0
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 1434464
+            GPU Utilization               : 96 %
+            Memory Utilization            : 33 %
+            Max memory usage              : 80040 MiB
+            Time                          : 66344931 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 1434465
+            GPU Utilization               : 96 %
+            Memory Utilization            : 33 %
+            Max memory usage              : 80162 MiB
+            Time                          : 66344449 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 1434466
+            GPU Utilization               : 96 %
+            Memory Utilization            : 33 %
+            Max memory usage              : 80076 MiB
+            Time                          : 66345436 ms
+            Is Running                    : 0
+
+Mon Aug  4 11:07:13 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   55C    P0            101W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   55C    P0            138W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   54C    P0            130W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   55C    P0            143W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+

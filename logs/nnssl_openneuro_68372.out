@@ -1,0 +1,630 @@
+Node=tg10802.tamia.ecpia.ca, SLURM_NODEID=0
+Node=tg10804.tamia.ecpia.ca, SLURM_NODEID=1
+Node=tg11107.tamia.ecpia.ca, SLURM_NODEID=4
+Node=tg11204.tamia.ecpia.ca, SLURM_NODEID=5
+Node=tg10807.tamia.ecpia.ca, SLURM_NODEID=2
+Node=tg10904.tamia.ecpia.ca, SLURM_NODEID=3
+Using torchrun: rank=6, world_size=24, local_rank=2
+Using torchrun: rank=4, world_size=24, local_rank=0
+Using torchrun: rank=7, world_size=24, local_rank=3
+Using torchrun: rank=5, world_size=24, local_rank=1
+Using torchrun: rank=17, world_size=24, local_rank=1
+Using torchrun: rank=16, world_size=24, local_rank=0
+Using torchrun: rank=19, world_size=24, local_rank=3
+Using torchrun: rank=18, world_size=24, local_rank=2
+Using torchrun: rank=23, world_size=24, local_rank=3
+Using torchrun: rank=22, world_size=24, local_rank=2
+Using torchrun: rank=21, world_size=24, local_rank=1
+Using torchrun: rank=20, world_size=24, local_rank=0
+Using torchrun: rank=2, world_size=24, local_rank=2
+Using torchrun: rank=1, world_size=24, local_rank=1
+Using torchrun: rank=0, world_size=24, local_rank=0
+Using torchrun: rank=3, world_size=24, local_rank=3
+Using torchrun: rank=10, world_size=24, local_rank=2
+Using torchrun: rank=9, world_size=24, local_rank=1
+Using torchrun: rank=11, world_size=24, local_rank=3
+Using torchrun: rank=8, world_size=24, local_rank=0
+Using torchrun: rank=14, world_size=24, local_rank=2
+Using torchrun: rank=12, world_size=24, local_rank=0
+Using torchrun: rank=15, world_size=24, local_rank=3
+Using torchrun: rank=13, world_size=24, local_rank=1
+I am global rank 1, local rank 1. 4 GPUs are available. The world size is 24. Setting device to cuda:1
+I am global rank 0, local rank 0. 4 GPUs are available. The world size is 24. Setting device to cuda:0
+I am global rank 2, local rank 2. 4 GPUs are available. The world size is 24. Setting device to cuda:2
+I am global rank 3, local rank 3. 4 GPUs are available. The world size is 24. Setting device to cuda:3
+I am global rank 7, local rank 3. 4 GPUs are available. The world size is 24. Setting device to cuda:3
+I am global rank 6, local rank 2. 4 GPUs are available. The world size is 24. Setting device to cuda:2
+I am global rank 4, local rank 0. 4 GPUs are available. The world size is 24. Setting device to cuda:0
+I am global rank 5, local rank 1. 4 GPUs are available. The world size is 24. Setting device to cuda:1
+I am global rank 23, local rank 3. 4 GPUs are available. The world size is 24. Setting device to cuda:3
+I am global rank 21, local rank 1. 4 GPUs are available. The world size is 24. Setting device to cuda:1
+I am global rank 22, local rank 2. 4 GPUs are available. The world size is 24. Setting device to cuda:2
+I am global rank 20, local rank 0. 4 GPUs are available. The world size is 24. Setting device to cuda:0
+I am global rank 12, local rank 0. 4 GPUs are available. The world size is 24. Setting device to cuda:0
+I am global rank 15, local rank 3. 4 GPUs are available. The world size is 24. Setting device to cuda:3
+I am global rank 13, local rank 1. 4 GPUs are available. The world size is 24. Setting device to cuda:1
+I am global rank 14, local rank 2. 4 GPUs are available. The world size is 24. Setting device to cuda:2
+I am global rank 8, local rank 0. 4 GPUs are available. The world size is 24. Setting device to cuda:0
+I am global rank 10, local rank 2. 4 GPUs are available. The world size is 24. Setting device to cuda:2
+I am global rank 9, local rank 1. 4 GPUs are available. The world size is 24. Setting device to cuda:1
+I am global rank 11, local rank 3. 4 GPUs are available. The world size is 24. Setting device to cuda:3
+I am global rank 17, local rank 1. 4 GPUs are available. The world size is 24. Setting device to cuda:1
+I am global rank 19, local rank 3. 4 GPUs are available. The world size is 24. Setting device to cuda:3
+I am global rank 16, local rank 0. 4 GPUs are available. The world size is 24. Setting device to cuda:0
+I am global rank 18, local rank 2. 4 GPUs are available. The world size is 24. Setting device to cuda:2
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+
+======== GPU REPORT ========
+
+======== GPU REPORT ========
+
+======== GPU REPORT ========
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Tue Aug 12 23:44:49 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes                   : None
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 329819
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 12229 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 329820
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 11858 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 329821
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 11869 ms
+            Is Running                    : 0
+
+
+======== GPU REPORT ========
+
+======== GPU REPORT ========
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Tue Aug 12 23:44:49 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes                   : None
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 2482688
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 12220 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 2482689
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 11895 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 2482690
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 11881 ms
+            Is Running                    : 0
+
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Tue Aug 12 23:44:49 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes                   : None
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3724295
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 12116 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3724296
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 12326 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3724297
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 12019 ms
+            Is Running                    : 0
+
+
+==============NVSMI LOG==============
+
+Timestamp                                 Tue Aug 12 23:44:49 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+: Tue Aug 12 23:44:49 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes                   : None
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3463452
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 12408 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3463453
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 12116 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3463454
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 12035 ms
+            Is Running                    : 0
+
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   37C    P0             69W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
+======== GPU REPORT ========
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   38C    P0            125W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   38C    P0            121W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   39C    P0            122W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Tue Aug 12 23:44:49 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes                   : None
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 1883975
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 11957 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 1883976
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 12007 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 1883977
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 12268 ms
+            Is Running                    : 0
+
+Tue Aug 12 23:44:49 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+Tue Aug 12 23:44:49 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   34C    P0             69W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   33C    P0             70W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   35C    P0            122W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   33C    P0            116W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   35C    P0            124W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+Tue Aug 12 23:44:49 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   34C    P0            120W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   35C    P0            122W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+==============NVSMI LOG==============
+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   34C    P0            117W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
+Timestamp+-----------------------------------------+------------------------+----------------------+
+ |   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   35C    P0             72W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
+                                                                                          
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
++-----------------------------------------+------------------------+----------------------+
+ |  No running processes found                                                             |
+ +-----------------------------------------------------------------------------------------+
+                             : Tue Aug 12 23:44:49 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes                   : None
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3683298
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 12222 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3683299
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 12154 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 3683300
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 12315 ms
+            Is Running                    : 0
+
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   37C    P0            124W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   37C    P0            121W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   38C    P0            123W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Tue Aug 12 23:44:49 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   36C    P0             70W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   37C    P0            121W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   37C    P0            122W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   39C    P0            123W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Tue Aug 12 23:44:50 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   33C    P0             69W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
+======== GPU REPORT ========
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Tue Aug 12 23:44:51 2025
+Driver Version                            : 570.133.20
+CUDA Version                              : 12.8
+
+Attached GPUs                             : 4
+GPU 00000000:4E:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes                   : None
+
+GPU 00000000:5F:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 1883975
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 11957 ms
+            Is Running                    : 0
+
+GPU 00000000:CB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 1883976
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 12007 ms
+            Is Running                    : 0
+
+GPU 00000000:DB:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 1883977
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 518 MiB
+            Time                          : 12268 ms
+            Is Running                    : 0
+
+Tue Aug 12 23:44:51 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   36C    P0             70W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA H100 80GB HBM3          On  |   00000000:5F:00.0 Off |                    0 |
+| N/A   35C    P0             70W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA H100 80GB HBM3          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   36C    P0             70W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  |   00000000:DB:00.0 Off |                    0 |
+| N/A   38C    P0             78W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+

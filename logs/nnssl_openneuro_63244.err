@@ -1,0 +1,6 @@
+slurmstepd: error: *** STEP 63244.0 ON tg11201 CANCELLED AT 2025-08-04T15:08:01 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 63244 ON tg11201 CANCELLED AT 2025-08-04T15:08:01 ***
+srun: error: tg11202: task 1: Terminated
+srun: Terminating StepId=63244.0
+srun: error: tg11205: task 2: Terminated

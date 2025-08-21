@@ -1,0 +1,979 @@
+W0812 23:44:26.738000 1883955 torch/distributed/run.py:793] 
+W0812 23:44:26.738000 1883955 torch/distributed/run.py:793] *****************************************
+W0812 23:44:26.738000 1883955 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0812 23:44:26.738000 1883955 torch/distributed/run.py:793] *****************************************
+W0812 23:44:26.767000 3724278 torch/distributed/run.py:793] 
+W0812 23:44:26.767000 3724278 torch/distributed/run.py:793] *****************************************
+W0812 23:44:26.767000 3724278 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0812 23:44:26.767000 3724278 torch/distributed/run.py:793] *****************************************
+W0812 23:44:26.797000 3463436 torch/distributed/run.py:793] 
+W0812 23:44:26.797000 3463436 torch/distributed/run.py:793] *****************************************
+W0812 23:44:26.797000 3463436 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0812 23:44:26.797000 3463436 torch/distributed/run.py:793] *****************************************
+W0812 23:44:26.867000 2482671 torch/distributed/run.py:793] 
+W0812 23:44:26.867000 2482671 torch/distributed/run.py:793] *****************************************
+W0812 23:44:26.867000 2482671 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0812 23:44:26.867000 2482671 torch/distributed/run.py:793] *****************************************
+W0812 23:44:26.890000 329802 torch/distributed/run.py:793] 
+W0812 23:44:26.890000 329802 torch/distributed/run.py:793] *****************************************
+W0812 23:44:26.890000 329802 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0812 23:44:26.890000 329802 torch/distributed/run.py:793] *****************************************
+W0812 23:44:26.894000 3683282 torch/distributed/run.py:793] 
+W0812 23:44:26.894000 3683282 torch/distributed/run.py:793] *****************************************
+W0812 23:44:26.894000 3683282 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0812 23:44:26.894000 3683282 torch/distributed/run.py:793] *****************************************
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/__init__.py:11: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/lightning_fabric/__init__.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/models/self_supervised/amdim/amdim_module.py:34: UnderReviewWarning: The feature generate_power_seq is currently marked under review. The compatibility with other Lightning projects is not guaranteed and API may change at any time. The API and functionality may change without warning in future releases. More details: https://lightning-bolts.readthedocs.io/en/latest/stability.html
+  "lr_options": generate_power_seq(LEARNING_RATE_CIFAR, 11),
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/models/self_supervised/amdim/amdim_module.py:92: UnderReviewWarning: The feature FeatureMapContrastiveTask is currently marked under review. The compatibility with other Lightning projects is not guaranteed and API may change at any time. The API and functionality may change without warning in future releases. More details: https://lightning-bolts.readthedocs.io/en/latest/stability.html
+  contrastive_task: Union[FeatureMapContrastiveTask] = FeatureMapContrastiveTask("01, 02, 11"),
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/pl_bolts/losses/self_supervised_learning.py:228: UnderReviewWarning: The feature AmdimNCELoss is currently marked under review. The compatibility with other Lightning projects is not guaranteed and API may change at any time. The API and functionality may change without warning in future releases. More details: https://lightning-bolts.readthedocs.io/en/latest/stability.html
+  self.nce_loss = AmdimNCELoss(tclip)
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-12 23:44:46.515 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+2025-08-12 23:44:46.516 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank2]:   File "<frozen runpy>", line 88, in _run_code
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank2]:     run_training_entry()
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank2]:     run_training(
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank2]:     run_ddp(
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank2]:     nnunet_trainer.run_training()
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank2]:     self.on_train_start()
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank2]:     self.initialize()
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank2]:     self._set_batch_size()
+[rank2]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank2]:     assert global_batch_size >= world_size, (
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank1]:   File "<frozen runpy>", line 88, in _run_code
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank1]:     run_training_entry()
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank1]:     run_training(
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank1]:     run_ddp(
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank1]:     nnunet_trainer.run_training()
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank1]:     self.on_train_start()
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank1]:     self.initialize()
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank1]:     self._set_batch_size()
+[rank1]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank1]:     assert global_batch_size >= world_size, (
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+2025-08-12 23:44:46.517 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank0]:   File "<frozen runpy>", line 88, in _run_code
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank0]:     run_training_entry()
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank0]:     run_training(
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank0]:     run_ddp(
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank0]:     nnunet_trainer.run_training()
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank0]:     self.on_train_start()
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank0]:     self.initialize()
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank0]:     self._set_batch_size()
+[rank0]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank0]:     assert global_batch_size >= world_size, (
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+2025-08-12 23:44:46.519 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+[rank6]: Traceback (most recent call last):
+[rank6]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank6]:   File "<frozen runpy>", line 88, in _run_code
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank6]:     run_training_entry()
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank6]:     run_training(
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank6]:     run_ddp(
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank6]:     nnunet_trainer.run_training()
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank6]:     self.on_train_start()
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank6]:     self.initialize()
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank6]:     self._set_batch_size()
+[rank6]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank6]:     assert global_batch_size >= world_size, (
+[rank6]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-12 23:44:46.525 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+[rank7]: Traceback (most recent call last):
+[rank7]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank7]:   File "<frozen runpy>", line 88, in _run_code
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank7]:     run_training_entry()
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank7]:     run_training(
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank7]:     run_ddp(
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank7]:     nnunet_trainer.run_training()
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank7]:     self.on_train_start()
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank7]:     self.initialize()
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank7]:     self._set_batch_size()
+[rank7]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank7]:     assert global_batch_size >= world_size, (
+[rank7]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-12 23:44:46.529 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-12 23:44:46.529 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+[rank5]: Traceback (most recent call last):
+[rank5]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank5]:   File "<frozen runpy>", line 88, in _run_code
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank5]:     run_training_entry()
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank5]:     run_training(
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank5]:     run_ddp(
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank5]:     nnunet_trainer.run_training()
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank5]:     self.on_train_start()
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank5]:     self.initialize()
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank5]:     self._set_batch_size()
+[rank5]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank5]:     assert global_batch_size >= world_size, (
+[rank5]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank3]:   File "<frozen runpy>", line 88, in _run_code
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank3]:     run_training_entry()
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank3]:     run_training(
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank3]:     run_ddp(
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank3]:     nnunet_trainer.run_training()
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank3]:     self.on_train_start()
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank3]:     self.initialize()
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank3]:     self._set_batch_size()
+[rank3]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank3]:     assert global_batch_size >= world_size, (
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-12 23:44:46.530 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+2025-08-12 23:44:46.530 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+[rank22]: Traceback (most recent call last):
+[rank22]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank22]:   File "<frozen runpy>", line 88, in _run_code
+[rank22]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank22]:     run_training_entry()
+[rank22]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank22]:     run_training(
+[rank22]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank22]:     run_ddp(
+[rank22]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank22]:     nnunet_trainer.run_training()
+[rank22]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank22]:     self.on_train_start()
+[rank22]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank22]:     self.initialize()
+[rank22]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank22]:     self._set_batch_size()
+[rank22]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank22]:     assert global_batch_size >= world_size, (
+[rank22]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank22]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+2025-08-12 23:44:46.531 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+[rank21]: Traceback (most recent call last):
+[rank21]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank21]:   File "<frozen runpy>", line 88, in _run_code
+[rank21]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank21]:     run_training_entry()
+[rank21]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank21]:     run_training(
+[rank21]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank21]:     run_ddp(
+[rank21]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank21]:     nnunet_trainer.run_training()
+[rank21]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank21]:     self.on_train_start()
+[rank21]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank21]:     self.initialize()
+[rank21]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank21]:     self._set_batch_size()
+[rank21]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank21]:     assert global_batch_size >= world_size, (
+[rank21]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank21]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+[rank23]: Traceback (most recent call last):
+[rank23]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank23]:   File "<frozen runpy>", line 88, in _run_code
+[rank23]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank23]:     run_training_entry()
+[rank23]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank23]:     run_training(
+[rank23]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank23]:     run_ddp(
+[rank23]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank23]:     nnunet_trainer.run_training()
+[rank23]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank23]:     self.on_train_start()
+[rank23]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank23]:     self.initialize()
+[rank23]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank23]:     self._set_batch_size()
+[rank23]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank23]:     assert global_batch_size >= world_size, (
+[rank23]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank23]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-12 23:44:46.537 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+[rank20]: Traceback (most recent call last):
+[rank20]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank20]:   File "<frozen runpy>", line 88, in _run_code
+[rank20]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank20]:     run_training_entry()
+[rank20]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank20]:     run_training(
+[rank20]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank20]:     run_ddp(
+[rank20]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank20]:     nnunet_trainer.run_training()
+[rank20]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank20]:     self.on_train_start()
+[rank20]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank20]:     self.initialize()
+[rank20]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank20]:     self._set_batch_size()
+[rank20]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank20]:     assert global_batch_size >= world_size, (
+[rank20]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank20]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-12 23:44:46.543 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank4]:   File "<frozen runpy>", line 88, in _run_code
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank4]:     run_training_entry()
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank4]:     run_training(
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank4]:     run_ddp(
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank4]:     nnunet_trainer.run_training()
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank4]:     self.on_train_start()
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank4]:     self.initialize()
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank4]:     self._set_batch_size()
+[rank4]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank4]:     assert global_batch_size >= world_size, (
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-12 23:44:46.589 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+[rank15]: Traceback (most recent call last):
+[rank15]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank15]:   File "<frozen runpy>", line 88, in _run_code
+[rank15]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank15]:     run_training_entry()
+[rank15]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank15]:     run_training(
+[rank15]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank15]:     run_ddp(
+[rank15]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank15]:     nnunet_trainer.run_training()
+[rank15]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank15]:     self.on_train_start()
+[rank15]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank15]:     self.initialize()
+[rank15]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank15]:     self._set_batch_size()
+[rank15]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank15]:     assert global_batch_size >= world_size, (
+[rank15]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank15]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+2025-08-12 23:44:46.592 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+[rank12]: Traceback (most recent call last):
+[rank12]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank12]:   File "<frozen runpy>", line 88, in _run_code
+[rank12]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank12]:     run_training_entry()
+[rank12]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank12]:     run_training(
+[rank12]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank12]:     run_ddp(
+[rank12]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank12]:     nnunet_trainer.run_training()
+[rank12]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank12]:     self.on_train_start()
+[rank12]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank12]:     self.initialize()
+[rank12]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank12]:     self._set_batch_size()
+[rank12]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank12]:     assert global_batch_size >= world_size, (
+[rank12]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank12]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-12 23:44:46.595 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+[rank14]: Traceback (most recent call last):
+[rank14]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank14]:   File "<frozen runpy>", line 88, in _run_code
+[rank14]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank14]:     run_training_entry()
+[rank14]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank14]:     run_training(
+[rank14]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank14]:     run_ddp(
+[rank14]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank14]:     nnunet_trainer.run_training()
+[rank14]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank14]:     self.on_train_start()
+[rank14]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank14]:     self.initialize()
+[rank14]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank14]:     self._set_batch_size()
+[rank14]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank14]:     assert global_batch_size >= world_size, (
+[rank14]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank14]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-12 23:44:46.598 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+[rank13]: Traceback (most recent call last):
+[rank13]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank13]:   File "<frozen runpy>", line 88, in _run_code
+[rank13]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank13]:     run_training_entry()
+[rank13]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank13]:     run_training(
+[rank13]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank13]:     run_ddp(
+[rank13]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank13]:     nnunet_trainer.run_training()
+[rank13]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank13]:     self.on_train_start()
+[rank13]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank13]:     self.initialize()
+[rank13]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank13]:     self._set_batch_size()
+[rank13]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank13]:     assert global_batch_size >= world_size, (
+[rank13]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank13]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-12 23:44:46.619 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+2025-08-12 23:44:46.619 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+[rank17]: Traceback (most recent call last):
+[rank17]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank17]:   File "<frozen runpy>", line 88, in _run_code
+[rank17]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank17]:     run_training_entry()
+[rank17]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank17]:     run_training(
+[rank17]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank17]:     run_ddp(
+[rank17]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank17]:     nnunet_trainer.run_training()
+[rank17]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank17]:     self.on_train_start()
+[rank17]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank17]:     self.initialize()
+[rank17]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank17]:     self._set_batch_size()
+[rank17]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank17]:     assert global_batch_size >= world_size, (
+[rank17]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank17]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+[rank19]: Traceback (most recent call last):
+[rank19]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank19]:   File "<frozen runpy>", line 88, in _run_code
+[rank19]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank19]:     run_training_entry()
+[rank19]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank19]:     run_training(
+[rank19]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank19]:     run_ddp(
+[rank19]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank19]:     nnunet_trainer.run_training()
+[rank19]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank19]:     self.on_train_start()
+[rank19]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank19]:     self.initialize()
+[rank19]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank19]:     self._set_batch_size()
+[rank19]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank19]:     assert global_batch_size >= world_size, (
+[rank19]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank19]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-12 23:44:46.627 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+[rank18]: Traceback (most recent call last):
+[rank18]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank18]:   File "<frozen runpy>", line 88, in _run_code
+[rank18]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank18]:     run_training_entry()
+[rank18]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank18]:     run_training(
+[rank18]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank18]:     run_ddp(
+[rank18]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank18]:     nnunet_trainer.run_training()
+[rank18]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank18]:     self.on_train_start()
+[rank18]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank18]:     self.initialize()
+[rank18]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank18]:     self._set_batch_size()
+[rank18]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank18]:     assert global_batch_size >= world_size, (
+[rank18]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank18]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-12 23:44:46.635 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+[rank16]: Traceback (most recent call last):
+[rank16]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank16]:   File "<frozen runpy>", line 88, in _run_code
+[rank16]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank16]:     run_training_entry()
+[rank16]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank16]:     run_training(
+[rank16]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank16]:     run_ddp(
+[rank16]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank16]:     nnunet_trainer.run_training()
+[rank16]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank16]:     self.on_train_start()
+[rank16]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank16]:     self.initialize()
+[rank16]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank16]:     self._set_batch_size()
+[rank16]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank16]:     assert global_batch_size >= world_size, (
+[rank16]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank16]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-12 23:44:46.656 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+2025-08-12 23:44:46.656 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-12 23:44:46.656 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+[rank10]: Traceback (most recent call last):
+[rank10]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank10]:   File "<frozen runpy>", line 88, in _run_code
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank10]:     run_training_entry()
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank10]:     run_training(
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank10]:     run_ddp(
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank10]:     nnunet_trainer.run_training()
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank10]:     self.on_train_start()
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank10]:     self.initialize()
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank10]:     self._set_batch_size()
+[rank10]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank10]:     assert global_batch_size >= world_size, (
+[rank10]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+[rank9]: Traceback (most recent call last):
+[rank9]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank9]:   File "<frozen runpy>", line 88, in _run_code
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank9]:     run_training_entry()
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank9]:     run_training(
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank9]:     run_ddp(
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank9]:     nnunet_trainer.run_training()
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank9]:     self.on_train_start()
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank9]:     self.initialize()
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank9]:     self._set_batch_size()
+[rank9]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank9]:     assert global_batch_size >= world_size, (
+[rank9]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank9]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+[rank11]: Traceback (most recent call last):
+[rank11]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank11]:   File "<frozen runpy>", line 88, in _run_code
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank11]:     run_training_entry()
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank11]:     run_training(
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank11]:     run_ddp(
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank11]:     nnunet_trainer.run_training()
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank11]:     self.on_train_start()
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank11]:     self.initialize()
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank11]:     self._set_batch_size()
+[rank11]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank11]:     assert global_batch_size >= world_size, (
+[rank11]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
+2025-08-12 23:44:46.662 | INFO     | nnssl.training.nnsslTrainer.AbstractTrainer:_set_batch_size:249 - Using DDP. Total Batch size 20 distributed across all 24 gpus.
+[rank8]: Traceback (most recent call last):
+[rank8]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank8]:   File "<frozen runpy>", line 88, in _run_code
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 449, in <module>
+[rank8]:     run_training_entry()
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 431, in run_training_entry
+[rank8]:     run_training(
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 242, in run_training
+[rank8]:     run_ddp(
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/run/run_training.py", line 197, in run_ddp
+[rank8]:     nnunet_trainer.run_training()
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 436, in run_training
+[rank8]:     self.on_train_start()
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 757, in on_train_start
+[rank8]:     self.initialize()
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 399, in initialize
+[rank8]:     self._set_batch_size()
+[rank8]:   File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/src/nnssl/training/nnsslTrainer/AbstractTrainer.py", line 254, in _set_batch_size
+[rank8]:     assert global_batch_size >= world_size, (
+[rank8]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]: AssertionError: Cannot run DDP if the batch size is smaller than the number of GPUs... Duh.
+W0812 23:44:48.756000 329802 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 329819 closing signal SIGTERM
+W0812 23:44:48.758000 329802 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 329820 closing signal SIGTERM
+W0812 23:44:48.759000 329802 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 329821 closing signal SIGTERM
+W0812 23:44:48.850000 2482671 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2482688 closing signal SIGTERM
+W0812 23:44:48.851000 1883955 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1883975 closing signal SIGTERM
+W0812 23:44:48.852000 2482671 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2482689 closing signal SIGTERM
+W0812 23:44:48.853000 1883955 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1883976 closing signal SIGTERM
+W0812 23:44:48.854000 3724278 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3724295 closing signal SIGTERM
+W0812 23:44:48.854000 2482671 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2482690 closing signal SIGTERM
+W0812 23:44:48.855000 1883955 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1883977 closing signal SIGTERM
+W0812 23:44:48.856000 3724278 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3724296 closing signal SIGTERM
+W0812 23:44:48.858000 3724278 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3724297 closing signal SIGTERM
+W0812 23:44:48.866000 3463436 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3463452 closing signal SIGTERM
+W0812 23:44:48.869000 3463436 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3463453 closing signal SIGTERM
+W0812 23:44:48.870000 3463436 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3463454 closing signal SIGTERM
+W0812 23:44:49.059000 3683282 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3683298 closing signal SIGTERM
+W0812 23:44:49.061000 3683282 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3683299 closing signal SIGTERM
+W0812 23:44:49.063000 3683282 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3683300 closing signal SIGTERM
+E0812 23:44:49.125000 329802 torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 329818) of binary: /home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/python3
+Traceback (most recent call last):
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+nnssl.run.run_training FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-08-12_23:44:48
+  host      : tg11204.tamia.ecpia.ca
+  rank      : 20 (local_rank: 0)
+  exitcode  : 1 (pid: 329818)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+E0812 23:44:49.220000 2482671 torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 2482687) of binary: /home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/python3
+Traceback (most recent call last):
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 910, in run
+E0812 23:44:49.237000 3724278 torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 3724294) of binary: /home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/python3
+    elastic_launch(
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+nnssl.run.run_training FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-08-12_23:44:48
+  host      : tg10904.tamia.ecpia.ca
+  rank      : 12 (local_rank: 0)
+  exitcode  : 1 (pid: 2482687)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+Traceback (most recent call last):
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+nnssl.run.run_training FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-08-12_23:44:48
+  host      : tg10804.tamia.ecpia.ca
+  rank      : 4 (local_rank: 0)
+  exitcode  : 1 (pid: 3724294)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+E0812 23:44:49.287000 3463436 torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 3463451) of binary: /home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/python3
+Traceback (most recent call last):
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+nnssl.run.run_training FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-08-12_23:44:48
+  host      : tg11107.tamia.ecpia.ca
+  rank      : 16 (local_rank: 0)
+  exitcode  : 1 (pid: 3463451)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+E0812 23:44:49.348000 1883955 torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 1883974) of binary: /home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/python3
+Traceback (most recent call last):
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+nnssl.run.run_training FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-08-12_23:44:48
+  host      : tg10802.tamia.ecpia.ca
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 1883974)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+E0812 23:44:49.442000 3683282 torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 3683297) of binary: /home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/python3
+Traceback (most recent call last):
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+nnssl.run.run_training FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-08-12_23:44:49
+  host      : tg10807.tamia.ecpia.ca
+  rank      : 8 (local_rank: 0)
+  exitcode  : 1 (pid: 3683297)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+srun: error: tg11204: task 5: Exited with exit code 1
+srun: Terminating StepId=68372.0
+slurmstepd: error: *** STEP 68372.0 ON tg10802 CANCELLED AT 2025-08-13T03:44:50 ***
+slurmstepd: error: --task-epilog failed status=15
+slurmstepd: error: --task-epilog failed status=15
+slurmstepd: error: --task-epilog failed status=15
+slurmstepd: error: --task-epilog failed status=15
+slurmstepd: error: --task-epilog failed status=15
+srun: error: tg10802: task 0: Exited with exit code 1
+srun: error: tg10904: task 3: Exited with exit code 1
+srun: error: tg10804: task 1: Exited with exit code 1
+srun: error: tg10807: task 2: Exited with exit code 1
+srun: error: tg11107: task 4: Exited with exit code 1
