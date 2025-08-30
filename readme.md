@@ -51,7 +51,7 @@ The training workflow follows the same structure as the challenge framework:
 The original documentation provides detailed guidance on dataset formats, preprocessing steps, and additional utilities.
 
 ## Pre-training
-To launch distributed pre-training, submit the following command with sbatch. Further details can be found in the file  [nnssl_general.slurm](nnssl_general.slurm).
+To launch distributed pre-training, submit the following command with sbatch. Further details can be found in the file  [general_nnssl.slurm](general_nnssl.slurm).
 ```bash
 srun --ntasks-per-node=1 --nodes=3 bash -c "
 echo Node=\$(hostname), SLURM_NODEID=\$SLURM_NODEID
