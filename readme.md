@@ -50,6 +50,22 @@ The training workflow follows the same structure as the challenge framework:
 
 The original documentation provides detailed guidance on dataset formats, preprocessing steps, and additional utilities.
 
+## Pre-training
+To launch distributed pre-training, submit the following command with sbatch. Further details can be found in the file  [nnssl_general.slurm](nnssl_general.slurm).
+```bash
+srun --ntasks-per-node=1 --nodes=3 bash -c "
+echo Node=\$(hostname), SLURM_NODEID=\$SLURM_NODEID
+torchrun \
+  --nproc_per_node=4 \
+  --nnodes=3 \
+  --node_rank=\$SLURM_NODEID \
+  --master_addr=$MASTER_ADDR \
+  --master_port=$MASTER_PORT \
+  -m nnssl.run.run_training \
+  745 'onemmiso' -tr SimCLRTrainer -p nnsslPlans -num_gpus 12
+"
+```
+
 ## References
 
 - Original repo: nnSSL Challenge Codebase (https://github.com/MIC-DKFZ/nnssl/tree/openneuro)
