@@ -26,17 +26,6 @@ source /home/e/ekacz/MICCAI_challenges/nnssl-openneuro-temp/temp-nnssl/bin/activ
 MASTER_ADDR=$(scontrol show hostname $SLURM_NODELIST | head -n 1)
 export MASTER_PORT=$((12000 + RANDOM % 10000))
 
-
-# Torchrun: 2 nodes * 4 gpus = 8 processes
-# torchrun \
-#   --nnodes=2 \
-#   --nproc_per_node=4 \
-#   --node_rank=$SLURM_NODEID \
-#   --rdzv_backend=c10d \
-#   --rdzv_endpoint=$MASTER_ADDR:$MASTER_PORT \
-#   -m nnssl.run.run_training \
-#   745 'onemmiso' -tr SimCLRTrainer -p nnsslPlans -num_gpus 8
-
 srun --ntasks-per-node=1 --nodes=3 bash -c "
 echo Node=\$(hostname), SLURM_NODEID=\$SLURM_NODEID
 torchrun \
