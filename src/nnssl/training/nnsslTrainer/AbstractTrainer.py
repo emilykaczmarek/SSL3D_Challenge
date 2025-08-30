@@ -184,10 +184,6 @@ class AbstractBaseTrainer(ABC):
         ### Dealing with labels/regions
         self.num_input_channels = 1  # -> self.initialize()
         self.num_output_channels = 1  # Assign later depending on the ssl training scheme.
-        self.vit_patch_size = (8, 8, 8)
-        self.embed_dim = 864
-        self.encoder_eva_depth = 16
-        self.encoder_eva_numheads = 12
         self.network = None  # -> self._get_network()
         self.optimizer = self.lr_scheduler = None  # -> self.initialize
         self.grad_scaler = GradScaler() if self.device.type == "cuda" else None
@@ -303,8 +299,6 @@ class AbstractBaseTrainer(ABC):
         # We simulate a user knowing where the to be loaded weight are located!
         key_to_encoder = downstream_arch.key_to_encoder
         key_to_stem = downstream_arch.key_to_stem
-       # print(key_to_encoder, 'key to enc')
-       # print(key_to_stem, 'key to stem')
 
         encoder = downstream_arch.get_submodule(key_to_encoder)
         stem = downstream_arch.get_submodule(key_to_stem)
@@ -336,7 +330,6 @@ class AbstractBaseTrainer(ABC):
         # Pre-training architecture checkpoint
         #   Has the `key_to_encoder` and `key_to_stem` attributes
         pre_train_statedict = state_dict
-      #  print(pre_train_statedict)
         adapt_plan = AdaptationPlan.from_dict(adaptation_plan_dict)
         # Downstream Architecture derived from Pre-taining adaptation plan
         pretrain_config_plan_copy = deepcopy(adapt_plan.pretrain_plan.configurations[configuration])
@@ -352,7 +345,6 @@ class AbstractBaseTrainer(ABC):
                 allow_init=False,  # Will be loaded from pre-trained weights, so does not matter!
             )
         else:
-           # print(adapt_plan.architecture_plans.arch_class_name)
             downstream_arch = get_network_by_name(
                 pretrain_config_plan_copy,
                 adapt_plan.architecture_plans.arch_class_name,
@@ -417,7 +409,7 @@ class AbstractBaseTrainer(ABC):
             # if ddp, wrap in DDP wrapper
             if self.is_ddp:
                 self.network = torch.nn.SyncBatchNorm.convert_sync_batchnorm(self.network)
-                self.network = DDP(self.network, device_ids=[self.local_rank], find_unused_parameters=True)
+                self.network = DDP(self.network, device_ids=[self.local_rank], find_unused_parameters=False)
 
             self.loss = self.build_loss()
             self.was_initialized = True

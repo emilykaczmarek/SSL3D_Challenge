@@ -8,7 +8,7 @@ class VocoProjectionHead(nn.Module):
         self.layer1 = nn.Sequential(
             nn.Linear(total_channels, hidden_dim),
             norm_op(hidden_dim, affine=False, track_running_stats=False),
-            nn.ReLU(inplace=False),
+            nn.ReLU(inplace=True),
         )
         self.layer2 = nn.Sequential(
             nn.Linear(hidden_dim, output_dim)
@@ -27,10 +27,9 @@ class VocoProjectionHead(nn.Module):
 
 
 class VoCoArchitecture(nn.Module):
-    def __init__(self, encoder: nn.Module,  features: list[int], vit: bool = False):
+    def __init__(self, encoder: nn.Module,  features: list[int]):
         super(VoCoArchitecture, self).__init__()
         self.encoder = encoder
-        self.vit = vit
         self.adaptive_pool = nn.AdaptiveAvgPool3d((1, 1, 1))
 
 
@@ -38,32 +37,9 @@ class VoCoArchitecture(nn.Module):
         self.projector = VocoProjectionHead(total_features, 256, 256, norm_op=nn.InstanceNorm1d)
 
     def forward(self, x):
-       # print(x.shape, 'x')
         out = self.encoder(x)
-        if isinstance(out, torch.Tensor):
-            out = out.contiguous().clone()
-      #  print(out.shape, 'out')
-
-        
-        if self.vit: 
-            feats = out if isinstance(out, (list, tuple)) else [out]
-           # print(len(feats), len(feats[0]), len(feats[0][0]), len(feats[0][0][0]), 'feats')
-            #flat = torch.cat([o.mean(dim=1) for o in seqs], dim=1) 
-            pooled = [o.mean(dim=1) for o in feats]   # use o[:, 0] if you prefer CLS
-           # print(len(pooled), len(pooled[0]), len(pooled[0][0]), 'pooled')
-            flat_out = pooled[0] if len(pooled) == 1 else torch.cat(pooled, dim=1)
-           # print(flat_out.shape, 'flat_out')
-           #print(out.shape)
-           # print(len(feats))#.shape)
-           # print(len(feats[0]))
-           # print(len(feats[0][0]))
-           # print(len(pooled))
-           # print(len(pooled[0]))
-           # print(len(pooled[0][0]))
-           # print(flat_out.shape)
-        else:
-            flat_out = torch.concat([self.adaptive_pool(o) for o in out], dim=1)
-            flat_out = torch.reshape(flat_out, (flat_out.shape[0], -1))
+        flat_out = torch.concat([self.adaptive_pool(o) for o in out], dim=1)
+        flat_out = torch.reshape(flat_out, (flat_out.shape[0], -1))
         x = self.projector(flat_out)
         return x
 

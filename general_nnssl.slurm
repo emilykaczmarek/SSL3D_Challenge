@@ -1,11 +1,11 @@
 #!/bin/bash
 #SBATCH --job-name=nnssl_openneuro
-#SBATCH --nodes=6
+#SBATCH --nodes=3
 #SBATCH --ntasks-per-node=4              # 4 tasks = 4 GPUs per node
 #SBATCH --gpus-per-node=4
 #SBATCH --cpus-per-task=12                # or however many you need
 #SBATCH --mem=256G                        # adjust as needed
-#SBATCH --time=24:00:00
+#SBATCH --time=2:00:00
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
 
@@ -37,14 +37,14 @@ export MASTER_PORT=$((12000 + RANDOM % 10000))
 #   -m nnssl.run.run_training \
 #   745 'onemmiso' -tr SimCLRTrainer -p nnsslPlans -num_gpus 8
 
-srun --ntasks-per-node=1 --nodes=6 bash -c "
+srun --ntasks-per-node=1 --nodes=3 bash -c "
 echo Node=\$(hostname), SLURM_NODEID=\$SLURM_NODEID
 torchrun \
   --nproc_per_node=4 \
-  --nnodes=6 \
+  --nnodes=3 \
   --node_rank=\$SLURM_NODEID \
   --master_addr=$MASTER_ADDR \
   --master_port=$MASTER_PORT \
   -m nnssl.run.run_training \
-  745 'onemmiso' -tr SimCLRTrainer -p nnsslPlans -num_gpus 24
+  745 'onemmiso' -tr SimCLRTrainer -p nnsslPlans -num_gpus 12
 "

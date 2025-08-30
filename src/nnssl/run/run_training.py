@@ -1,9 +1,5 @@
 from datetime import datetime, timedelta
 import os
-os.environ["TORCH_SHOW_CPP_STACKTRACES"] = "1"
-os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-import torch
-torch.set_warn_always(True)
 from pathlib import Path
 import shutil
 import signal

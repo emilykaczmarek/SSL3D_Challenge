@@ -1,12 +1,6 @@
 from copy import deepcopy
 from typing import Union, Tuple, List
-import types
-import torch
-from einops import rearrange
-import os 
-os.environ["TORCH_SHOW_CPP_STACKTRACES"] = "1"
-os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-torch.set_warn_always(True)
+
 import numpy as np
 import torch
 from torch import nn
@@ -14,22 +8,11 @@ from torch.optim.adamw import AdamW
 from batchgenerators.dataloading.single_threaded_augmenter import (
     SingleThreadedAugmenter,
 )
-import torch, types
-from monai.data.meta_tensor import MetaTensor
-import timm.layers.pos_embed_sincos as pes
-import timm.models.eva as timm_eva
-if torch.cuda.is_available():
-    torch.backends.cuda.enable_flash_sdp(False)    
-    torch.backends.cuda.enable_mem_efficient_sdp(True)  
-    torch.backends.cuda.enable_math_sdp(False)  
 from einops import rearrange
-import timm.layers.pos_embed_sincos as pes
 
 from pl_bolts.optimizers.lr_scheduler import LinearWarmupCosineAnnealingLR
 
-#from torch import autocast
-from torch.amp import autocast     # <-- instead of "from torch import autocast"
-
+from torch import autocast
 from nnssl.adaptation_planning.adaptation_plan import AdaptationPlan, ArchitecturePlans
 from nnssl.architectures.get_network_by_name import get_network_by_name
 from nnssl.architectures.voco_architecture import VoCoArchitecture
@@ -50,8 +33,6 @@ from nnssl.training.nnsslTrainer.AbstractTrainer import AbstractBaseTrainer
 
 from nnssl.utilities.default_n_proc_DA import get_allowed_n_proc_DA
 
-torch.autograd.set_detect_anomaly(True)
-
 from monai.transforms import (
     Compose,
     RandSpatialCrop,
@@ -64,24 +45,6 @@ from monai.transforms import (
 )
 
 import torch.distributed as dist
-from monai.data.meta_tensor import MetaTensor
-
-
-import types
-from einops import rearrange
-import torch
-
-def primus_forward_tokens(self,x):
-    x = self.down_projection(x)                          # (B, C, W, H, D)
-    x = rearrange(x, "b c w h d -> b (w h d) c").contiguous()       # (B, N, C)
-    x, _ = self.eva(x)                                   # no masking → keep_indices is None
-    return x.contiguous()
-
-
-def as_plain(x):
-    if isinstance(x, MetaTensor):
-        x = x.as_tensor()
-    return x.to(memory_format=torch.contiguous_format).contiguous()
 
 monai_transform = Compose([
             RandSpatialCrop(roi_size=(60, 60, 60), random_center=True, random_size=True),
@@ -131,8 +94,8 @@ class SimCLRTrainer(AbstractBaseTrainer):
         fold: int,
         pretrain_json: dict,
         device: torch.device = torch.device("cuda"),
-        patch_size: tuple = (160, 160, 160),
-        crop_size: tuple = (160, 160, 160),
+        patch_size: tuple = (192, 192, 64),
+        crop_size: tuple = (64, 64, 64),
         num_crops_per_image: int = 1,
         min_crop_overlap: float = 0.5,
     ):
@@ -261,51 +224,33 @@ class SimCLRTrainer(AbstractBaseTrainer):
             )
         return mt_gen_train, mt_gen_val
 
-
-
     def build_architecture_and_adaptation_plan(
         self,
         config_plan: ConfigurationPlan,
         num_input_channels: int,
         num_output_channels: int,
     ) -> nn.Module:
-       # print(num_input_channels)
-      #  print(num_output_channels)
         encoder = get_network_by_name(
             config_plan,
-            "PrimusM",
+            "ResEncL",
             num_input_channels,
             num_output_channels,
-            encoder_only=False,
+            encoder_only=True,
         )
-      #  print(encoder)
-        encoder.forward = types.MethodType(primus_forward_tokens, encoder)
-
         # Turns out VoCoArchitecture can be used for SimCLR purpose here.
-        architecture = VoCoArchitecture(encoder, [encoder.down_projection.proj.out_channels], vit=True)
+        architecture = VoCoArchitecture(encoder, encoder.output_channels)
 
         plan = deepcopy(self.plan)
         plan.configurations[self.configuration_name].patch_size = self.crop_size
 
-        # adapt_plan = AdaptationPlan(
-        #     architecture_plans=ArchitecturePlans("PrimusM"),
-        #     pretrain_plan=plan,
-        #     recommended_downstream_patchsize=self.recommended_downstream_patchsize,
-        #     pretrain_num_input_channels=1,
-        #     key_to_encoder="encoder.stages",
-        #     key_to_stem="encoder.stem",
-        #     keys_to_in_proj=("encoder.stem.convs.0.conv", "encoder.stem.convs.0.all_modules.0"),
-        # )
-
         adapt_plan = AdaptationPlan(
-            architecture_plans=ArchitecturePlans("PrimusM"),
+            architecture_plans=ArchitecturePlans("ResEncL"),
             pretrain_plan=plan,
-            pretrain_num_input_channels=1,
             recommended_downstream_patchsize=self.recommended_downstream_patchsize,
-            key_to_encoder="encoder.eva",
-            key_to_stem="encoder.down_projection",
-            keys_to_in_proj=("projection.proj",),
-            key_to_lpe="encoder.eva.pos_embed",
+            pretrain_num_input_channels=1,
+            key_to_encoder="encoder.stages",
+            key_to_stem="encoder.stem",
+            keys_to_in_proj=("encoder.stem.convs.0.conv", "encoder.stem.convs.0.all_modules.0"),
         )
         return architecture, adapt_plan
 
@@ -327,9 +272,8 @@ class SimCLRTrainer(AbstractBaseTrainer):
 
       #  all_crops = batch["all_crops"]
       #  NREF = batch["reference_crop_index"]
-        aug1 = as_plain(batch["aug1"]).to(self.device, non_blocking=True) #batch["aug1"].to(self.device, non_blocking=True)
-        aug2 = as_plain(batch["aug2"]).to(self.device, non_blocking=True)
-      #  print(aug1.shape, 'aug1')
+        aug1 = batch["aug1"].to(self.device, non_blocking=True)
+        aug2 = batch["aug2"].to(self.device, non_blocking=True)
 
         # all_crops = all_crops.to(self.device, non_blocking=True)
 
@@ -343,13 +287,11 @@ class SimCLRTrainer(AbstractBaseTrainer):
         # If the device_type is 'cpu' then it's slow as heck and needs to be disabled.
         # If the device_type is 'mps' then it will complain that mps is not implemented, even if enabled=False is set. Whyyyyyyy. (this is why we don't make use of enabled=False)
         # So autocast will only be active if we have a cuda device.
-       # with autocast(self.device.type, enabled=True) if self.device.type == "cuda" else dummy_context():
-        with autocast(device_type=self.device.type, enabled=(self.device.type == "cuda")):
+        with autocast(self.device.type, enabled=True) if self.device.type == "cuda" else dummy_context():
             # all_crop_embeddings = self.network(all_crops)
             # if torch.isnan(all_crop_embeddings).any():
             #     print("NaN values found in embeddings!")
             all_crop_embeddings1 = self.network(aug1)
-           # print(all_crop_embeddings1.shape, 'crop embeds 1')
             all_crop_embeddings2 = self.network(aug2)
             if torch.isnan(all_crop_embeddings1).any() or torch.isnan(all_crop_embeddings2).any():
                 print("NaN values found in embeddings!")
@@ -368,12 +310,8 @@ class SimCLRTrainer(AbstractBaseTrainer):
             z_i_embeddings = nn.functional.normalize(all_crop_embeddings1, dim=1)
             z_j_embeddings = nn.functional.normalize(all_crop_embeddings2, dim=1)
 
-           # print("z_i before gather:", z_i_embeddings.shape)
-           # print("z_j before gather:", z_j_embeddings.shape)
             z_i_embeddings = self.gather_embeddings(z_i_embeddings)
             z_j_embeddings = self.gather_embeddings(z_j_embeddings)
-           # print("z_i after gather :", z_i_embeddings.shape)
-           # print("z_j after gather :", z_j_embeddings.shape)
 
             #print(z_i_embeddings.shape)
 
@@ -381,30 +319,12 @@ class SimCLRTrainer(AbstractBaseTrainer):
             l, acc = self.loss(z_i_embeddings, z_j_embeddings)
 
         if self.grad_scaler is not None:
-            if (not torch.distributed.is_initialized()) or (torch.distributed.get_rank() == 0):
-                with torch.autograd.set_detect_anomaly(True):
-                    self.grad_scaler.scale(l).backward()
-            else:
-                self.grad_scaler.scale(l).backward()
-                    #self.grad_scaler.scale(l).backward()
+            self.grad_scaler.scale(l).backward()
             self.grad_scaler.unscale_(self.optimizer)
-
-
-            def report_no_grad_params(model):
-                missing = []
-                total = 0
-                for n, p in model.named_parameters():
-                    if p.requires_grad:
-                        total += 1
-                        if p.grad is None:
-                            missing.append(n)
-                print(f"[grad-check] missing grads: {len(missing)} / {total}")
-                for n in missing[:40]:  # don't spam
-                    print("  -", n)
-
-            #if (not torch.distributed.is_initialized()) or (torch.distributed.get_rank() == 0):
-            #    report_no_grad_params(self.network)
-
+            # for name, param in self.network.named_parameters():
+            #     if param.grad is not None:
+            #         if param.grad.norm() > 1:
+            #             print(f"{name}: gradient norm: {param.grad.norm()}")
             torch.nn.utils.clip_grad_norm_(self.network.parameters(), 0.1)
             self.grad_scaler.step(self.optimizer)
             self.grad_scaler.update()
